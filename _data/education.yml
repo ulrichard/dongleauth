@@ -362,6 +362,16 @@ websites:
       software: Yes
       doc: https://computerservices.temple.edu/two-step-verification
 
+    - name: The Ohio State University
+      url: https://www.osu.edu/
+      img: theohiostateuniversity.png
+      tfa: Yes
+      sms: Yes
+      phone: Yes
+      software: Yes
+      hardware: Yes
+      doc: https://buckeyepass.osu.edu/
+
     - name: Udacity
       url: https://www.udacity.com/
       twitter: udacity
