@@ -36,7 +36,7 @@ websites:
       img: colfinancial.png
       tfa: No
 
-      name: Commsec
+    - name: Commsec
       url: https://www.commsec.com.au
       twitter: commsec
       img: commsec.png
