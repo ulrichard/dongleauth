@@ -40,6 +40,7 @@ websites:
     url: https://www.home-assistant.io/
     img: homeassistant.png
     tfa: Yes
+    software: Yes
     hardware: No
     otp: Yes
     u2f: No
