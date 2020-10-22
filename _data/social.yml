@@ -292,8 +292,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      exceptions:
-        text: "SMS required for 2FA."
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://en.support.wordpress.com/security/two-step-authentication/
 
     - name: Wykop
