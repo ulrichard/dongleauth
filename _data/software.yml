@@ -119,4 +119,5 @@ websites:
     hardware: Yes
     otp: Yes
     u2f: Yes
-    doc: https://github.com/georgestephanis/two-factor
+    multipleu2f: Yes
+    doc: https://github.com/WordPress/two-factor
