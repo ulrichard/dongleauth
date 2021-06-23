@@ -359,7 +359,7 @@ websites:
 
     - name: Ubisoft Connect
       url: https://ubisoftconnect.com/
-      img: uplay.png
+      img: ubi.png
       tfa: Yes
       software: Yes
       email: Yes
