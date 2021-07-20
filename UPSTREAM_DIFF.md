@@ -2,7 +2,7 @@
 
 This list includes the main files diverting from 'upstream' twofactorauth.org.
 If there are changes here, look carefully, if we can adapt these easily without
-breaking dongleauth.info.
+breaking dongleauth.com.
 
 * \_config.yml
 * \_data/providers.yml
@@ -24,7 +24,7 @@ breaking dongleauth.info.
 # How to compare changes
 
 It is recommended to use the program [meld](http://meldmerge.org/) and git's mergetool
-to compare the dongleauth.info and twofactorauth.org step by step.
+to compare the dongleauth.com and twofactorauth.org step by step.
 
 ```
 git clone https://github.com/Nitrokey/dongleauth.git
@@ -39,4 +39,4 @@ care.
 
 We are able to use their changes directly, but unfortunately we can not push ours directly upstream.
 Thus, every `otp`, `u2f`, `multipleu2f`, `passwordless` should be kept when comparing. Sites deleted
-on twofactorauth.org may be deleted on dongleauth.info as well.
+on twofactorauth.org may be deleted on dongleauth.com as well.

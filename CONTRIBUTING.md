@@ -1,5 +1,5 @@
-Contributing to DongleAuth.info 
-===============================
+Contributing to DongleAuth.com
+==============================
 
 All the data is managed through a series of [Yaml][yaml] files so it may be
 useful to read up on the Yaml syntax.
@@ -62,8 +62,8 @@ everything for you.
 ## Site Criteria
 
 The following section contains rough criteria and explanations regarding
-what websites should be listed on dongleauth.info. If one of the following
-criteria is met, it belongs on dongleauth.info:
+what websites should be listed on dongleauth.com. If one of the following
+criteria is met, it belongs on dongleauth.com:
 
 1. **Personal Info/Image**: Any site that deals with personal info or a person's
    image. An example of a site with **Personal Info** would be their Amazon
@@ -265,7 +265,7 @@ website. There are 4 ways to customize how it is displayed:
 
 ## A Note on Definitions
 
-There are many forms of Two Factor Auth, but DongleAuth.info is only interested in
+There are many forms of Two Factor Auth, but DongleAuth.com is only interested in
 listing sites that support Two Factor Authentication using USB dongles. Currently
 that means the site must support either One Time Passwords (HOTP / RFC 4226 or TOTP / RFC 6238)
 or FIDO Universal 2nd Factor (U2F). If a site supports multiple U2F dongles (e.g. as a backup),

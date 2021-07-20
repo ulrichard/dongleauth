@@ -106,7 +106,7 @@ begin
                imgs)
 
       # prevent travis fail when hardware is not present
-      # tested tags are desired in this case for dongleauth.info
+      # tested tags are desired in this case for dongleauth.com
       next if website['hardware'].nil?
 
       @tfa_tags[!website['tfa']].each do |tag|
@@ -122,7 +122,7 @@ begin
     imgs.each { |img| next unless img.nil? error("#{img} is not used") }
   end
 
-  # Test the very same for the dongleauth.info's provider.yml as well
+  # Test the very same for the dongleauth.com's provider.yml as well
   data = YAML.load_file('_data/providers.yml')
   providers = data['providers']
 
