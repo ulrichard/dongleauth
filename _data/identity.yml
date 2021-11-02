@@ -67,7 +67,11 @@ websites:
       software: Yes
       hardware: Yes
       phone: Yes
-      doc: https://help.id.me/hc/en-us/categories/360001435974
+      u2f: Yes
+      otp: Yes
+      sms: Yes
+      multipleu2f: Yes
+      doc: https://help.id.me/hc/en-us/articles/360017969214
 
     - name: IDentité Numérique (IDN)
       url: https://www.idn.laposte.fr
