@@ -1,4 +1,4 @@
-DongleAuth.org
+DongleAuth.com
 ==============
 
 [![Build Status](https://travis-ci.org/Nitrokey/dongleauth.svg)](https://travis-ci.org/Nitrokey/dongleauth)
