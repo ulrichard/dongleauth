@@ -53,10 +53,12 @@ websites:
     - name: NordVPN
       url: https://nordvpn.com
       img: nordvpn.png
-      tfa: No
-      twitter: NordVPN
-      facebook: NordVPN
-      email_address: support@nordvpn.com
+      tfa: Yes
+      hardware: Yes
+      otp: Yes
+      u2f: Yes
+      passwordless: Yes
+      doc: https://support.nordvpn.com/1755768802
 
     - name: Perfect Privacy VPN
       url: https://www.perfect-privacy.com/
