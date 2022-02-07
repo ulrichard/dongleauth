@@ -357,13 +357,13 @@ websites:
       software: Yes
       doc: https://support.trionworlds.com/hc/en-us/articles/204183357
 
-    - name: Ubisoft/Uplay
-      url: https://uplay.ubi.com/
-      img: uplay.png
+    - name: Ubisoft Connect
+      url: https://ubisoftconnect.com/
+      img: ubi.png
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://support.ubi.com/en-GB/Faqs/000039953
+      doc: https://www.ubisoft.com/en-gb/help/account/article/information-about-2-step-verification/000065723
 
     - name: Wargaming
       url: https://wargaming.net/
