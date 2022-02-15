@@ -585,6 +585,14 @@ websites:
       tfa: No
       lang: de
 
+    - name: ING-DiBa AG (Deutschland)
+      url: https://www.ing.de
+      twitter: ING_Deutschland
+      facebook: ing.deutschland
+      img: ingdibaaustria.png
+      tfa: No
+      lang: de
+
     - name: Intesa Sanpaolo
       url: https://www.intesasanpaolo.com
       img: intesasanpaolo.png
