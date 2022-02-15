@@ -126,7 +126,15 @@ websites:
     doc: <link to site TFA documentation>
 ```
 
-The fields `name:`, `url:`, `img:`, `tfa:` are required for all entries.
+The fields `name:`, `url:`, `img:`, `tfa:` are required for all entries. 
+
+Note that the original [repo](https://github.com/2factorauth/twofactorauth/) may use fields that we do **not** use.
+The fields we do **NOT** use are: `SMS`, `Phone Call`, `Email`, `Hardware Token`, `Software Token`.
+
+Make sure to double-check that you use our required fields and delete the ones just mentioned before you make a pull request, 
+otherwise changes won't be displayed correctly on the site when merging a pull request. 
+
+[See commented out fields here:](https://github.com/Nitrokey/dongleauth/blob/device_authenticators/_includes/desktop-table.html#L88)
 
 #### Adding a site that *supports* TFA
 
