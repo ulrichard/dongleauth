@@ -25,16 +25,6 @@ task proof: 'build' do
   ).run
 end
 
-task proof_external: 'build' do
-  HTMLProofer.check_directory(
-    './_site', \
-    assume_extension: true, \
-    check_html: true, \
-    cache: { timeframe: '1w' }, \
-    hydra: { max_concurrency: 12 }
-  ).run
-end
-
 JsonLint::RakeTask.new do |t|
   t.paths = %w[_site/data.json]
 end
