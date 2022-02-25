@@ -17,6 +17,13 @@ providers:
     u2f: Yes
     otp: No
 
+  - name: Excelsecu Data Technology Co., Ltd
+    url: https://www.excelsecu.com
+    img: excelsecu.png
+    hardware: Yes
+    u2f: Yes
+    otp: Yes
+
   - name: Feitian Technologes Co., Ltd.
     url: https://www.ftsafe.com
     img: ftsafe.png
