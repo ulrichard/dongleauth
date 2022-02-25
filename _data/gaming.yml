@@ -231,6 +231,7 @@ websites:
       img: nexusmods.png
       tfa: Yes
       email: Yes
+      otp: Yes
       doc: https://help.nexusmods.com/article/74--
 
     - name: Nintendo Account
