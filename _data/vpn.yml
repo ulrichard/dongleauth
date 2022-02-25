@@ -58,7 +58,7 @@ websites:
       otp: Yes
       u2f: Yes
       passwordless: Yes
-      doc: https://support.nordvpn.com/1755768802
+      doc: https://support.nordvpn.com/General-info/1755768802/What-is-MFA-and-how-to-enable-it.htm
 
     - name: Perfect Privacy VPN
       url: https://www.perfect-privacy.com/
