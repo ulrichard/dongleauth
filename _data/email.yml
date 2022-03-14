@@ -285,9 +285,8 @@ websites:
       sms: Yes
       phone: Yes
       u2f: Yes
-      multipleu2f: No
       exceptions:
-          text: "Only one security key per account is currently supported"
+        text: "Only one security key per account is currently supported"
       doc: https://help.yahoo.com/kb/SLN5013.html
 
     - name: Yandex.Mail

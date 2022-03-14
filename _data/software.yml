@@ -41,9 +41,7 @@ websites:
     img: homeassistant.png
     tfa: Yes
     software: Yes
-    hardware: No
     otp: Yes
-    u2f: No
     doc: https://www.home-assistant.io/docs/authentication/multi-factor-auth
 
   - name: Joomla
