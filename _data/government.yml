@@ -19,9 +19,11 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://www.mojedatovaschranka.cz/static/ISDS/help/page1.html#1_5_4
       exceptions:
-        text: "Software implementation requires use of the ISDS Mobile Key app."
+        text: "Software implementation requires use of the ISDS Mobile Key app. U2F is oficially supported through an external provider (https://www.mojeid.cz)"
 
     - name: DigiD
       url: https://www.digid.nl/
