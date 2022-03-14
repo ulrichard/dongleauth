@@ -61,8 +61,8 @@ websites:
       otp: Yes
       u2f: Yes
       multipleu2f: Yes
-      doc: https://support.cloudflare.com/hc/en-us/articles/200167906
-
+      doc: https://support.cloudflare.com/hc/en-us/articles/200167866
+      
     - name: Cobalt
       url: https://cobalt.io/
       img: cobalt.png

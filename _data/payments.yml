@@ -209,7 +209,8 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
-      doc: https://support.stripe.com/questions/how-do-i-enable-two-step-verification
+      multipleu2f: Yes
+      doc: https://support.stripe.com/questions/enable-two-step-authentication
 
     - name: Vantiv
       url: https://www.vantiv.com/
