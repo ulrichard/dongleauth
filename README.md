@@ -1,5 +1,5 @@
-DongleAuth.info
-=================
+DongleAuth.com
+==============
 
 [![Build Status](https://travis-ci.org/Nitrokey/dongleauth.svg)](https://travis-ci.org/Nitrokey/dongleauth)
 [![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](/LICENSE)
@@ -8,12 +8,12 @@ List of 2FA dongle providers and the platforms they support.
 
 ## The Goal
 
-The goal is to build a website ([dongleauth.info](https://www.dongleauth.info)) with a comprehensive list of sites that support One Time Passwords (OTP) or Universal 2nd Factor (U2F).
+The goal is to build a website ([dongleauth.com](https://www.dongleauth.com)) with a comprehensive list of sites that support One Time Passwords (OTP) or Universal 2nd Factor (U2F).
 
 Our hope is to aid consumers who are deciding between alternative services based on the security they
 offer for their customers. This can also serve as an indicator for the effort a site has put into security in general.
 
-This site is a fork of [TwoFactorAuth](https://twofactorauth.org). The fork is necessary to further differentiate the 'Hardware' section. The TwoFactorAuth projects wants to give a general overview and do not wants to mark the technical details as well. We respect this decision. In need of a differentiation between OTP and U2F we decided to fork the project. Please see [the note on definitions](https://github.com/Nitrokey/dongleauth/blob/device_authenticators/CONTRIBUTING.md#a-note-on-definitions) as well.
+This site is a fork of [2FA Directory](https://2fa.directory). The fork is necessary to further differentiate the 'Hardware' section. The 2FA Directory project wants to give a general overview and do not wants to mark the technical details as well. We respect this decision. In need of a differentiation between OTP and U2F we decided to fork the project. Please see [the note on definitions](https://github.com/Nitrokey/dongleauth/blob/device_authenticators/CONTRIBUTING.md#a-note-on-definitions) as well.
 
 ## Contributing
 
@@ -22,7 +22,7 @@ If you'd like to contribute, read the entire guidelines here in
 
 ## Running Locally
 
-DongleAuth.info is built upon [Jekyll](https://jekyllrb.com/), using the [github-pages](https://github.com/github/pages-gem) gem.
+DongleAuth.com is built upon [Jekyll](https://jekyllrb.com/), using the [github-pages](https://github.com/github/pages-gem) gem.
 In order to run the site locally, it is necessary to install bundler, install all dependencies, and then use Jekyll to serve
 the site. If the `gem` command is not available to you, it is necessary to install Ruby with RubyGems.
 Once Ruby and RubyGems are installed and available from the command line, TwoFactorAuth can be setup using the following commands.
@@ -37,7 +37,7 @@ bundle exec jekyll serve
 If you're using Ubuntu or [Bash on Windows (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) you'll probably need to install these dependencies first:
 
 ```shell
-sudo apt install libffi-dev nodejs python-dev gcc ruby rails make zlib1g-dev ruby-dev libcurl3
+sudo apt install libffi-dev nodejs python-dev gcc ruby rails make zlib1g-dev ruby-dev libcurl4
 gem install bundler
 ```
 

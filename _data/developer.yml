@@ -591,7 +591,8 @@ websites:
       twitter: uptimerobot
       facebook: UptimeRobot
       img: uptimerobot.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
 
     - name: Visual Studio Online
       url: https://www.visualstudio.com/

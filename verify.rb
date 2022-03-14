@@ -47,7 +47,6 @@ def test_img(img, name, imgs)
   test_img_file(img)
 end
 
-# rubocop:disable Metrics/AbcSize
 # rubocop:disable Metrics/MethodLength
 def test_img_file(img)
   # Check image file extension and type
@@ -70,7 +69,6 @@ def test_img_file(img)
   end
   # rubocop:enable Style/GuardClause
 end
-# rubocop:enable Metrics/AbcSize
 # rubocop:enable Metrics/MethodLength
 
 # Load each section, check for errors such as invalid syntax
@@ -106,7 +104,7 @@ begin
                imgs)
 
       # prevent travis fail when hardware is not present
-      # tested tags are desired in this case for dongleauth.info
+      # tested tags are desired in this case for dongleauth.com
       next if website['hardware'].nil?
 
       @tfa_tags[!website['tfa']].each do |tag|
@@ -122,7 +120,7 @@ begin
     imgs.each { |img| next unless img.nil? error("#{img} is not used") }
   end
 
-  # Test the very same for the dongleauth.info's provider.yml as well
+  # Test the very same for the dongleauth.com's provider.yml as well
   data = YAML.load_file('_data/providers.yml')
   providers = data['providers']
 

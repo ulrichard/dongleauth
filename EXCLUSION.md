@@ -1,3 +1,3 @@
-dongleauth.info Blacklist
-=========================
+dongleauth.com Blacklist
+========================
 

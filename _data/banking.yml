@@ -203,7 +203,10 @@ websites:
       facebook: Boursorama-Banque-1741973942734447
       img: boursorama.png
       tfa: No
+      u2f: Yes
       lang: fr
+      doc: https://www.boursorama.com/aide-en-ligne/mon-espace-client/identifiant-et-mot-de-passe/question/en-quoi-consiste-la-connexion-par-cle-de-securite-sur-internet-5165516
+
 
     - name: Caisse D'Epargne
       url: https://www.caisse-epargne.fr/
@@ -576,6 +579,14 @@ websites:
       img: ing.png
       tfa: Yes
       sms: Yes
+
+    - name: ING-DiBa AG (Deutschland)
+      url: https://www.ing.de
+      twitter: ING_Deutschland
+      facebook: ing.deutschland
+      img: ing.png
+      tfa: No
+      lang: de
 
     - name: ING-DiBa Austria
       url: https://www.ing.at
