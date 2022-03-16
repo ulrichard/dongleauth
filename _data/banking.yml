@@ -207,6 +207,11 @@ websites:
       lang: fr
       doc: https://www.boursorama.com/aide-en-ligne/mon-espace-client/identifiant-et-mot-de-passe/question/en-quoi-consiste-la-connexion-par-cle-de-securite-sur-internet-5165516
 
+    - name: Braunschweigische Landessparkasse
+      url: https://www.blsk.de/
+      img: blsk.png
+      tfa: Yes
+      u2f: Yes
 
     - name: Caisse D'Epargne
       url: https://www.caisse-epargne.fr/
