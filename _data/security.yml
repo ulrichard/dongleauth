@@ -196,7 +196,8 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://docs.sophos.com/central/Customer/help/en-us/central/Customer/concepts/ep_MultiFactorAuthentication.html
+      otp: Yes
+      doc: https://support.sophos.com/support/s/article/KB-000037078?language=en_US
 
     - name: SSLTrust
       url: https://www.ssltrust.com.au/
