@@ -193,8 +193,7 @@ websites:
       phone: Yes
       hardware: Yes
       u2f: Yes
-      exceptions:
-        text: "Hardware 2FA requires using a Chrome browser and only supports the following hardware keys: Yubikey 4 Series, YubiKey 5 Series, Yubikey Security Key Series."
+      multipleu2f: Yes
       doc: https://investor.vanguard.com/security/security-keys
 
     - name: Wealthfront
