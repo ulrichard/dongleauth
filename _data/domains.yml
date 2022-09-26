@@ -90,7 +90,9 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://support.dnsimple.com/articles/two-factor-authentication/
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://support.dnsimple.com/articles/multi-factor-authentication/
 
     - name: Domain.com
       url: https://www.domain.com/
