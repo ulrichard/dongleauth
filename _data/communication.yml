@@ -79,6 +79,12 @@ websites:
       img: doodle.png
       twitter: doodletweet
       tfa: No
+      
+    - name: Element
+      url: https://element.io/
+      img: element.png
+      twitter: element_hq
+      tfa: No
 
     - name: Fleep
       url: https://fleep.io
@@ -190,13 +196,6 @@ websites:
       tfa: Yes
       software: Yes
       doc: https://support.peerio.com/hc/en-us/articles/203665635
-
-    - name: Riot
-      url: https://about.riot.im/
-      img: riot.png
-      twitter: RiotChat
-      facebook: RiotChat
-      tfa: No
       
     - name: Ryver
       url: https://ryver.com/
