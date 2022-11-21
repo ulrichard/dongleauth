@@ -82,6 +82,8 @@ websites:
     - name: Wyze
       url: https://www.wyzecam.com
       img: wyze.png
-      tfa: No
+      tfa: Yes
       twitter: WyzeCam
       facebook: WyzeCam
+      otp: Yes
+      doc: https://support.wyze.com/hc/en-us/articles/360024402052-Two-Factor-Authentication
