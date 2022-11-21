@@ -115,8 +115,9 @@ websites:
       sms: Yes
       email: Yes
       hardware: Yes
-      doc: https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/safepass.go
-
+      u2f: yes 
+      doc: https://www.bankofamerica.com/security-center/faq/additional-security-features/
+        
     - name: Bank of China (Hong Kong)
       url: https://www.bochk.com/
       img: bochk.png
