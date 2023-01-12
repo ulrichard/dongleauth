@@ -106,6 +106,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://helpdesk.lastpass.com/multifactor-authentication-options/
 
     - name: MyDigipass.com
