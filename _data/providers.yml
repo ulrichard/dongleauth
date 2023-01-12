@@ -56,7 +56,7 @@ providers:
     otp: Yes
     u2f: Yes
 
-   - name: SafeKey
+  - name: SafeKey
     url: https://www.safekey.be
     img: safekey.png
     hardware: Yes
