@@ -56,6 +56,13 @@ providers:
     otp: Yes
     u2f: Yes
 
+   - name: SafeKey
+    url: https://www.safekey.be
+    img: safekey.png
+    hardware: Yes
+    otp: Yes
+    u2f: Yes
+
   - name: Secalot
     url: https://www.secalot.com
     img: secalot.png
