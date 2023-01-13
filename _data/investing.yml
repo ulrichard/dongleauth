@@ -202,6 +202,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.wealthfront.com/hc/en-us/articles/211004563
 
     - name: Wealthsimple
