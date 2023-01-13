@@ -154,6 +154,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
       doc: https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/
 
     - name: mLab
