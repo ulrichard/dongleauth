@@ -70,6 +70,12 @@ providers:
     otp: Yes
     u2f: Yes
     
+  - name: Shift Cryptosecurity
+    url: https://shiftcrypto.ch
+    img: shiftcrypto.png
+    otp: No
+    u2f: Yes
+    
   - name: SoloKeys
     img: solokey.png
     url: https://shop.solokeys.com
