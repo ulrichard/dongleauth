@@ -275,8 +275,15 @@ websites:
       url: https://roblox.com
       img: roblox.png
       tfa: Yes
+      hardware: Yes
+      software: Yes
+      u2f: yes
       email: Yes
+      otp: Yes
+      multipleu2f: Yes
       doc: https://en.help.roblox.com/hc/en-us/articles/212459863
+      exceptions:
+        text: "2FA setup is required before U2F can be setup."
 
     - name: Rockstar Games Social Club
       url: https://socialclub.rockstargames.com
