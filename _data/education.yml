@@ -251,6 +251,13 @@ websites:
       tfa: Yes
       software: Yes
       doc: https://support.knowbe4.com/hc/en-us/articles/225681448
+      
+    - name: Library Thing
+      url: https://www.librarything.com/
+      img: librarything.png
+      tfa: No
+      twitter: librarything
+      facebook: librarything
 
     - name: Massachusetts Institute of Technology
       url: https://web.mit.edu/

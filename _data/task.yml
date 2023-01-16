@@ -54,7 +54,11 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
-      doc: https://support.microsoft.com/en-us/help/12408/
+      otp: Yes
+      u2f: Yes
+      exceptions:
+          text: "U2F needs to be setup via Microsoft Account"
+      doc: https://support.microsoft.com/en-us/account-billing/how-to-use-two-step-verification-with-your-microsoft-account-c7910146-672f-01e9-50a0-93b4585e7eb4
 
     - name: Planio
       url: https://plan.io
@@ -70,6 +74,13 @@ websites:
       img: rememberthemilk.png
       tfa: No
       email_address: help@rememberthemilk.com
+
+    - name: Teamwork
+      url: https://www.teamwork.com/
+      img: teamwork.png
+      tfa: Yes
+      otp: Yes
+      doc: https://support.teamwork.com/projects/security/enabling-two-factor-authentication-on-your-profile
 
     - name: Todoist
       url: https://todoist.com

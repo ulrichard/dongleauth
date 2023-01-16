@@ -69,7 +69,6 @@ websites:
       tfa: Yes
       hardware: Yes
       otp: Yes
-      u2f: Yes
       doc: https://www.tesla.com/support/multi-factor-authentication
 
     - name: Total Connect Comfort

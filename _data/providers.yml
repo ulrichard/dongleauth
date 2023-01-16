@@ -70,9 +70,22 @@ providers:
     otp: Yes
     u2f: Yes
     
+  - name: Shift Cryptosecurity
+    url: https://shiftcrypto.ch
+    img: shiftcrypto.png
+    otp: No
+    u2f: Yes
+    
   - name: SoloKeys
     img: solokey.png
     url: https://shop.solokeys.com
+    hardware: Yes
+    otp: No
+    u2f: Yes
+
+  - name: Thetis
+    url: https://thetis.io/
+    img: thetis.png
     hardware: Yes
     otp: No
     u2f: Yes
