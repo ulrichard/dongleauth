@@ -155,6 +155,8 @@ websites:
       hardware: Yes
       otp: Yes
       u2f: Yes
+      exceptions:
+          text: "When using Azure AD on Windows, version must be Windows 10, version 1903 or later to use FIDO2."
       doc: https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/
 
     - name: mLab
