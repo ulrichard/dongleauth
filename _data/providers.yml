@@ -77,6 +77,13 @@ providers:
     otp: No
     u2f: Yes
 
+  - name: Thetis
+    url: https://thetis.io/
+    img: thetis.png
+    hardware: Yes
+    otp: No
+    u2f: Yes
+
   - name: Titan Security Key
     url: https://cloud.google.com/titan-security-key/
     img: google.png
