@@ -476,7 +476,8 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
-      doc: https://help.opensrs.com/hc/en-us/articles/209618017
+      otp: Yes
+      doc: https://help.opensrs.com/hc/en-us/articles/360039953793-Two-factor-authentication-setup-for-reseller-accounts
 
     - name: pair Domains
       url: https://www.pairdomains.com/
