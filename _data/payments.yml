@@ -190,6 +190,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "SMS only supported in US and Canada"
       doc: https://squareup.com/help/us/en/article/5593

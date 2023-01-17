@@ -102,6 +102,7 @@ websites:
       img: toodledo.png
       tfa: Yes
       software: Yes
+      otp: Yes 
       doc: https://www.toodledo.com/info/help.php#168
 
     - name: Trello
