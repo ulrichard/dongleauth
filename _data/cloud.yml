@@ -127,9 +127,10 @@ websites:
       url: https://www.leaseweb.com/
       img: leaseweb.png
       tfa: Yes
+      otp: Yes
       sms: Yes
       software: Yes
-      doc: https://kb.leaseweb.com/users-and-accounts/managing-your-profile/setup-two-factor-authentication
+      doc: https://kb.leaseweb.com/users-and-accounts/managing-your-account/setup-two-factor-authentication
 
     - name: Linode
       url: https://www.linode.com/
