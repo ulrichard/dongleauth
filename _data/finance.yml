@@ -57,6 +57,13 @@ websites:
       software: Yes
       doc: https://support.carta.com/s/article/2-factor-authentication
 
+    - name: Chargebee
+      url: https://www.chargebee.com/
+      img: chargebee.png
+      tfa: Yes
+      otp: Yes
+      doc: https://www.chargebee.com/docs/2fa.html    
+
     - name: ClearScore
       url: https://www.clearscore.com
       twitter: ClearScore
