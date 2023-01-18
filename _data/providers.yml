@@ -87,7 +87,7 @@ providers:
     url: https://thetis.io/
     img: thetis.png
     hardware: Yes
-    otp: No
+    otp: Yes
     u2f: Yes
 
   - name: Titan Security Key
