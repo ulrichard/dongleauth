@@ -407,6 +407,7 @@ websites:
       software: Yes
       hardware: Yes
       u2f: Yes
+      multipleu2f: Yes
       otp: Yes
 
     - name: PlanetHoster
