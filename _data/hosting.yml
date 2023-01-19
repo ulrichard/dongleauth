@@ -407,7 +407,9 @@ websites:
       software: Yes
       hardware: Yes
       u2f: Yes
+      multipleu2f: Yes
       otp: Yes
+      doc: https://support.us.ovhcloud.com/hc/en-us/articles/115001825710-How-to-Use-Two-Factor-Authentication
 
     - name: PlanetHoster
       url: https://www.planethoster.com/
