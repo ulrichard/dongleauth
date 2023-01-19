@@ -140,8 +140,10 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
       exceptions:
-        text: "Software implementation requires use of the eBay app."
+        text: "U2F may not be available in certain countries"
       doc: https://community.ebay.com/t5/Announcements/eBay-launches-a-new-2-step-verification-method-to-increase/ba-p/29818464
 
     - name: ebay Kleinanzeigen
