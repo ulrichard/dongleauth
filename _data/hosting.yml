@@ -409,6 +409,7 @@ websites:
       u2f: Yes
       multipleu2f: Yes
       otp: Yes
+      doc: https://docs.ovh.com/us/en/private-cloud/use-2FA/
 
     - name: PlanetHoster
       url: https://www.planethoster.com/
