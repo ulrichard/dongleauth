@@ -66,8 +66,10 @@ websites:
     - name: Tesla
       url: https://www.tesla.com
       img: tesla.png
-      tfa: No
-      twitter: Tesla
+      tfa: Yes
+      hardware: Yes
+      otp: Yes
+      doc: https://www.tesla.com/support/multi-factor-authentication
 
     - name: Total Connect Comfort
       url: https://www.mytotalconnectcomfort.com
@@ -79,6 +81,8 @@ websites:
     - name: Wyze
       url: https://www.wyzecam.com
       img: wyze.png
-      tfa: No
+      tfa: Yes
       twitter: WyzeCam
       facebook: WyzeCam
+      otp: Yes
+      doc: https://support.wyze.com/hc/en-us/articles/360024402052-Two-Factor-Authentication

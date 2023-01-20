@@ -127,15 +127,17 @@ websites:
       url: https://www.leaseweb.com/
       img: leaseweb.png
       tfa: Yes
+      otp: Yes
       sms: Yes
       software: Yes
-      doc: https://kb.leaseweb.com/users-and-accounts/managing-your-profile/setup-two-factor-authentication
+      doc: https://kb.leaseweb.com/users-and-accounts/managing-your-account/setup-two-factor-authentication
 
     - name: Linode
       url: https://www.linode.com/
       img: linode.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.linode.com/docs/security/linode-manager-security-controls
 
     - name: MacStadium
@@ -154,6 +156,9 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      exceptions:
+          text: "When using Azure AD on Windows, version must be Windows 10, version 1903 or later to use FIDO2."
       doc: https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/
 
     - name: mLab

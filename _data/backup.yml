@@ -14,6 +14,8 @@ websites:
     tfa: Yes
     sms: Yes
     software: Yes
+    hardware: Yes
+    otp: Yes
     doc: https://help.backblaze.com/hc/en-us/articles/217666588
 
   - name: Box
@@ -138,6 +140,8 @@ websites:
     tfa: Yes
     software: Yes
     img: koofr.png
+    hardware: Yes
+    otp: Yes
     doc: https://koofr.eu/help/other/how-do-i-enable-2-step-verification/
 
   - name: Mega
@@ -229,10 +233,12 @@ websites:
   - name: Sync
     url: https://www.sync.com
     img: sync.png
-    software: Yes
-    email: Yes
     tfa: Yes
-    doc: https://www.sync.com/help/how-do-i-setup-two-factor-authentication/
+    email: Yes
+    software: Yes
+    hardware: Yes
+    otp: Yes
+    doc: https://www.sync.com/help/account-security/#security2fa
 
   - name: Synology
     url: https://www.synology.com/

@@ -477,5 +477,6 @@ websites:
       url: https://voip.ms/
       img: voipms.png
       tfa: Yes
+      otp: Yes
       email: Yes
-      doc: https://wiki.voip.ms/article/Two-step_Verification
+      doc: https://wiki.voip.ms/article/TOTP_Authentication

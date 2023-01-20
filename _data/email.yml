@@ -18,6 +18,8 @@ websites:
       u2f: Yes
       multipleu2f: Yes
       doc: https://www.fastmail.com/help/account/2fa.html
+      exceptions:
+          text: "TOTP or SMS auth needs to be used on mobile apps and browsers."
 
     - name: Freenet
       url: https://www.freenet.de/
@@ -119,6 +121,8 @@ websites:
       img: mailfence.png
       tfa: Yes
       software: Yes
+      hardware: Yes
+      otp: Yes
       doc: https://mailfence.com/c/mailfence/more/totp.jsp
 
     - name: Migadu
@@ -180,6 +184,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://protonmail.com/support/knowledge-base/two-factor-authentication/
 
     - name: Riseup Mail
@@ -280,6 +286,9 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
+      u2f: Yes
+      exceptions:
+        text: "Only one security key per account is currently supported"
       doc: https://help.yahoo.com/kb/SLN5013.html
 
     - name: Yandex.Mail
@@ -306,4 +315,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://adminconsole.wiki.zoho.com/mail/Two-Factor-Authentication.html
+      hardware: Yes
+      otp: Yes
+      u2f: Yes
+      doc: https://help.zoho.com/portal/en/kb/accounts/multi-factor-authentication

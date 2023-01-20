@@ -1,5 +1,5 @@
-Contributing to DongleAuth.info 
-===============================
+Contributing to DongleAuth.com
+==============================
 
 All the data is managed through a series of [Yaml][yaml] files so it may be
 useful to read up on the Yaml syntax.
@@ -62,8 +62,8 @@ everything for you.
 ## Site Criteria
 
 The following section contains rough criteria and explanations regarding
-what websites should be listed on dongleauth.info. If one of the following
-criteria is met, it belongs on dongleauth.info:
+what websites should be listed on dongleauth.com. If one of the following
+criteria is met, it belongs on dongleauth.com:
 
 1. **Personal Info/Image**: Any site that deals with personal info or a person's
    image. An example of a site with **Personal Info** would be their Amazon
@@ -126,7 +126,15 @@ websites:
     doc: <link to site TFA documentation>
 ```
 
-The fields `name:`, `url:`, `img:`, `tfa:` are required for all entries.
+The fields `name:`, `url:`, `img:`, `tfa:` are required for all entries. 
+
+Note that the original [repo](https://github.com/2factorauth/twofactorauth/) may use fields that we do **not** use.
+The fields we do **NOT** use are: `SMS`, `Phone Call`, `Email`, `Hardware Token`, `Software Token`.
+
+Make sure to double-check that you use our required fields before you make a pull request, 
+otherwise changes won't be displayed correctly on the site when merging a pull request. See commented out fields [here.](https://github.com/Nitrokey/dongleauth/blob/device_authenticators/_includes/desktop-table.html#L88).
+
+Don't delete the fields of the original repo, though, as this makes comparisons easier.
 
 #### Adding a site that *supports* TFA
 
@@ -145,6 +153,22 @@ The following is an example of a website that *supports* TFA but not multiple do
       hardware: Yes
       otp: Yes
       u2f: Yes
+      doc: http://www.google.com/intl/en-US/landing/2step/features.html
+```
+
+The following is an example of a website that additionally supports adding multiple dongles
+and passwordless authentication with FIDO2 devices:
+
+```yml
+    - name: Windows Hello
+      url: https://www.microsoft.com/
+      img: windows-hello.png
+      tfa: Yes
+      hardware: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
       doc: http://www.google.com/intl/en-US/landing/2step/features.html
 ```
 
@@ -249,7 +273,7 @@ website. There are 4 ways to customize how it is displayed:
 
 ## A Note on Definitions
 
-There are many forms of Two Factor Auth, but DongleAuth.info is only interested in
+There are many forms of Two Factor Auth, but DongleAuth.com is only interested in
 listing sites that support Two Factor Authentication using USB dongles. Currently
 that means the site must support either One Time Passwords (HOTP / RFC 4226 or TOTP / RFC 6238)
 or FIDO Universal 2nd Factor (U2F). If a site supports multiple U2F dongles (e.g. as a backup),

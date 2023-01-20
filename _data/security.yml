@@ -33,6 +33,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://www.boxcryptor.com/help/boxcryptor-account/#two-factor-authentication
 
     - name: bugcrowd
@@ -57,8 +59,10 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://support.cloudflare.com/hc/en-us/articles/200167866
-
+      
     - name: Cobalt
       url: https://cobalt.io/
       img: cobalt.png
@@ -192,7 +196,8 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://docs.sophos.com/central/Customer/help/en-us/central/Customer/concepts/ep_MultiFactorAuthentication.html
+      otp: Yes
+      doc: https://support.sophos.com/support/s/article/KB-000037078?language=en_US
 
     - name: SSLTrust
       url: https://www.ssltrust.com.au/

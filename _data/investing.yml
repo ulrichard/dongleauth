@@ -28,12 +28,19 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: /notes/schwab/
+      otp: Yes
+      doc: https://www.schwab.com/help/two-factor-authentication
 
     - name: COL Financial
       url: https://www.colfinancial.com
       twitter: colfinancial
       img: colfinancial.png
+      tfa: No
+
+    - name: Commsec
+      url: https://www.commsec.com.au
+      twitter: commsec
+      img: commsec.png
       tfa: No
 
     - name: E*Trade
@@ -187,8 +194,7 @@ websites:
       phone: Yes
       hardware: Yes
       u2f: Yes
-      exceptions:
-        text: "Hardware 2FA requires using a Chrome browser and only supports the following hardware keys: Yubikey 4 Series, YubiKey 5 Series, Yubikey Security Key Series."
+      multipleu2f: Yes
       doc: https://investor.vanguard.com/security/security-keys
 
     - name: Wealthfront
@@ -197,6 +203,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.wealthfront.com/hc/en-us/articles/211004563
 
     - name: Wealthsimple

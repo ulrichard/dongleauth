@@ -53,10 +53,12 @@ websites:
     - name: NordVPN
       url: https://nordvpn.com
       img: nordvpn.png
-      tfa: No
-      twitter: NordVPN
-      facebook: NordVPN
-      email_address: support@nordvpn.com
+      tfa: Yes
+      hardware: Yes
+      otp: Yes
+      u2f: Yes
+      passwordless: Yes
+      doc: https://support.nordvpn.com/General-info/1755768802/What-is-MFA-and-how-to-enable-it.htm
 
     - name: Perfect Privacy VPN
       url: https://www.perfect-privacy.com/
@@ -77,6 +79,8 @@ websites:
       img: protonvpn.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://protonvpn.com/support/two-factor-authentication/
 
     - name: PureVPN
       url: https://www.purevpn.com

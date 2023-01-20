@@ -115,8 +115,9 @@ websites:
       sms: Yes
       email: Yes
       hardware: Yes
-      doc: https://www.bankofamerica.com/privacy/online-mobile-banking-privacy/safepass.go
-
+      u2f: yes 
+      doc: https://www.bankofamerica.com/security-center/faq/additional-security-features/
+        
     - name: Bank of China (Hong Kong)
       url: https://www.bochk.com/
       img: bochk.png
@@ -203,7 +204,15 @@ websites:
       facebook: Boursorama-Banque-1741973942734447
       img: boursorama.png
       tfa: No
+      u2f: Yes
       lang: fr
+      doc: https://www.boursorama.com/aide-en-ligne/mon-espace-client/identifiant-et-mot-de-passe/question/en-quoi-consiste-la-connexion-par-cle-de-securite-sur-internet-5165516
+
+    - name: Braunschweigische Landessparkasse
+      url: https://www.blsk.de/
+      img: blsk.png
+      tfa: Yes
+      u2f: Yes
 
     - name: Caisse D'Epargne
       url: https://www.caisse-epargne.fr/
@@ -576,6 +585,14 @@ websites:
       img: ing.png
       tfa: Yes
       sms: Yes
+
+    - name: ING-DiBa AG (Deutschland)
+      url: https://www.ing.de
+      twitter: ING_Deutschland
+      facebook: ing.deutschland
+      img: ing.png
+      tfa: No
+      lang: de
 
     - name: ING-DiBa Austria
       url: https://www.ing.at
