@@ -199,7 +199,9 @@ websites:
       twitter: Vimeo
       facebook: Vimeo
       img: vimeo.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://vimeo.zendesk.com/hc/en-us/articles/4856243815693-Secure-your-account-with-two-factor-authentication
 
     - name: YouTube
       url: https://www.youtube.com/
