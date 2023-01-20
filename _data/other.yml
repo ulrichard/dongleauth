@@ -246,6 +246,7 @@ websites:
       img: firefox.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.mozilla.org/en-US/kb/secure-firefox-account-two-step-authentication
 
     - name: Fiverr
