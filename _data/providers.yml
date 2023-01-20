@@ -17,6 +17,13 @@ providers:
     u2f: Yes
     otp: No
 
+  - name: Ensurity
+    url: https://www.ensurity.com/
+    img: ensurity.png
+    hardware: Yes
+    u2f: Yes
+    otp: Yes
+    
   - name: Excelsecu Data Technology Co., Ltd
     url: https://www.excelsecu.com
     img: excelsecu.png
