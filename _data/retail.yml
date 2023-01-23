@@ -295,7 +295,8 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
-      doc: https://ayuda.mercadolibre.com.ar/ayuda/Consejos-para-fortalecer-la-se_961
+      otp: Yes
+      doc: https://www.mercadolibre.com.ar/ayuda/Fortalecer-la-seguridad-de-mi-cuenta_945
 
     - name: Newegg
       url: https://www.newegg.com

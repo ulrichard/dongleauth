@@ -181,6 +181,7 @@ websites:
       img: crowdin.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.crowdin.com/account-settings/#two-factor-authentication
 
     - name: Deploybot

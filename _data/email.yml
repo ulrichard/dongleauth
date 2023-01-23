@@ -155,6 +155,9 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
       exceptions:
           text: "Hardware token supporting FIDO2/WebAuthn can only be used in Windows 10 version 1809 and above using Edge browser."
       doc: https://support.microsoft.com/en-us/help/12408/
