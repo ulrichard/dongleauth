@@ -117,9 +117,10 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
       exceptions:
-          text: "2FA is only available in a few countries. Contact PayPal on Twitter for an up-to-date list of available countries."
-      doc: https://www.paypal.com/us/smarthelp/article/faq4057
+          text: "U2F & 2FA may only be available in a certain countries. Contact PayPal on Twitter for an up-to-date list of available countries."
+      doc: https://www.paypal.com/us/cshelp/article/what-is-2-step-verification-and-how-do-i-turn-it-on-or-off-help167
 
     - name: Paysafecard
       url: https://www.paysafecard.com/
