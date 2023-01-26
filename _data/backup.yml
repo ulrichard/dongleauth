@@ -172,7 +172,8 @@ websites:
     email: Yes
     sms: Yes
     software: Yes
-    doc: http://support.nimbox.co.uk/knowledge_base/topics/two-step-slash-two-factor-authentication
+    otp: Yes
+    doc: https://www.nimbox.co.uk/help-centre/Completing2FAsetupasanenduser.html
 
   - name: OneDrive
     url: https://onedrive.live.com
