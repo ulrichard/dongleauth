@@ -284,7 +284,8 @@ websites:
     img: wasabi.png
     tfa: Yes
     software: Yes
-    doc: https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCONSOLE_ACCESS_for_the_Root_User.htm
+    otp: Yes
+    doc: https://wasabi-support.zendesk.com/hc/en-us/articles/360055164891-How-do-I-activate-MFA-for-Wasabi-Account-Control-Manager-WACM-
 
   - name: Yandex.Disk
     url: https://disk.yandex.com
