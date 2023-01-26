@@ -118,22 +118,19 @@ websites:
 
   - name: IDrive
     url: https://www.idrive.com
-    twitter: IDriveBackup
-    facebook: IDriveBackup
     img: idrive.png
     tfa: Yes
     email: Yes
+    otp: Yes
     doc: https://blog.idrive.com/2018/11/16/idrive-adds-two-factor-authentication/
 
   - name: Jottacloud
     url: https://www.jottacloud.com
-    twitter: jottacloud
-    email_address: support@jottacloud.com
-    facebook: Jottacloud
     img: jotta.png
     tfa: Yes
     software: Yes
     sms: Yes
+    otp : Yes
     doc: https://docs.jottacloud.com/en/articles/1292931
 
   - name: JustCloud
