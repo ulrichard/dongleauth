@@ -310,7 +310,8 @@ websites:
       img: hitbtc.png
       tfa: Yes
       software: Yes
-      doc: https://support.hitbtc.com/hc/en-us/articles/360000719229
+      otp: Yes
+      doc: https://support.hitbtc.com/en/support/solutions/articles/63000225001-how-to-enable-2fa-with-a-code-generating-app
 
     - name: Korbit
       url: https://www.korbit.co.kr
