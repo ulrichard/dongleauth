@@ -85,7 +85,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://bithumb.cafe/archives/7286
+      otp: Yes
+      doc: https://support.bithumb.pro/hc/en-us/articles/360021119874-OTP-Authentication-Registration
 
     - name: Bitlish
       url: https://bitlish.com
