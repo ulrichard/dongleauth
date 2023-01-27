@@ -178,6 +178,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.circle.com/hc/en-us/articles/213560483
 
     - name: COBINHOOD
