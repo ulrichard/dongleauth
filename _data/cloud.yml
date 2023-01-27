@@ -38,6 +38,7 @@ websites:
       img: cloudca.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://cloud.ca/two-factor-authentication-is-now-available-on-cloud-ca/
 
     - name: DigitalOcean
