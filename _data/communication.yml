@@ -222,6 +222,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Software authentication requires the Authy app."
       doc: https://sendgrid.com/docs/ui/account-and-settings/two-factor-authentication/
