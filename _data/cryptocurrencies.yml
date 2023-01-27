@@ -144,9 +144,8 @@ websites:
       img: btcmarkets.png
       tfa: Yes
       software: Yes
-      doc: https://www.btcmarkets.net/faq#q27
-      exceptions:
-          text: "A mobile phone number is required to reset two-factor authentication."
+      otp: Yes
+      doc: https://support.btcmarkets.net/hc/en-us/articles/360001307907-Two-Factor-Authentication-2FA-Set-up-Guide
 
     - name: BTCPOP
       url: https://btcpop.co/
