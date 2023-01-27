@@ -1,17 +1,11 @@
 websites:
-    - name: ANXPRO Bitcoin Exchange
-      url: https://anxpro.com/
-      img: anxpro.png
-      tfa: Yes
-      software: Yes
-      doc: https://anxpro.com/pages/security
-
     - name: AnycoinDirect
       url: https://anycoindirect.eu
       img: anycoindirect.png
       tfa: Yes
       software: Yes
-      doc: https://support.anycoindirect.eu/hc/en-gb/articles/115001423191
+      otp: Yes
+      doc: https://anycoindirect.eu/en/support/anycoin-direct/security
 
     - name: Binance
       url: https://www.binance.com/
@@ -40,6 +34,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.bitcoin.de/de/faq/was-ist-die-2-step-verification-2-faktor-authentifizierung/46.html
 
     - name: Bitcoins Norway
