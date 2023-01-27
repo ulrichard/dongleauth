@@ -4,6 +4,7 @@ websites:
       img: actionnetwork.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.actionnetwork.org/hc/en-us/articles/217206826
 
     - name: Basecamp
@@ -25,6 +26,7 @@ websites:
       img: capsule.png
       tfa: yes
       software: yes
+      otp: Yes
       doc: https://capsulecrm.com/support/user-preferences/#enabling-two-factor-authentication
 
     - name: Carbon Black Community Exchange
@@ -40,6 +42,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.cloze.com/knowledge_base/topics/how-do-i-enable-2-step-authentication
 
     - name: Customer.io
@@ -47,6 +50,7 @@ websites:
       img: customerio.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://customer.io/docs/two-factor-auth.html
 
     - name: Direct Mail
@@ -54,6 +58,7 @@ websites:
       img: directmail.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://directmailmac.com/support/article/507
 
     - name: Discord
@@ -105,21 +110,15 @@ websites:
       img: front_app.png
       tfa: Yes
       software: Yes
-      doc: https://community.frontapp.com/t/q56jf8/activating-two-factor-authentication-2fa
-
-    - name: Grape
-      url: https://chatgrape.com/
-      img: grape.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://chatgrape.com/doc/deployment/2fa.html
+      otp: Yes
+      doc: https://help.front.com/t/36249g/activating-two-factor-authentication-2fa
 
     - name: GroupMe
       url: https://groupme.com/
       img: groupme.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://help.groupme.com/hc/en-us/articles/360000579167
 
     - name: Hangouts
@@ -141,6 +140,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://knowledge.hubspot.com/articles/kcs_article/account/how-can-i-set-up-two-factor-authentication-for-my-hubspot-login
 
     - name: IRCCloud
@@ -222,6 +222,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Software authentication requires the Authy app."
       doc: https://sendgrid.com/docs/ui/account-and-settings/two-factor-authentication/
@@ -248,6 +249,9 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes 
+      multipleu2f: Yes
       exceptions:
           text: "Must be associated with a Microsoft Account."
       doc: https://support.microsoft.com/en-us/help/12408/
@@ -268,6 +272,7 @@ websites:
       sms: Yes
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.socketlabs.com/docs/two-step-verification
 
     - name: SparkPost
@@ -275,6 +280,7 @@ websites:
       img: sparkpost.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.sparkpost.com/docs/my-account-and-profile/enabling-two-factor-authentication/
 
     - name: Stackfield
@@ -282,7 +288,8 @@ websites:
       img: stackfield.png
       tfa: Yes
       software: Yes
-      doc: https://en.stackfield.help/article/92-activating-deactivating-the-two-factor-authentication
+      otp: Yes
+      doc: https://www.stackfield.com/help/two-factor-authentication-2032
 
     - name: TeamSpeak
       url: https://www.teamspeak.com/
@@ -298,6 +305,7 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
+      otp: Yes
       doc: https://telegram.org/blog/sessions-and-2-step-verification
 
     - name: ToutApp
@@ -321,7 +329,8 @@ websites:
       sms: Yes
       phone: Yes
       twitter: WhatsApp
-      doc: https://www.whatsapp.com/faq/en/general/26000021
+      otp: Yes
+      doc: https://faq.whatsapp.com/1920866721452534
 
     - name: WoltLab
       url: https://www.woltlab.com/
