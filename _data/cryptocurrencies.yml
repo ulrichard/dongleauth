@@ -377,7 +377,8 @@ websites:
       img: poloniex.png
       tfa: Yes
       software: Yes
-      doc: https://support.poloniex.circle.com/hc/en-us/articles/360025399352
+      otp: Yes
+      doc: https://support.poloniex.com/hc/en-us/articles/360040016513-How-To-Set-Up-Two-Factor-Authentication-2FA-
 
     - name: SatoshiTango
       url: https://satoshitango.com/
