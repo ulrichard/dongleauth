@@ -169,6 +169,7 @@ websites:
       img: changelly.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://changelly.com/faq#what-is-2fa-authentication
 
     - name: Circle
