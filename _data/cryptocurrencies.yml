@@ -228,13 +228,15 @@ websites:
       doc: https://support.coingate.com/hc/en-us/articles/4402503798034-How-do-I-set-up-2-factor-authentication-2FA-on-my-account-
 
     - name: Coinify (Merchants)
-      url: https://coinify.com/merchants
+      url: https://www.coinify.com/
       img: coinify.png
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "While Coinify has aquired BIPS to allow for trading, only merchant accounts support TFA at this time. Trading is done through a separate account. Hardware support is limited to a print-out character matrix."
+      doc: https://help.coinify.com/hc/en-us/articles/360014173320-What-is-Two-Factor-Authentication-
 
     - name: Coinjar
       url: https://coinjar.com
