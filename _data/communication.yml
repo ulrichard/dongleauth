@@ -329,7 +329,8 @@ websites:
       sms: Yes
       phone: Yes
       twitter: WhatsApp
-      doc: https://www.whatsapp.com/faq/en/general/26000021
+      otp: Yes
+      doc: https://faq.whatsapp.com/1920866721452534
 
     - name: WoltLab
       url: https://www.woltlab.com/
