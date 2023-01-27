@@ -269,7 +269,8 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
-      doc: https://coinspot.zendesk.com/hc/en-us/sections/115000049254
+      otp: Yes
+      doc: https://coinspot.zendesk.com/hc/en-us/articles/4457359977615-CoinSpot-Mobile-App-How-to-set-up-2FA
 
     - name: CoinTracking
       url: https://cointracking.info/
