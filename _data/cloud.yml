@@ -167,14 +167,6 @@ websites:
           text: "When using Azure AD on Windows, version must be Windows 10, version 1903 or later to use FIDO2."
       doc: https://azure.microsoft.com/en-us/documentation/articles/multi-factor-authentication/
 
-    - name: mLab
-      url: https://mlab.com/
-      img: mlab.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://docs.mlab.com/security/#two-factor-authentication
-
     - name: OpenShift
       url: https://www.openshift.com/
       twitter: openshift
