@@ -150,7 +150,8 @@ websites:
       img: macstadium.png
       tfa: Yes
       software: Yes
-      doc: https://help.macstadium.com/articles/macstadium-two-factor-authentication-guide
+      otp: Yes
+      doc: https://docs.macstadium.com/docs/two-factor-authentication#2fa-setup
 
     - name: Microsoft Azure
       url: https://azure.microsoft.com/
