@@ -9,7 +9,7 @@ websites:
     otp: Yes
     u2f: Yes
     multipleu2f: Yes
-    exception: 
+    exceptions: 
       text: "You must add and maintain at least two security keys. You can add up to six keys."
     doc: https://support.apple.com/en-us/HT204915
 
@@ -29,7 +29,7 @@ websites:
     tfa: Yes
     sms: Yes
     otp: Yes
-    exception:
+    exceptions:
       Text: "If your account has Single Sign On (SSO) enabled, you will not be able to turn on 2-step verification."
     doc: https://support.box.com/hc/en-us/articles/360043697154
 
