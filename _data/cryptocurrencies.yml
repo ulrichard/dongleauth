@@ -337,6 +337,7 @@ websites:
       img: litebit.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.litebit.eu/hc/en-us/articles/115000953504
 
     - name: LocalBitcoins
