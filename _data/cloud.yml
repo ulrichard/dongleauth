@@ -174,13 +174,6 @@ websites:
       img: openshift.png
       tfa: No
 
-    - name: ProfitBricks
-      url: https://www.profitbricks.de
-      img: profitbricks.png
-      tfa: Yes
-      software: Yes
-      doc: https://www.profitbricks.com/help/2-Factor_Authentication
-
     - name: Rackspace
       url: https://www.rackspace.com/
       img: rackspace.png
