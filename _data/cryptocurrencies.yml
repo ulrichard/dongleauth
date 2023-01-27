@@ -260,7 +260,8 @@ websites:
       img: coinsph.png
       tfa: Yes
       software: Yes
-      doc: https://support.coins.ph/hc/en-us/articles/202604924
+      otp: Yes
+      doc: https://support.coins.ph/hc/en-us/articles/202576974-How-do-I-enable-two-factor-authentication-on-my-Coins-ph-account-
 
     - name: Coinspot
       url: https://www.coinspot.com.au/
