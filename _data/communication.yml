@@ -118,6 +118,7 @@ websites:
       img: groupme.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://help.groupme.com/hc/en-us/articles/360000579167
 
     - name: Hangouts
