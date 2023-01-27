@@ -95,9 +95,11 @@ websites:
       img: hostiso.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "While both the main client area and the shared hosting panel support 2FA, each system is separate and requires its own setup."
-
+      doc: https://hostico.com/docs/two-factor-authentication-in-cpanel/
+    
     - name: IBM Cloud
       url: https://cloud.ibm.com
       img: ibmcloud.png
@@ -123,7 +125,8 @@ websites:
       img: forge.png
       tfa: Yes
       software: Yes
-      doc: https://forge.laravel.com/user/profile#/authentication
+      otp: Yes
+      doc: https://forge.laravel.com/docs/1.0/accounts/your-account.html
 
     - name: Leaseweb
       url: https://www.leaseweb.com/
