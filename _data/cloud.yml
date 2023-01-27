@@ -195,7 +195,8 @@ websites:
       img: scaleway.png
       tfa: Yes
       software: Yes
-      doc: https://blog.online.net/2017/06/13/introducing-two-factor-authentication-on-scaleway/
+      otp: Yes
+      doc: https://www.scaleway.com/en/docs/console/my-account/how-to/use-2fa/
 
     - name: Scalr
       url: https://www.scalr.com
