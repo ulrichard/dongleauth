@@ -58,6 +58,7 @@ websites:
       img: directmail.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://directmailmac.com/support/article/507
 
     - name: Discord
