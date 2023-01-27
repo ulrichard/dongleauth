@@ -65,6 +65,7 @@ websites:
       img: fortrabbit.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.fortrabbit.com/account#toc-setting-up-2fa
 
     - name: Google Cloud Platform
