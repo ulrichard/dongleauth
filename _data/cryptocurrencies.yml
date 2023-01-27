@@ -393,7 +393,8 @@ websites:
       img: uphold.png
       tfa: Yes
       software: Yes
-      doc: https://support.uphold.com/hc/en-us/articles/360024042471
+      otp: Yes
+      doc: https://support.uphold.com/hc/en-us/articles/6655652448283-Setting-up-2-factor-authentication-with-an-authenticator-app
 
     - name: Wirex
       url: https://wirexapp.com/
