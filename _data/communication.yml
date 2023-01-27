@@ -249,6 +249,9 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes 
+      multipleu2f: Yes
       exceptions:
           text: "Must be associated with a Microsoft Account."
       doc: https://support.microsoft.com/en-us/help/12408/
