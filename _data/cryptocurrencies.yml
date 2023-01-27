@@ -401,6 +401,7 @@ websites:
       img: wirex.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://wirexapp.com/hc/articles/207160259
 
     - name: Xapo
