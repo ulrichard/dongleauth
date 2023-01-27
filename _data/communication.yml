@@ -305,6 +305,7 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
+      otp: Yes
       doc: https://telegram.org/blog/sessions-and-2-step-verification
 
     - name: ToutApp
