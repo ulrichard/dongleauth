@@ -155,13 +155,6 @@ websites:
       otp: Yes
       doc: https://blog.btcpop.co/2017/04/27/signing-security-btcpop-co-account/
 
-    - name: BX Thailand
-      url: https://bx.in.th/
-      img: bxthailand.png
-      tfa: Yes
-      software: Yes
-      doc: https://bx.in.th/info/faq/
-
     - name: CEX.IO
       url: https://cex.io/
       img: cex.png
