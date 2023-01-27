@@ -347,7 +347,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://localbitcoins.blogspot.com.au/2013/05/using-two-factor-authentication-on.html
+      doc: https://localbitcoins.com/guides/security
 
     - name: localethereum
       url: https://localethereum.com
