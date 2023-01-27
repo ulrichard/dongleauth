@@ -76,6 +76,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://bitgo.freshdesk.com/support/solutions/articles/27000037397
 
     - name: Bithumb
