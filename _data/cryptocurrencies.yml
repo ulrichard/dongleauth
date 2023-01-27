@@ -161,6 +161,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://cex.io/guide#4
 
     - name: Changelly
