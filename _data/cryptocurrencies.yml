@@ -286,14 +286,6 @@ websites:
       otp: Yes
       doc: https://coinut.zendesk.com/hc/en-us/articles/360005061374-How-to-Enable-2FA-
 
-    - name: Cryptopia
-      url: https://www.cryptopia.co.nz
-      img: cryptopia.png
-      tfa: Yes
-      software: Yes
-      email: Yes
-      doc: https://support.cryptopia.co.nz/csm?id=kb_article&sys_id=a8c51421dbed1f009990f6fcbf96194a
-
     - name: DSX
       url: https://dsx.uk/
       img: dsx.png
