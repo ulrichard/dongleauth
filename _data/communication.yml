@@ -272,6 +272,7 @@ websites:
       sms: Yes
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.socketlabs.com/docs/two-step-verification
 
     - name: SparkPost
