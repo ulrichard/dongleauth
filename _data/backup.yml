@@ -30,7 +30,7 @@ websites:
     sms: Yes
     otp: Yes
     exceptions:
-      Text: "If your account has Single Sign On (SSO) enabled, you will not be able to turn on 2-step verification."
+      text: "If your account has Single Sign On (SSO) enabled, you will not be able to turn on 2-step verification."
     doc: https://support.box.com/hc/en-us/articles/360043697154
 
   - name: CloudApp
