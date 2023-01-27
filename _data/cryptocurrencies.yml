@@ -219,15 +219,6 @@ websites:
       otp: Yes
       doc: https://support.coinfalcon.com/en-us/article/how-to-setup-two-factor-authentication-2fa-nkjppd/
 
-    - name: Coinfloor
-      url: https://www.coinfloor.co.uk/
-      img: coinfloor.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      hardware: Yes
-      doc: https://www.coinfloor.co.uk/security
-
     - name: CoinGate
       url: https://coingate.com
       img: coingate.png
