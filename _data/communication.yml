@@ -4,6 +4,7 @@ websites:
       img: actionnetwork.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.actionnetwork.org/hc/en-us/articles/217206826
 
     - name: Basecamp
