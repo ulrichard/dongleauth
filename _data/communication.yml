@@ -26,6 +26,7 @@ websites:
       img: capsule.png
       tfa: yes
       software: yes
+      otp: Yes
       doc: https://capsulecrm.com/support/user-preferences/#enabling-two-factor-authentication
 
     - name: Carbon Black Community Exchange
