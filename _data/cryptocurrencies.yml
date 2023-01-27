@@ -283,7 +283,8 @@ websites:
       img: coinut.png
       tfa: Yes
       software: Yes
-      doc: https://help.coinut.com/hc/en-us/articles/360005061354
+      otp: Yes
+      doc: https://coinut.zendesk.com/hc/en-us/articles/360005061374-How-to-Enable-2FA-
 
     - name: Cryptopia
       url: https://www.cryptopia.co.nz
