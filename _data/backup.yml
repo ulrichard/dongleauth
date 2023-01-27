@@ -6,6 +6,11 @@ websites:
     sms: Yes
     phone: Yes
     software: Yes
+    otp: Yes
+    u2f: Yes
+    multipleu2f: Yes
+    exceptions: 
+      text: "You must add and maintain at least two security keys. You can add up to six keys."
     doc: https://support.apple.com/en-us/HT204915
 
   - name: Backblaze
@@ -23,7 +28,10 @@ websites:
     img: box.png
     tfa: Yes
     sms: Yes
-    doc: https://community.box.com/t5/How-to-Guides-for-Account/Manage-Account-Settings/ta-p/20022#authentication
+    otp: Yes
+    exceptions:
+      text: "If your account has Single Sign On (SSO) enabled, you will not be able to turn on 2-step verification."
+    doc: https://support.box.com/hc/en-us/articles/360043697154
 
   - name: CloudApp
     url: https://www.getcloudapp.com/
@@ -110,22 +118,19 @@ websites:
 
   - name: IDrive
     url: https://www.idrive.com
-    twitter: IDriveBackup
-    facebook: IDriveBackup
     img: idrive.png
     tfa: Yes
     email: Yes
+    otp: Yes
     doc: https://blog.idrive.com/2018/11/16/idrive-adds-two-factor-authentication/
 
   - name: Jottacloud
     url: https://www.jottacloud.com
-    twitter: jottacloud
-    email_address: support@jottacloud.com
-    facebook: Jottacloud
     img: jotta.png
     tfa: Yes
     software: Yes
     sms: Yes
+    otp : Yes
     doc: https://docs.jottacloud.com/en/articles/1292931
 
   - name: JustCloud
@@ -167,7 +172,8 @@ websites:
     email: Yes
     sms: Yes
     software: Yes
-    doc: http://support.nimbox.co.uk/knowledge_base/topics/two-step-slash-two-factor-authentication
+    otp: Yes
+    doc: https://www.nimbox.co.uk/help-centre/Completing2FAsetupasanenduser.html
 
   - name: OneDrive
     url: https://onedrive.live.com
@@ -278,16 +284,16 @@ websites:
     img: wasabi.png
     tfa: Yes
     software: Yes
-    doc: https://wasabi.com/wp-content/themes/wasabi/docs/User_Guide/index.html#t=topics%2FCONSOLE_ACCESS_for_the_Root_User.htm
+    otp: Yes
+    doc: https://wasabi-support.zendesk.com/hc/en-us/articles/360055164891-How-do-I-activate-MFA-for-Wasabi-Account-Control-Manager-WACM-
 
   - name: Yandex.Disk
     url: https://disk.yandex.com
     img: yandexdisk.png
     tfa: Yes
     software: Yes
-    exceptions:
-        text: "SMS-capable phone required for initial setup."
-    doc: https://yandex.com/support/passport/authorization/twofa.html
+    otp: Yes
+    doc: https://yandex.com/support/id/authorization/twofa.html
 
   - name: Zetta.net
     url: https://www.zetta.net/
@@ -303,6 +309,5 @@ websites:
     img: zoolz.png
     tfa: Yes
     software: Yes
-    exceptions:
-        text: "Only available for business accounts."
+    otp: Yes
     doc: https://wiki.zoolz.com/how-do-i-enable-two-factor-authentication-on-my-zoolz-intelligent-account/
