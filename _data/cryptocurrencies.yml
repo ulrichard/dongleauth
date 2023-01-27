@@ -195,7 +195,8 @@ websites:
       img: coinapult.png
       tfa: Yes
       software: Yes
-      doc: https://coinapult.com/faq
+      otp: Yes
+      doc: https://blog.saaspass.com/how-to-add-two-factor-authentication-2fa-to-coinapult-ad3d8beec2eb
 
     - name: Coinbase
       url: https://www.coinbase.com/
