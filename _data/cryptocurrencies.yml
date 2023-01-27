@@ -286,7 +286,7 @@ websites:
       otp: Yes
       doc: https://coinut.zendesk.com/hc/en-us/articles/360005061374-How-to-Enable-2FA-
 
-     - name: Gatehub
+    - name: Gatehub
       url: https://gatehub.net
       img: gatehub.png
       tfa: Yes
