@@ -361,6 +361,7 @@ websites:
       img: luno.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.luno.com/help/en/articles/1000203420
 
     - name: Mercado Bitcoin
