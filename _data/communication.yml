@@ -140,6 +140,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://knowledge.hubspot.com/articles/kcs_article/account/how-can-i-set-up-two-factor-authentication-for-my-hubspot-login
 
     - name: IRCCloud
