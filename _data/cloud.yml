@@ -180,7 +180,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://support.rackspace.com/how-to/multi-factor-authentication-from-the-cloud-control-panel/
+      otp: Yes
+      doc: https://docs.rackspace.com/support/how-to/set-up-two-factor-authentication-by-using-google-authenticator/
 
     - name: RightScale
       url: https://www.rightscale.com/
