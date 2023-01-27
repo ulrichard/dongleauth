@@ -318,7 +318,8 @@ websites:
       img: korbit.png
       tfa: Yes
       software: Yes
-      doc: https://support.korbit.co.kr/customer/en/portal/articles/1717692
+      otp: Yes
+      doc: https://lightning.korbit.co.kr/faq/list/?category=vYw3nYfoy3pAP61inQI5o&article=3jvy2bEbyvmkyVais5ej1E
 
     - name: Kraken
       url: https://www.kraken.com/
