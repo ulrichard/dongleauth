@@ -224,13 +224,14 @@ websites:
       hardware: Yes
       otp: Yes
       doc: https://support.tilaa.com/hc/en-us/articles/360020167352-Two-Factor-Authentication
-      
+
     - name: UpCloud
       url: https://www.upcloud.com
       img: upcloud.png
       tfa: Yes
       software: Yes
-      doc: https://www.upcloud.com/support/two-factor-authentication/
+      otp: Yes
+      doc: https://upcloud.com/resources/tutorials/two-factor-authentication
 
     - name: Userify
       url: https://userify.com
