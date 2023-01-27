@@ -187,7 +187,8 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://blog.coincafe.com/2016/01/08/2fa/
+      otp: Yes
+      doc: https://coincafeinc.wordpress.com/2016/01/08/2fa/
 
     - name: Coinapult
       url: https://coinapult.com
