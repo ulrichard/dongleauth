@@ -224,7 +224,8 @@ websites:
       img: coingate.png
       tfa: Yes
       software: Yes
-      doc: https://support.coingate.com/en/65/how-do-i-set-up-2-factor-authentication-2fa-on-my-account
+      otp: Yes
+      doc: https://support.coingate.com/hc/en-us/articles/4402503798034-How-do-I-set-up-2-factor-authentication-2FA-on-my-account-
 
     - name: Coinify (Merchants)
       url: https://coinify.com/merchants
