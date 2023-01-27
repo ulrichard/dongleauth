@@ -222,10 +222,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      exceptions:
-          text: "SMS-capable phone required."
-      doc: https://blog.tilaa.com/post/128110588046
-
+      otp: Yes
+      doc: https://support.tilaa.com/hc/en-us/articles/360020167352-Two-Factor-Authentication
+      
     - name: UpCloud
       url: https://www.upcloud.com
       img: upcloud.png
