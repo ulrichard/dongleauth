@@ -174,14 +174,6 @@ websites:
       img: openshift.png
       tfa: No
 
-    - name: Packet
-      url: https://www.packet.com/
-      img: packet.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://support.packet.com/kb/articles/portal
-
     - name: ProfitBricks
       url: https://www.profitbricks.de
       img: profitbricks.png
