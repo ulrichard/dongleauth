@@ -109,7 +109,8 @@ websites:
       img: bittrex.png
       tfa: Yes
       software: Yes
-      doc: https://bittrex.zendesk.com/hc/en-us/articles/115000198612
+      otp: Yes
+      doc: https://global.bittrex.com/discover/setting-up-your-two-factor-authentication-2fa
 
     - name: Blockchain
       url: https://blockchain.info/
