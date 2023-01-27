@@ -113,14 +113,6 @@ websites:
       otp: Yes
       doc: https://help.front.com/t/36249g/activating-two-factor-authentication-2fa
 
-    - name: Grape
-      url: https://chatgrape.com/
-      img: grape.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://chatgrape.com/doc/deployment/2fa.html
-
     - name: GroupMe
       url: https://groupme.com/
       img: groupme.png
