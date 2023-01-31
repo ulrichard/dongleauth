@@ -623,6 +623,7 @@ websites:
       img: uptimerobot.png
       tfa: Yes
       otp: Yes
+      doc: https://blog.uptimerobot.com/introducing-two-factor-authentication-2fa/
 
     - name: Visual Studio Online
       url: https://www.visualstudio.com/
