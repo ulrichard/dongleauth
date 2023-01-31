@@ -552,7 +552,10 @@ websites:
       img: statusio.png
       tfa: Yes
       hardware: Yes
-      doc: https://blog.status.io/2014/03/01/yubikey/
+      otp: Yes
+      exceptions:
+        text: "OTP only with Yubikey"
+      doc: https://kb.status.io/security/yubikey/
 
     - name: StatusCake
       url: https://statuscake.com/
