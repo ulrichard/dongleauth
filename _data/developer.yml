@@ -170,7 +170,8 @@ websites:
       img: codeship.png
       tfa: Yes
       software: Yes
-      doc: https://documentation.codeship.com/general/about/2fa/
+      otp: Yes
+      doc: https://docs.cloudbees.com/docs/cloudbees-codeship/latest/general-about/2fa
 
     - name: Compose.io
       url: https://www.compose.io/
