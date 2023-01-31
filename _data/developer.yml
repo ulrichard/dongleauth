@@ -173,14 +173,6 @@ websites:
       otp: Yes
       doc: https://docs.cloudbees.com/docs/cloudbees-codeship/latest/general-about/2fa
 
-    - name: Compose.io
-      url: https://www.compose.io/
-      img: composeio.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      doc: https://docs.compose.io/security/compose-two-factor-authentication.html
-
     - name: Crowdin
       url: https://crowdin.com/
       img: crowdin.png
