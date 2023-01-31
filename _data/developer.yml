@@ -88,6 +88,7 @@ websites:
       img: bugsnag.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.bugsnag.com/product/account-and-security/#security
 
     - name: Bugzilla@Mozilla
