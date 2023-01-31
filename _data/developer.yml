@@ -12,11 +12,9 @@ websites:
 
     - name: Airbrake
       url: https://airbrake.io
-      twitter: airbrake
-      facebook: airbrake.io
-      img: airbrake.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://airbrake.io/docs/features/two-factor-authentication/
 
     - name: Algolia
