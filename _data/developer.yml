@@ -401,6 +401,7 @@ websites:
       img: panic.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://library.panic.com/general/sync-2fa/
 
     - name: Papertrail
