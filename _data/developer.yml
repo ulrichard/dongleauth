@@ -314,7 +314,7 @@ websites:
       tfa: Yes
       software: Yes
       otp: Yes
-      doc: https:// www.koding.com/blog/2015/06/two-factor-authentication/
+      doc: https://www.koding.com/blog/2015/06/two-factor-authentication/
 
     - name: Launchpad
       url: https://launchpad.net
