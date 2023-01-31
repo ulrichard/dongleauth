@@ -160,8 +160,10 @@ websites:
       img: codeanywhere.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Only available on paid accounts at $7/10 per month (annual/monthly) or more."
+      doc: https://blog.codeanywhere.com/codeanywhere-now-offers-two-factor-authentication/
 
     - name: Codeship
       url: https://codeship.com/
