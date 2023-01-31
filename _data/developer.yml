@@ -225,7 +225,8 @@ websites:
       img: esri.png
       tfa: Yes
       software: Yes
-      doc: https://doc.arcgis.com/en/arcgis-online/reference/multifactor.htm
+      otp: Yes
+      doc: https://doc.arcgis.com/en/arcgis-online/administer/configure-security.htm#MULTIFACTOR
 
     - name: 'FogBugz & Kiln'
       url: https://www.fogbugz.com/
