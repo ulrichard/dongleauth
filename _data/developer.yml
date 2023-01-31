@@ -357,6 +357,7 @@ websites:
       sms: Yes
       software: Yes
       phone: Yes
+      otp: Yes
       doc: https://docs.cloudmanager.mongodb.com/core/two-factor-authentication/
 
     - name: New Relic
