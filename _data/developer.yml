@@ -313,7 +313,8 @@ websites:
       img: koding.png
       tfa: Yes
       software: Yes
-      doc: https://www.koding.com/blog/2015/06/two-factor-authentication/
+      otp: Yes
+      doc: https:// www.koding.com/blog/2015/06/two-factor-authentication/
 
     - name: Launchpad
       url: https://launchpad.net
