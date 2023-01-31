@@ -96,6 +96,8 @@ websites:
       img: bugzilla.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://wiki.mozilla.org/BMO/UserGuide/Two-Factor_Authentication
 
     - name: Buildkite
       url: https://buildkite.com
