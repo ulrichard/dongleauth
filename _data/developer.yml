@@ -217,6 +217,7 @@ websites:
       img: drupalorg.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.drupal.org/drupalorg/docs/user-accounts/setting-up-two-factor-authentication
 
     - name: Esri
