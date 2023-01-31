@@ -379,6 +379,7 @@ websites:
       img: npm.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.npmjs.com/getting-started/using-two-factor-authentication
 
     - name: NuGet
