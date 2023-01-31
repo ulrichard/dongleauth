@@ -494,6 +494,8 @@ websites:
       img: report-uri.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://docs.report-uri.com/help/twofa/
 
     - name: Rollbar
       url: https://rollbar.com/
