@@ -38,6 +38,7 @@ websites:
       img: appveyor.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.appveyor.com/blog/2018/11/07/2FA-implementation/
 
     - name: aTech Media
