@@ -613,6 +613,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.unity3d.com/hc/en-us/articles/208764976
 
     - name: Uptime Robot
