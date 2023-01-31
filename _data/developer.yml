@@ -152,6 +152,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.codeclimate.com/docs/enabling-two-factor-authentication
 
     - name: Codeanywhere
