@@ -500,6 +500,7 @@ websites:
       img: rollbar.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://rollbar.com/docs/two-factor-authentication/
 
     - name: RubyGems.org
@@ -507,6 +508,7 @@ websites:
       img: rubygems.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://guides.rubygems.org/setting-up-multifactor-authentication/
 
     - name: Sauce Labs
@@ -520,9 +522,10 @@ websites:
     - name: Semaphore
       url: https://semaphoreci.com
       img: semaphore.png
-      tfa: Yes
-      doc: https://semaphoreci.com/docs/two-step-verification.html
       software: Yes
+      tfa: Yes
+      otp: Yes
+      doc: https://semaphoreci.com/blog/2016/03/18/protect-your-semaphore-account-with-two-step-verification.html
 
     - name: Sentry
       url: https://sentry.io
