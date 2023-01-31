@@ -46,6 +46,7 @@ websites:
       img: atlassian.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://confluence.atlassian.com/cloud/secure-your-account-with-two-step-verification-939505063.html
       exceptions:
           text: "2FA settings are service-specific."
