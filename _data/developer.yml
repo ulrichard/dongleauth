@@ -631,6 +631,9 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://support.microsoft.com/en-us/help/12408/
 
     - name: Zapier
