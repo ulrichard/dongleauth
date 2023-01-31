@@ -415,6 +415,10 @@ websites:
       img: phacility.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "No longer being maintained"
+      doc: https://secure.phabricator.com/book/phabricator/article/multi_factor_auth/
 
     - name: Pingdom
       url: https://www.pingdom.com
