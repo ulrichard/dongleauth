@@ -297,7 +297,8 @@ websites:
       img: itglue.png
       tfa: Yes
       software: Yes
-      doc: https://kb.itglue.com/hc/en-us/articles/213293197
+      otp: Yes
+      doc: https://support.itglue.com/hc/en-us/articles/360004933757-Set-up-multi-factor-authentication-MFA-
 
     - name: JetBrains
       url: https://jetbrains.com
