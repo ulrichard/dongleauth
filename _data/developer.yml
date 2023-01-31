@@ -367,13 +367,6 @@ websites:
       img: newrelic.png
       tfa: No
 
-    - name: Nexmo
-      url: https://www.nexmo.com/
-      img: nexmo.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-
     - name: npm
       url: https://www.npmjs.com/
       img: npm.png
