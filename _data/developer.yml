@@ -462,6 +462,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      doc: https://help.pythonanywhere.com/pages/SecuringYourAccount/
 
     - name: Raygun
       url: https://raygun.com
