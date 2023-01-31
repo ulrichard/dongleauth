@@ -442,7 +442,8 @@ websites:
       img: pushover.png
       tfa: Yes
       software: Yes
-      doc: https://pushover.net/faq#security-2fa
+      otp: Yes
+      doc: https://support.pushover.net/i49-how-can-i-enable-two-factor-authentication-2fa-on-my-account
 
     - name: PyPI
       url: https://pypi.org/
