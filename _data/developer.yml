@@ -594,7 +594,8 @@ websites:
       img: twilio.png
       tfa: Yes
       sms: Yes
-      doc: https://www.twilio.com/help/faq/twilio-basics/what-happens-when-i-enable-two-factor-authentication
+      otp: Yes
+      doc: https://support.twilio.com/hc/en-us/articles/223136307-Enable-Two-Factor-Authentication-on-your-Twilio-Account
 
     - name: Unfuddle
       url: https://unfuddle.com/
