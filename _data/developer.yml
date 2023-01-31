@@ -209,7 +209,8 @@ websites:
       img: domino.png
       tfa: Yes
       software: Yes
-      doc: https://support.dominodatalab.com/hc/en-us/articles/115000998406
+      otp: Yes
+      doc: https://docs.dominodatalab.com/en/3.6/user_guide/94136e/two-factor-authentication/
 
     - name: Drupal.org
       url: https://www.drupal.org/
