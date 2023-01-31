@@ -563,6 +563,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.statuscake.com/kb/knowledge-base/how-to-change-the-statuscake-password-for-login/
 
     - name: StatusPage.io
       url: https://www.statuspage.io
