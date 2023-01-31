@@ -274,6 +274,7 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.vagrantup.com/docs/vagrant-cloud/users/authentication.html#two-factor-authentication
 
     - name: imgix
