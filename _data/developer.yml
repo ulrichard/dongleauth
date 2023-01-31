@@ -80,6 +80,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://buddy.works/blog/introducing-two-factor-authentication
 
     - name: Bugsnag
