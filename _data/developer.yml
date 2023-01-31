@@ -233,7 +233,8 @@ websites:
       img: fogbugz.png
       tfa: Yes
       software: Yes
-      doc: https://help.manuscript.com/10892
+      otp: Yes
+      doc: https://support.fogbugz.com/hc/en-us/articles/360011262434-Two-Factor-Authentication
 
     - name: GitHub
       url: https://github.com
