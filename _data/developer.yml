@@ -470,7 +470,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://raygun.com/docs/workflow/two-factor-authentication
+      otp: Yes
+      doc: https://raygun.com/documentation/privacy-security/two-factor-auth/
 
     - name: RBCommons
       url: https://rbcommons.com
