@@ -30,6 +30,7 @@ websites:
       img: appsignal.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.appsignal.com/user-account/two-factor-authentication.html
 
     - name: AppVeyor
