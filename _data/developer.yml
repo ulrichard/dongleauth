@@ -143,7 +143,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://help.onlinesmsgateway.com/en/accounts-and-payments/how-do-i-enable-two-factor-authentication
+      otp: Yes
+      doc: https://www.cm.com/glossary/what-is-two-factor-authentication/
 
     - name: Code Climate
       url: https://codeclimate.com
