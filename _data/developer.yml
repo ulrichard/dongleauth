@@ -604,6 +604,7 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      otp: Yes
       doc: https://unfuddle.com/blog/2014/07/140721-two-factor-authentication
 
     - name: Unity
