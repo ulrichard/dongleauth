@@ -162,6 +162,8 @@ websites:
       tfa: Yes
       email: Yes
       otp: Yes
+      exceptions: 
+        text: "2FA only with email."
       doc: https://support.gog.com/hc/en-us/articles/115003660533-What-is-two-step-login-and-how-does-it-work-?product=gog
 
     - name: GREE
