@@ -398,6 +398,9 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP only available on Glyph Auth/Rift Authenticator app"
       doc: https://support.trionworlds.com/hc/en-us/articles/204183357
 
     - name: Ubisoft Connect
