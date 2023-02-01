@@ -5,13 +5,14 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
-      doc: https://support.ankama.com/hc/en-us/categories/200093427-DOFUS-Security
+      doc: https://support.ankama.com/hc/en-us/articles/115005030228-How-do-I-have-a-secured-account-
 
     - name: Ashes of Creation
       url: https://ashesofcreation.com
       img: ashesofcreation.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://ashesofcreation.zendesk.com/hc/en-us/articles/360022983234
 
     - name: Aternos
