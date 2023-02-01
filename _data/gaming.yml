@@ -44,6 +44,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Software authentication requires the Blizzard Authenticator app."
       doc: https://us.battle.net/support/en/article/Blizzard-Authenticator
