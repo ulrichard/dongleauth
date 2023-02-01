@@ -277,6 +277,8 @@ websites:
       img: osu.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      doc: https://osu.ppy.sh/community/forums/topics/473411?n=1
 
     - name: Playstation Network
       url: https://www.playstation.com/
