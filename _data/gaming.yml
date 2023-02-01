@@ -333,6 +333,7 @@ websites:
       img: scryfall.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://scryfall.com/docs/privacy#scryfall-accounts
 
     - name: Square Enix
