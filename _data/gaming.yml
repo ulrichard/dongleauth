@@ -34,6 +34,7 @@ websites:
       img: bladeandsoul.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.bladeandsoul.com/hc/en-us/articles/207578553
 
     - name: Blizzard
