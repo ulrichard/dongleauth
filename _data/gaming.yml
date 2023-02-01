@@ -353,6 +353,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP only available on their authentication app"
       doc: https://www.swtor.com/info/security-key
 
     - name: Stardock Corporation
