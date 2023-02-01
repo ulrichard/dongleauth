@@ -222,7 +222,7 @@ websites:
       otp: Yes
       u2f: Yes
       multipleu2f: Yes
-      webauth: Yes
+      passwordless: Yes
       doc: https://github.com/simple-login/app/pull/203
 
     - name: StartMail
