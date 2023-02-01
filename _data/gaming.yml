@@ -223,7 +223,8 @@ websites:
       img: leagueoflegends.png
       tfa: Yes
       email: Yes
-      doc: https://support.riotgames.com/hc/en-us/articles/360010367273
+      otp: Yes
+      doc: https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4415714343187
 
     - name: lichess.org
       url: https://lichess.org
