@@ -119,6 +119,7 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.gaijin.net/hc/en-us/articles/203623622
       exceptions:
           text: "A verified phone number is required for the use of two-factor authentication through email or software."
