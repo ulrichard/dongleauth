@@ -409,7 +409,8 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://www.ubisoft.com/en-gb/help/account/article/information-about-2-step-verification/000065723
+      otp: Yes
+      doc: https://www.ubisoft.com/en-gb/help/account/article/securing-your-account-with-2-step-verification-mobile-app/000063986
 
     - name: Wargaming
       url: https://wargaming.net/
