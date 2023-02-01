@@ -144,15 +144,6 @@ websites:
       phone: Yes
       software: Yes
       doc: https://help.onlinesmsgateway.com/en/accounts-and-payments/how-do-i-enable-two-factor-authentication
-      
-    - name: Codeberg
-      url: https://codeberg.org/
-      img: codeberg.png
-      tfa: Yes
-      otp: Yes
-      u2f: Yes
-      multipleu2f: Yes
-      doc: https://docs.codeberg.org/security/2fa/#step-2%3A-navigate-to-the-security-tab-and-click-on-the-enroll-button 
 
     - name: Code Climate
       url: https://codeclimate.com
@@ -169,6 +160,15 @@ websites:
       software: Yes
       exceptions:
           text: "Only available on paid accounts at $7/10 per month (annual/monthly) or more."
+
+    - name: Codeberg
+      url: https://codeberg.org/
+      img: codeberg.png
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://docs.codeberg.org/security/2fa/#step-2%3A-navigate-to-the-security-tab-and-click-on-the-enroll-button 
 
     - name: Codeship
       url: https://codeship.com/
