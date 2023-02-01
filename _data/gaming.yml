@@ -294,7 +294,8 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://robertsspaceindustries.com/faq/two-step-authentication
+      otp: Yes
+      doc: https://support.robertsspaceindustries.com/hc/en-us/articles/115009965628-Protect-your-account-with-an-Authenticator
 
     - name: Roblox
       url: https://roblox.com
