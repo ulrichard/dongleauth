@@ -417,7 +417,8 @@ websites:
       tfa: Yes
       software: Yes
       img: wargaming.png
-      doc: https://wargaming.net/support/kb/articles/792
+      otp: Yes
+      doc: https://na.wargaming.net/support/en/products/wot/article/10568/
 
     - name: Wizard101
       url: https://www.wizard101.com
