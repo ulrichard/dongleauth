@@ -144,9 +144,10 @@ websites:
       img: garena.png
       tfa: Yes
       software: Yes
-      doc: https://account.garena.com/
+      otp: Yes
       exceptions:
-          text: "A mobile phone and Garena account level 3 or higher is required for 2FA."
+          text: "A mobile phone and Garena account level 3 or higher is required for 2FA. 2FA Only allowed on their authenticator app."
+      doc: https://account.garena.com/
 
     - name: GeForce (Nvidia)
       url: https://www.geforce.com/
