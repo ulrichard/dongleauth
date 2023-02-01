@@ -389,6 +389,7 @@ websites:
       img: toontownrewritten.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.toontownrewritten.com/help/faq/accounts--login#twostep
 
     - name: Trion Worlds
