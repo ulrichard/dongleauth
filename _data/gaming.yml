@@ -26,7 +26,8 @@ websites:
       img: bdo.png
       tfa: Yes
       software: Yes
-      doc: https://blackdesert.zendesk.com/hc/en-us/articles/360000535909
+      otp: Yes
+      doc: https://support.pearlabyss.com/Support/Start/Index/PC
 
     - name: 'Blade & Soul'
       url: https://www.bladeandsoul.com/
