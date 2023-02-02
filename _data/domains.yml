@@ -292,15 +292,6 @@ websites:
       otp: Yes
       doc: https://forums.he.net/index.php?topic=3517.0
 
-    - name: Incapsula
-      url: https://www.incapsula.com/
-      img: incapsula.png
-      tfa: Yes
-      email: Yes
-      software: Yes
-      sms: Yes
-      doc: https://docs.incapsula.com/Content/management-console-and-settings/account-settings.htm
-
     - name: Internet.bs
       url: https://www.internet.bs
       img: internetbs.png
