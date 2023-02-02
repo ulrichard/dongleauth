@@ -429,6 +429,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       exceptions:
           text: "u2f, totp, and hotp authentication with Duo."
       doc: https://buckeyepass.osu.edu/
