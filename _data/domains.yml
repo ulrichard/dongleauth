@@ -244,6 +244,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
       doc: https://www.godaddy.com/help/enable-two-step-verification-7502
 
     - name: Google Domains
