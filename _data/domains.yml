@@ -315,7 +315,8 @@ websites:
       img: iwantmyname.png
       tfa: Yes
       software: Yes
-      doc: https://help.iwantmyname.com/customer/portal/articles/1139898
+      otp: Yes
+      doc: https://help.iwantmyname.com/hc/en-gb/articles/360014435197-How-can-I-enable-two-factor-authentication-
 
     - name: Joker.com
       url: https://joker.com
