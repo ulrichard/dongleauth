@@ -579,6 +579,7 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://synergywholesale.com/faq/article/can-i-enable-two-factor-authentication-on-my-wholesale-system-account/
     
     - name: UK2
