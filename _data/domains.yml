@@ -470,6 +470,7 @@ websites:
       img: ns1.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://ns1.com/articles/enabling-2-factor-authentication
 
     - name: OpenDNS
