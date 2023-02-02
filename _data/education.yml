@@ -42,6 +42,9 @@ websites:
       phone: yes
       software: yes
       hardware: yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://www.bu.edu/tech/support/duo/
 
     - name: California Institute of Technology (CalTech)
