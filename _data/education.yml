@@ -458,6 +458,7 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://support.uidaho.edu/TDClient/KB/ArticleDet?ID=109
 
     - name: University of Michigan
