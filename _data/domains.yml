@@ -36,6 +36,7 @@ websites:
       img: 20i.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.20i.com/support/my-services/two-factor-authentication-my20i
 
     - name: Above.com
