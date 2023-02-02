@@ -192,6 +192,7 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Available for employees"
       doc: https://www.emich.edu/it/security/esp/duo.php
