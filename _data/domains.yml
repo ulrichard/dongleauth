@@ -59,7 +59,7 @@ websites:
     - name: Crazy Domains
       url: https://www.crazydomains.com
       img: crazydomains.png
-      tfa: No
+      tfa: Yes
       twitter: CrazyDomains
       facebook: crazydomains
       otp: Yes
@@ -108,8 +108,10 @@ websites:
       img: domainfactory.png
       twitter: DomainFactory
       facebook: domainfactory.GmbH
-      tfa: No
+      tfa: Yes
       lang: de
+      otp: Yes
+      doc: https://www.df.eu/blog/2-faktor-authentifizierung-das-sollten-sie-wissen/
 
     - name: Domains4Bitcoins.com
       url: https://www.domains4bitcoins.com
