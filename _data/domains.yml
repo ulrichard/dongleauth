@@ -118,7 +118,8 @@ websites:
       img: domains4bitcoins.png
       tfa: Yes
       sms: Yes
-      doc: https://my.domains4bitcoins.com/kb/answer/2692
+      otp: Yes
+      doc: https://www.domains4bitcoins.com/knowledgebase/4129/How-to-Enable-the-Two-Factor-Authentication-on-Your-cPanel-Account.html
 
     - name: DomainTools
       url: https://www.domaintools.com/
@@ -134,6 +135,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "SMS available only to customers in Norway, Sweden and Denmark."
       doc: https://domeneshop.no/faq?id=344
