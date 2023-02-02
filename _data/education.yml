@@ -417,7 +417,9 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://computerservices.temple.edu/two-step-verification
+      otp: Yes
+      u2f: Yes
+      doc: https://its.temple.edu/mfa
 
     - name: The Ohio State University
       url: https://www.osu.edu/
