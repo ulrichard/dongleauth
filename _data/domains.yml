@@ -24,13 +24,6 @@ websites:
       otp: Yes
       doc: https://help.101domain.com/account-management/account-security/setup-two-factor-authentication
 
-    - name: 10Dollar
-      url: https://10dollar.ca/
-      img: 10dollar.png
-      twitter: 10dollar_ca
-      facebook: 10dollar.ca
-      tfa: No
-
     - name: 123 Reg
       url: https://www.123-reg.co.uk
       img: 123reg.png
