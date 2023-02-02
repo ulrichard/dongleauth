@@ -441,7 +441,11 @@ websites:
       twitter: netsolcares
       facebook: Web.com
       img: networksolutions.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP may only work with SMS"
+      doc: https://customerservice.networksolutions.com/prweb/PRAuth/app/WebKM_/JfLhd8LVz0a16-h3GqsHOCqqFky5N_vd*/!autoThread0?pzuiactionzzz=CXtycX0zMDFkYjYzMDFhNDM2NzQ3NTQ4MTk0NzliZmRiNDIxM2JhYThjYTljODgxM2NjNGI0MWMxZGVkZmI4MGY3ZDhkZGZlODk3MGRjNzE4ODgzZDIyY2Q0NzgzNTJiOGNlZmZjZjc4YWRkYjM5NTQ3ZGZiMTMwZWI2OTUxYTU2NTM3YmIyNjRkODE1OWJmMTU4MWEyNjNhN2RjM2RkMGVhN2RlNTdjZjAxZDlmYmFlNGZhNjQxZDE4YWVjMzk0M2I2Yzg%3D*
 
     - name: No-IP
       url: https://www.noip.com/
