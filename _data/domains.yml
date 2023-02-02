@@ -615,6 +615,7 @@ websites:
       img: udreselling.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.ud-reselling.com/en/security/
 
     - name: united-domains.de
