@@ -123,7 +123,13 @@ websites:
       facebook: collegeofdupage
       email_address: studenthelp@dupage.edu
       img: cod.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      exceptions:
+        text: "2FA app only available with duo."
+      doc: https://www.cod.edu/student_life/resources/information_technology/office-365.aspx
 
     - name: CompTIA
       url: https://certification.comptia.org/
