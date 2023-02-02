@@ -145,6 +145,7 @@ websites:
       img: domenytv.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.domeny.tv/en/two-factor-authentication
 
     - name: Dyn
