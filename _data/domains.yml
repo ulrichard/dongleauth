@@ -436,13 +436,6 @@ websites:
       otp: Yes
       doc: https://support.netim.com/en/docs/general-public/manage-my-account/security-settings
 
-    - name: Netregistry
-      url: https://www.netregistry.com.au/
-      twitter: netregistry
-      facebook: netregistry
-      img: netregistry.png
-      tfa: No
-
     - name: Network Solutions
       url: https://www.networksolutions.com/
       twitter: netsolcares
