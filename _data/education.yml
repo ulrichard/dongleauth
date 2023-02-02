@@ -389,7 +389,9 @@ websites:
       img: ryerson.png
       hardware: Yes
       software: Yes
-      doc: https://www.ryerson.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/
+      otp: Yes
+      u2f: Yes
+      doc: https://www.torontomu.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication/
 
     - name: SchoolSoft
       url: https://www.schoolsoft.se/
