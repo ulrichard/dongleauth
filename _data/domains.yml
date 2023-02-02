@@ -215,7 +215,9 @@ websites:
       twitter: Fasthosts
       facebook: fasthostsinternet
       img: fasthosts.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.fasthosts.co.uk/app/answers/detail/a_id/3345/~/enabling-2fa-for-your-fasthosts-account-users
 
     - name: FreeDNS
       url: https://freedns.afraid.org/
