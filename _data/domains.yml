@@ -190,6 +190,7 @@ websites:
       img: enom.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.enom.com/kb/kb/kb_1687-setup-2-factor.htm
 
     - name: EuroDNS
