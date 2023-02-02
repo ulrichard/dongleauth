@@ -62,6 +62,10 @@ websites:
       tfa: No
       twitter: CrazyDomains
       facebook: crazydomains
+      otp: Yes
+      exceptions:
+        text: "OTP only available with SMS"
+      doc: https://www.crazydomains.com.au/help/two-step-verification/
 
     - name: Directnic
       url: https://directnic.com
