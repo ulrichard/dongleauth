@@ -66,6 +66,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://www.cmu.edu/computing/services/security/identity-access/authentication/how-to/use2fa-weblogin.html
 
     - name: CBT Nuggets
