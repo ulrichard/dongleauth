@@ -21,7 +21,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://www.101domain.com/vip_security_card.htm
+      otp: Yes
+      doc: https://help.101domain.com/account-management/account-security/setup-two-factor-authentication
 
     - name: 10Dollar
       url: https://10dollar.ca/
