@@ -567,8 +567,10 @@ websites:
       twitter: STRATO_AG
       facebook: strato
       img: strato.png
-      tfa: No
+      tfa: Yes
       lang: de
+      otp: Yes
+      doc: https://www.strato.de/faq/sicherheit/zwei-faktor-authentifizierung-einstellen/
 
     - name: Synergy Wholesale
       url: https://synergywholesale.com/
