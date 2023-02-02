@@ -406,6 +406,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://uit.stanford.edu/service/webauth/twostep
 
     - name: Temple University
