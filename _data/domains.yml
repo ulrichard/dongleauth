@@ -163,6 +163,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://dynadot.com/domain/security.html
 
     - name: Dynu
