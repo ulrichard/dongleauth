@@ -338,7 +338,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
-      doc: https://www.identity.psu.edu/services/authentication-services/two-factor/
+      otp: Yes
+      doc: https://accounts.psu.edu/2fa
       
     - name: Pluralsight
       url: https://www.pluralsight.com
