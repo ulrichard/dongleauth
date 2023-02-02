@@ -590,6 +590,7 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.uk2.net/knowledgebase/display/UK2/Two+Factor+Authentication+Security+-+2FA
 
     - name: Uniregistry
