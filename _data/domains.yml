@@ -207,6 +207,7 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://fabulous.com/knowledge/article/137
 
     - name: Fasthosts
