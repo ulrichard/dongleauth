@@ -508,6 +508,7 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.pairdomains.com/kb/posts/345
 
     - name: PointDNS
