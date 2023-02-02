@@ -289,6 +289,8 @@ websites:
       img: hurricane.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://forums.he.net/index.php?topic=3517.0
 
     - name: Incapsula
       url: https://www.incapsula.com/
