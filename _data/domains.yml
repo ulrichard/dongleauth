@@ -635,6 +635,7 @@ websites:
       software: Yes
       sms: Yes
       email: Yes
+      otp: Yes
       doc: https://ventraip.com.au/faq/article/two-factor-authentication-faq-vipcontrol/
 
     - name: Verio
