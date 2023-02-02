@@ -164,6 +164,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://idms-mfa.oit.duke.edu/mfa/help
 
     - name: Duolingo
