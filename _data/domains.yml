@@ -281,6 +281,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.hover.com/hc/en-us/articles/217282267
 
     - name: Hurricane Electric
