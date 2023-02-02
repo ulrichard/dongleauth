@@ -12,6 +12,7 @@ websites:
       img: 1and1.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.ionos.com/help/index.php?id=3269
 
     - name: 101domain
