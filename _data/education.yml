@@ -363,6 +363,8 @@ websites:
       img: pushcoin.png
       tfa: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       exceptions:
           text: "U2F support only for school admin accounts. 2FA for parent accounts is in progress."
       doc: http://knowhow.pushcoin.com/using-security-key-for-2-step-verification/
