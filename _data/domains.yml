@@ -421,7 +421,11 @@ websites:
       twitter: Netfirms
       facebook: netfirmsfans
       img: netfirms.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions: 
+        text: "MFA setup through Microsoft Account"
+      doc: https://www.netfirms.com/help/article/microsoft-365-multi-factor-authentication
 
     - name: Netim
       url: https://www.netim.com/
