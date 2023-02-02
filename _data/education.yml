@@ -227,6 +227,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://twofactor.oit.gatech.edu
 
     - name: Global Information Assurance Certification (GIAC)
