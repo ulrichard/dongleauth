@@ -355,7 +355,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://www.purdue.edu/securepurdue/iamoServices/BoilerKey.php
+      otp: Yes
+      doc: https://www.purdue.edu/securepurdue/identity-access/boilerkey/index.php
 
     - name: PushCoin
       url: https://pushcoin.com
