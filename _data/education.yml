@@ -151,6 +151,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP via BankID for Swedish Citizens only."
       doc: https://tjanster.csn.se/bas/vanligaFragor.do
 
     - name: Duke University
