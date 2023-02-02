@@ -171,6 +171,7 @@ websites:
       img: dynu.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.dynu.com/en-US/Blog/Article?Article=It-is-time-to-enable-two-factor-authentication
 
     - name: easyDNS
