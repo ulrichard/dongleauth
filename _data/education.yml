@@ -53,6 +53,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       exceptions:
           text: "SMS-capable phone required for initial setup."
       doc: https://imss.caltech.edu/node/1408
