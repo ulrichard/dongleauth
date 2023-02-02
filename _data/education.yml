@@ -300,6 +300,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://kb.mit.edu/confluence/display/istcontrib/Duo+Authentication+Landing+Page
 
     - name: Miami University
