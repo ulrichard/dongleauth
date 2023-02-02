@@ -533,13 +533,16 @@ websites:
       twitter: rebeldotcom
       facebook: rebelhostinganddomains
       img: rebel.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.rebel.com/hc/en-us/articles/360039417613-Two-Factor-Authentication
       
     - name: Rebrandly
       url: https://rebrandly.com
       img: rebrandly.png
       tfa: Yes 
       software: Yes
+      otp: Yes
       doc: https://support.rebrandly.com/hc/en-us/articles/360007220373
 
     - name: Register4Less
