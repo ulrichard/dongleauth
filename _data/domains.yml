@@ -332,6 +332,7 @@ websites:
       img: loopia.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://blogg.loopia.se/2015/03/16/nu-kan-du-logga-in-med-tvafaktorsautentiering-hos-loopia-genom-bankid/
       exceptions:
           text: "TFA only available for Swedish residents with BankID."
