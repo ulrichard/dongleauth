@@ -350,6 +350,7 @@ websites:
       img: metaname.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://metaname.net/public/two_factor_authentication
 
     - name: Moniker
