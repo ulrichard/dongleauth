@@ -361,6 +361,7 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
+      otp: Yes
       doc: https://faq.moniker.com/login-into-moniker
 
     - name: MyDomain
