@@ -75,7 +75,9 @@ websites:
       img: cbtnuggets.png
       twitter: CBTNuggets
       facebook: cbtnuggets
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.cbtnuggets.com/it-training/skills/authentication-acess
 
     - name: Certified Wireless Network Professional (CWNP)
       url: https://www.cwnp.com
