@@ -480,7 +480,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
-      doc: https://oit.nd.edu/services/accounts/okta-account-services-and-two-step-login/
+      otp: Yes
+      u2f: Yes
+      doc: https://nd.service-now.com/nd_portal?id=product_page&sys_id=238c1fe8dbc4f380f66472e9af96191a&table=cmdb_ci_business_app
 
     - name: University of Washington
       url: https://www.washington.edu/
