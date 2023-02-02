@@ -183,7 +183,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://itcs.ecu.edu/services/accounts-passwords/multi-factor-authentication/
+      otp: Yes
+      doc: https://ecu.teamdynamix.com/TDClient/1409/Portal/KB/ArticleDet?ID=67660
 
     - name: Eastern Michigan University
       url: https://www.emich.edu
