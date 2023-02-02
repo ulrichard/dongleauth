@@ -255,6 +255,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://huit.harvard.edu/twostep
 
     - name: Illinois Institute Of Technology
