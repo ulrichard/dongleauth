@@ -88,13 +88,6 @@ websites:
       img: lastfm.png
       tfa: No
 
-    - name: Mixer
-      url: https://mixer.com/
-      img: mixer.png
-      tfa: Yes
-      software: Yes
-      doc: https://watchbeam.zendesk.com/hc/en-us/articles/115000997646
-
     - name: Netflix
       url: https://www.netflix.com/us/
       twitter: Netflixhelps
