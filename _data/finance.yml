@@ -96,6 +96,8 @@ websites:
       img: degiro.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.degiro.nl/helpdesk/account-en-persoonlijke-gegevens/toegang-tot-uw-degiro-account/hoe-kan-ik-twee-stapsverificatie
 
     - name: ditech
       url: https://www.ditech.com
