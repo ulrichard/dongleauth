@@ -49,7 +49,11 @@ websites:
       url: https://healthcare.gov
       twitter: HealthCareGov
       img: healthcaregov.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA only available via SMS"
+      doc: https://www.healthcare.gov/tips-and-troubleshooting/logging-in/
 
     - name: HMRC
       url: https://hmrc.gov.uk
