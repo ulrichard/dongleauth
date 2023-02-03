@@ -74,9 +74,9 @@ websites:
     - name: Kerio Connect
       url: https://www.kerio.com/products/kerio-connect
       img: kerio.png
-      twitter: keriotech
-      facebook: keriotech
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.gfi.com/application/files/2616/5769/7239/Kerio_Connect_-_2FA_guide.pdf
 
     - name: Legalmail
       url: https://www.legalmail.it/
