@@ -158,10 +158,10 @@ websites:
 
     - name: Hargreaves Lansdown
       url: https://www.hl.co.uk/
-      twitter: HLInvest
-      facebook: hargreaveslansdowninvest
       img: hargreaveslansdown.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.hl.co.uk/security-centre/the-security-of-your-hargreaves-lansdown-account
 
     - name: HelloWallet
       url: https://www.hellowallet.com
