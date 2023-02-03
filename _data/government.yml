@@ -127,9 +127,10 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "IRS2Go app required for software 2FA."
-      doc: https://www.irs.gov/individuals/secure-access-how-to-register-for-certain-online-self-help-tools
+      doc: https://www.irs.gov/privacy-disclosure/multi-factor-authentication-implementation
 
     - name: US Social Security Administration
       url: https://www.ssa.gov
