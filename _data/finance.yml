@@ -77,10 +77,10 @@ websites:
 
     - name: ClearScore
       url: https://www.clearscore.com
-      twitter: ClearScore
-      facebook: clearscore
       img: clearscore.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.clearscore.com/hc/en-us/articles/360011249579-How-do-I-enable-disable-Two-Factor-Authentication-2FA-
 
     - name: Credit Karma
       url: https://www.creditkarma.com
