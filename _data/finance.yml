@@ -372,7 +372,7 @@ websites:
         text: "2FA implementation only available through email."
       doc: https://www.treasurydirect.gov/indiv/help/treasurydirect-help/user-guide/271-280/#274
 
-   - name: Vitality
+    - name: Vitality
       url: https://www.vitality.co.uk
       twitter: Vitality_UK
       facebook: VitalityUK
