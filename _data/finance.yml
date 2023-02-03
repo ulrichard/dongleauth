@@ -367,6 +367,10 @@ websites:
       img: treasurydirect.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA implementation only available through email."
+      doc: https://www.treasurydirect.gov/indiv/help/treasurydirect-help/user-guide/271-280/#274
 
     - name: Valic
       url: https://www.valic.com/
