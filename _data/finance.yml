@@ -241,6 +241,7 @@ websites:
       img: moneybird.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.moneybird.nl/blog/twee-staps-verificatie/
 
     - name: Nexonia
