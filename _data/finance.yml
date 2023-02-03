@@ -9,7 +9,9 @@ websites:
       twitter: ADP
       facebook: AutomaticDataProcessing
       img: adp.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.adp.com/netsecure/pages/pub/whats_new9_0/phase2/en_us/whats_new_2.htm
 
     - name: AltoIRA
       url: https://www.altoira.com
