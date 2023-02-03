@@ -347,6 +347,7 @@ websites:
       tfa: Yes
       email: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.taxact.com/support/24138/2016/how-is-a-verification-code-used
 
     - name: TransferWise
