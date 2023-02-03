@@ -128,9 +128,9 @@ websites:
     - name: FreshBooks
       url: https://www.freshbooks.com
       img: freshbooks.png
-      twitter: freshbooks
-      facebook: FreshBooks
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.freshbooks.com/hc/en-us/articles/115015843527-How-Do-I-Log-In-
 
     - name: Funding Circle
       url: https://www.fundingcircle.com/
