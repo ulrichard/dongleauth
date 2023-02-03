@@ -91,6 +91,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: myGov Access app required for Software 2FA.
       doc: https://my.gov.au/mygov/content/html/help.html#securityCode
