@@ -148,10 +148,10 @@ websites:
 
     - name: SoundCloud
       url: https://soundcloud.com/
-      twitter: SCsupport
-      facebook: SoundCloud
       img: soundcloud.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.soundcloud.com/hc/en-us/articles/360051799993-My-SoundCloud-for-Artists-account
 
     - name: Spotify
       url: https://www.spotify.com/
