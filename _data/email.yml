@@ -88,10 +88,10 @@ websites:
 
     - name: Mail.com
       url: https://www.mail.com/
-      twitter: maildotcom
-      facebook: mail.com
       img: maildotcom.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.mail.com/security/2fa/index.html
 
     - name: mail.de
       url: https://mail.de/
