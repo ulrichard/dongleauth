@@ -99,14 +99,7 @@ websites:
       otp: Yes
       doc: https://www.degiro.nl/helpdesk/account-en-persoonlijke-gegevens/toegang-tot-uw-degiro-account/hoe-kan-ik-twee-stapsverificatie
 
-    - name: ditech
-      url: https://www.ditech.com
-      twitter: ditech
-      facebook: ditech
-      img: ditech.png
-      tfa: No
-
-    - name: Exact Online
+   - name: Exact Online
       url: https://exact.com/
       img: exact.png
       tfa: Yes
