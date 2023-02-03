@@ -276,7 +276,11 @@ websites:
       twitter: virginmedia
       facebook: virgin
       img: virginmedia.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://www.virginmedia.com/help/security/how-to-create-a-strong-password
 
     - name: Web.de
       url: https://web.de
