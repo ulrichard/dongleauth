@@ -150,7 +150,7 @@ websites:
 
     - name: MXroute
       url: https://mxroute.com/
-      img: mxroute.png
+      img: mxroute.pngs
       twitter: MXroute
       tfa: No
       software: Yes
@@ -210,6 +210,7 @@ websites:
       img: runbox.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.runbox.com/account-security/
 
     - name: Seznam.cz
