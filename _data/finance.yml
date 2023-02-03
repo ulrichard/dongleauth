@@ -287,13 +287,6 @@ websites:
       otp: Yes
       doc: https://learn.pocketsmith.com/article/167--
 
-    - name: Popmoney
-      url: https://www.popmoney.com
-      twitter: popmoney
-      facebook: popmoney
-      img: popmoney.png
-      tfa: No
-
     - name: President's Choice Financial
       url: https://www.pcfinancial.ca
       twitter: PCFinancial
