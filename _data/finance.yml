@@ -316,6 +316,7 @@ websites:
       img: quickfile.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://community.quickfile.co.uk/t/2-factor-authentication/8892
 
     - name: Quizzle
