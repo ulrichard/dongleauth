@@ -4,7 +4,8 @@ websites:
       img: aol.png
       tfa: Yes
       sms: Yes
-      phone: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://help.aol.com/articles/2-step-verification-stronger-than-your-password-alone
 
     - name: FastMail
