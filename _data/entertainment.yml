@@ -100,6 +100,7 @@ websites:
       img: niconico.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://qa.nicovideo.jp/faq/show/4500
       
     - name: Pandora
