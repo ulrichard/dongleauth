@@ -297,6 +297,7 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://id.yahoo.co.jp/security/otp.html
 
     - name: Yahoo Mail
