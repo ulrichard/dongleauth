@@ -43,6 +43,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       img: bgl.png
       doc: https://sf360.zendesk.com/hc/en-au/articles/360020963051
       exceptions:
