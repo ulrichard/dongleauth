@@ -220,6 +220,7 @@ websites:
       img: seznamcz.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "Software implementation requires use of the Seznam app."
       doc: https://blog.seznam.cz/2018/04/seznam-cz-ma-nove-dvoufazove-overeni-u-vsech-svych-sluzeb-zvysi-zabezpeci-prihlasovani-napriklad-do-emailu/
