@@ -12,7 +12,9 @@ websites:
       twitter: cdbaby
       facebook: cdbaby
       img: cdbaby.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.cdbaby.com/hc/en-us/articles/360042818891-Keeping-your-account-safe
 
     - name: Crunchyroll
       url: https://www.crunchyroll.com/
