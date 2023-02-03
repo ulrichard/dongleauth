@@ -144,7 +144,9 @@ websites:
       img: geico.png
       twitter: GEICO_Service
       facebook: geico
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.geico.com/web-and-mobile/2SV/
 
     - name: Gusto
       url: https://www.gusto.com
