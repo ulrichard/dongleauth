@@ -146,13 +146,6 @@ websites:
       img: sling.png
       tfa: No
 
-    - name: smashcast
-      url: https://www.smashcast.tv/
-      img: smashcast.png
-      tfa: Yes
-      software: Yes
-      doc: https://help.smashcast.tv/customer/en/portal/articles/2779887
-
     - name: SoundCloud
       url: https://soundcloud.com/
       twitter: SCsupport
