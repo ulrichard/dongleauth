@@ -65,6 +65,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.carta.com/s/article/2-factor-authentication
 
     - name: Chargebee
