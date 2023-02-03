@@ -135,9 +135,9 @@ websites:
     - name: Roku
       url: https://www.roku.com
       img: roku.png
-      tfa: No
-      twitter: RokuSupport
-      facebook: roku
+      tfa: Yes
+      otp: Yes
+      doc: https://support.roku.com/article/7875215753111
 
     - name: Sling TV
       url: https://www.sling.com/
