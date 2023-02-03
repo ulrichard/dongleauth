@@ -198,7 +198,9 @@ websites:
       twitter: Kiva
       facebook: kiva
       img: kiva.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://docs.kivalogic.com/article/174-two-factor-authentication
 
     - name: Kualto
       url: https://www.kualto.com
