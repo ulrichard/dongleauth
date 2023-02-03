@@ -230,15 +230,6 @@ websites:
       otp: Yes
       doc: https://help.metorik.com/article/22-how-can-i-enable-2fa-on-my-account
 
-    - name: Mint
-      url: https://www.mint.com
-      img: mint.png
-      tfa: Yes
-      sms: Yes
-      email: Yes
-      software: Yes
-      doc: https://help.mint.com/Security/908045661
-
     - name: money by Envestnet | Yodlee
       url: https://money.yodlee.com/
       twitter: Yodlee
