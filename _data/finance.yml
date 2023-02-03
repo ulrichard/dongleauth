@@ -29,10 +29,14 @@ websites:
       lang: fr
 
     - name: Baden-Württembergische Bank
-      url: https://www.bw-bank.de/de/
-      tfa: No
+      url: https://www.bw-bank.de/de/home.html
+      tfa: Yes
       img: bw_bank.png
       lang: de
+      otp: Yes
+      exceptions:
+        text: "OTP implementation requires BW BAnk app"
+      doc: https://www.bw-bank.de/de/home/privatkunden/kreditkarte/bw-secure.html
 
     - name: BGL Corporate Solutions
       url: https://www.bglcorp.com/
