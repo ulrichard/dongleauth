@@ -110,6 +110,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.mail.ru/mail-help/2auth
 
     - name: mailbox.org
