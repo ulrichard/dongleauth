@@ -150,7 +150,7 @@ websites:
 
     - name: MXroute
       url: https://mxroute.com/
-      img: mxroute.pngs
+      img: mxroute.png
       twitter: MXroute
       tfa: No
       software: Yes
