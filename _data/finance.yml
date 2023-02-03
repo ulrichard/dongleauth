@@ -56,6 +56,8 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      doc: https://github.com/2factorauth/twofactorauth/pull/2181#issuecomment-266315173
 
     - name: Carta
       url: https://carta.com/
