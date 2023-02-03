@@ -338,6 +338,7 @@ websites:
       img: simpletax.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.simpletax.ca/questions/two-factor-authentication
 
     - name: Taxact
