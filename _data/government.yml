@@ -151,5 +151,7 @@ websites:
       software: Yes
       hardware: Yes
       phone: Yes
+      otp: Yes
       exceptions:
           text: "2FA is only available when using the Identity Management service ID.me"
+      doc: https://login.gov/help/get-started/authentication-options/
