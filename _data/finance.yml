@@ -275,6 +275,7 @@ websites:
       email: Yes
       phone: Yes
       software: Yes
+      otp: Yes
       doc: https://www.paycor.com/security/how-to-keep-your-account-safe
 
     - name: Paytrust
