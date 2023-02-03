@@ -308,7 +308,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://accounts-help.lc.intuit.com/questions/1590157
+      otp: Yes
+      doc: https://quickbooks.intuit.com/learn-support/en-us/help-article/security-risk/verify-account-multi-factor-authentication/L2Xp0GNiT_US_en_US
 
     - name: QuickFile
       url: https://www.quickfile.co.uk
