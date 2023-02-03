@@ -163,13 +163,6 @@ websites:
       otp: Yes
       doc: https://www.hl.co.uk/security-centre/the-security-of-your-hargreaves-lansdown-account
 
-    - name: HelloWallet
-      url: https://www.hellowallet.com
-      twitter: keybank
-      facebook: keybank
-      img: hellowallet.png
-      tfa: No
-
     - name: InEx Finance
       url: https://www.inexfinance.com/
       facebook: inex.finance
