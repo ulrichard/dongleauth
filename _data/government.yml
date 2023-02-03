@@ -138,6 +138,9 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP only available via SMS or Email "
       doc: https://www.ssa.gov/myaccount/MoreInformationAboutMFA.html
 
     - name: US Veteran Affairs
