@@ -152,7 +152,7 @@ websites:
       url: https://mxroute.com/
       img: mxroute.png
       twitter: MXroute
-      tfa: Yes
+      tfa: No
       software: Yes
 
     - name: Outlook.com
