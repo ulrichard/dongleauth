@@ -289,10 +289,10 @@ websites:
 
     - name: President's Choice Financial
       url: https://www.pcfinancial.ca
-      twitter: PCFinancial
-      facebook: PCFinancial
       img: presidentschoice.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.pcfinancial.ca/en/security/
 
     - name: Progressive
       url: https://www.progressive.com
