@@ -62,7 +62,9 @@ websites:
       twitter: hulu_support
       facebook: hulu
       img: hulu.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.hulu.com/s/article/two-step-verify
 
     - name: IBM Watson Media (Ustream)
       url: https://video.ibm.com
