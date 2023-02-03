@@ -39,11 +39,11 @@ websites:
         text: "Software 2FA requires DigiD app and SMS or phone call. One account per device."
 
     - name: Federal Student Aid
-      url: https://studentaid.ed.gov
+      url: https://studentaid.gov/
       img: federalstudentaid.png
-      tfa: No
-      twitter: FAFSA
-      facebook: FederalStudentAid
+      tfa: Yes
+      otp: Yes
+      doc: https://studentaid.gov/help-center/answers/article/set-up-two-step-verification-for-fsa-id
 
     - name: Healthcare.gov
       url: https://healthcare.gov
