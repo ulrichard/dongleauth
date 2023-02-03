@@ -153,6 +153,7 @@ websites:
       img: gusto.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.gusto.com/1066223171
 
     - name: Hargreaves Lansdown
