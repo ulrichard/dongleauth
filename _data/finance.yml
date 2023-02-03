@@ -190,6 +190,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.justworks.com/hc/en-us/articles/360004477492
 
     - name: Kiva
