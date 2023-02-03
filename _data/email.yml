@@ -145,7 +145,8 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
-      doc: https://community.mimecast.com/docs/DOC-1915
+      otp: Yes
+      doc: https://community.mimecast.com/s/article/Configuring-a-2-Step-Authentication-Profile-1310359428
 
     - name: MXroute
       url: https://mxroute.com/
