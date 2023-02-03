@@ -357,6 +357,7 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      otp: Yes
       doc: https://transferwise.com/help/12/managing-your-profile/2932125
       exceptions:
         text: "Software verification requires use of the TransferWise Mobile app. SMS-capable phone is required."
