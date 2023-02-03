@@ -325,6 +325,7 @@ websites:
       img: zimbra.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "Available in Zimbra Collaboration 8.7 and above, Network Edition only"
       doc: https://blog.zimbra.com/2016/02/zimbra-collaboration-8-7-two-factor-authentication-2fa-technical-preview/
