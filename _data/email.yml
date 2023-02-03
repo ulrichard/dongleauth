@@ -81,10 +81,10 @@ websites:
     - name: Legalmail
       url: https://www.legalmail.it/
       img: legalmail.png
-      tfa: No
-      twitter: InfoCert_it
-      facebook: InfoCertSpa
+      tfa: Yes
+      otp: Yes
       lang: it
+      doc: https://help.infocert.it/Home/Guida/guida-all-autenticazione-forte-sulla-pec-legalmail-con-l-app-myinfocert
 
     - name: Mail.com
       url: https://www.mail.com/
