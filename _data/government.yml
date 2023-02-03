@@ -33,6 +33,7 @@ websites:
       sms: Yes
       software: Yes
       phone: Yes
+      otp: Yes
       doc: https://www.digid.nl/nl/vraag-en-antwoord/hoe-kan-ik-de-sms-controle-toevoegen/
       exceptions:
         text: "Software 2FA requires DigiD app and SMS or phone call. One account per device."
