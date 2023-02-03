@@ -88,7 +88,8 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-      doc: https://help.creditkarma.com/hc/en-us/articles/360001472366
+      otp: Yes
+      doc: https://support.creditkarma.com/s/article/Can-I-use-Two-Factor-Authentication-on-Credit-Karma#turnonoroff
 
     - name: DEGIRO
       url: https://www.degiro.nl
