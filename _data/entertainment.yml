@@ -158,7 +158,11 @@ websites:
       twitter: SpotifyCares
       facebook: spotify
       img: spotify.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA only available for Artist"
+      doc: https://artists.spotify.com/en/help/article/2-step-verification
 
     - name: TIDAL
       url: https://tidal.com/
