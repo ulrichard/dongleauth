@@ -47,7 +47,9 @@ websites:
       url: https://www.gmx.com/
       twitter: gmxmail
       img: gmx.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.gmx.com/security/2fa/setup-twofactor.html
 
     - name: GMX.net
       url: https://www.gmx.net/
