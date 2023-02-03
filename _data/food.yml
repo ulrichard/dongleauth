@@ -59,10 +59,9 @@ websites:
     - name: Wolt
       url: https://wolt.com/
       img: wolt.png
-      tfa: No
-      twitter: woltapp
-      facebook: woltapp
-      email_address: support@wolt.com
+      tfa: Yes
+      otp: Yes
+      doc: https://explore.wolt.com/en/deu/security
 
     - name: Zomato
       url: https://www.zomato.com
