@@ -232,7 +232,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://support.startmail.com/index.php?/Knowledgebase/Article/View/704
+      doc: https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA-
 
     - name: T-Online
       url: https://www.t-online.de/
