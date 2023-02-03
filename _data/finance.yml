@@ -99,7 +99,7 @@ websites:
       otp: Yes
       doc: https://www.degiro.nl/helpdesk/account-en-persoonlijke-gegevens/toegang-tot-uw-degiro-account/hoe-kan-ik-twee-stapsverificatie
 
-   - name: Exact Online
+    - name: Exact Online
       url: https://exact.com/
       img: exact.png
       tfa: Yes
@@ -112,6 +112,7 @@ websites:
       img: freeagent.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.freeagent.com/support/kb/getting-started/two-step-verification
 
     - name: FreeTaxUSA
