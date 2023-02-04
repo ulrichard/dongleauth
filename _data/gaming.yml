@@ -5,13 +5,14 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
-      doc: https://support.ankama.com/hc/en-us/categories/200093427-DOFUS-Security
+      doc: https://support.ankama.com/hc/en-us/articles/115005030228-How-do-I-have-a-secured-account-
 
     - name: Ashes of Creation
       url: https://ashesofcreation.com
       img: ashesofcreation.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://ashesofcreation.zendesk.com/hc/en-us/articles/360022983234
 
     - name: Aternos
@@ -25,13 +26,15 @@ websites:
       img: bdo.png
       tfa: Yes
       software: Yes
-      doc: https://blackdesert.zendesk.com/hc/en-us/articles/360000535909
+      otp: Yes
+      doc: https://support.pearlabyss.com/Support/Start/Index/PC
 
     - name: 'Blade & Soul'
       url: https://www.bladeandsoul.com/
       img: bladeandsoul.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.bladeandsoul.com/hc/en-us/articles/207578553
 
     - name: Blizzard
@@ -41,6 +44,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Software authentication requires the Blizzard Authenticator app."
       doc: https://us.battle.net/support/en/article/Blizzard-Authenticator
@@ -75,6 +79,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "2FA is only available on paid plans. Software authentication requires the Authy app."
       doc: https://support.enjin.com/hc/en-us/articles/201090770
@@ -104,6 +109,7 @@ websites:
       img: faceit.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.faceit.com/hc/en-us/articles/115000254670
 
     - name: Gaijin Entertainment
@@ -113,6 +119,7 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.gaijin.net/hc/en-us/articles/203623622
       exceptions:
           text: "A verified phone number is required for the use of two-factor authentication through email or software."
@@ -137,9 +144,10 @@ websites:
       img: garena.png
       tfa: Yes
       software: Yes
-      doc: https://account.garena.com/
+      otp: Yes
       exceptions:
-          text: "A mobile phone and Garena account level 3 or higher is required for 2FA."
+          text: "A mobile phone and Garena account level 3 or higher is required for 2FA. 2FA Only allowed on their authenticator app."
+      doc: https://account.garena.com/
 
     - name: GeForce (Nvidia)
       url: https://www.geforce.com/
@@ -153,7 +161,10 @@ websites:
       img: gog.png
       tfa: Yes
       email: Yes
-      doc: https://www.gog.com/support/support_view/twostep_login_faq
+      otp: Yes
+      exceptions: 
+        text: "2FA only with email."
+      doc: https://support.gog.com/hc/en-us/articles/115003660533-What-is-two-step-login-and-how-does-it-work-?product=gog
 
     - name: GREE
       url: https://product.gree.net/
@@ -212,19 +223,27 @@ websites:
       img: leagueoflegends.png
       tfa: Yes
       email: Yes
-      doc: https://support.riotgames.com/hc/en-us/articles/360010367273
+      otp: Yes
+      doc: https://support-leagueoflegends.riotgames.com/hc/en-us/articles/4415714343187
 
     - name: lichess.org
       url: https://lichess.org
       img: lichess.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://lichess.org/blog/X663WxUAACIAcvoR/account-safety-on-lichess-and-beyond
 
     - name: Mojang
       url: https://mojang.com/
       twitter: MojangSupport
       img: mojang.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
+      doc: https://support.microsoft.com/en-us/account-billing/how-to-use-two-step-verification-with-your-microsoft-account-c7910146-672f-01e9-50a0-93b4585e7eb4
       
     - name: Nexus Mods
       url: https://www.nexusmods.com/
@@ -239,28 +258,34 @@ websites:
       img: nintendo-account.png
       tfa: Yes
       software: Yes
-      doc: https://en-americas-support.nintendo.com/app/answers/detail/a_id/27496
+      otp: Yes
       exceptions:
           text: "2FA not available for child accounts (users 12 years of age or younger) or supervised accounts (users 13 years of age or older attached to a parent account)."
+      doc: https://en-americas-support.nintendo.com/app/answers/detail/a_id/27496
 
     - name: Nintendo Network
       url: https://id.nintendo.net/
       twitter: NintendoAmerica
       facebook: Nintendo
       img: nintendo-network.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Set-Up-2-Step-Authentication-named-two-step-verification-in-the-Nintendo-Account-settings-for-a-Nintendo-Account-1466677.html
 
     - name: osu!
       url: https://osu.ppy.sh
       img: osu.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      doc: https://osu.ppy.sh/community/forums/topics/473411?n=1
 
     - name: Playstation Network
       url: https://www.playstation.com/
       img: psn.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.playstation.com/en-us/account-security/2-step-verification/
 
     - name: Roberts Space Industries
@@ -269,7 +294,8 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://robertsspaceindustries.com/faq/two-step-authentication
+      otp: Yes
+      doc: https://support.robertsspaceindustries.com/hc/en-us/articles/115009965628-Protect-your-account-with-an-Authenticator
 
     - name: Roblox
       url: https://roblox.com
@@ -299,6 +325,7 @@ websites:
       img: runescape.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.runescape.com/hc/en-gb/articles/206811835
 
     - name: Scryfall
@@ -306,6 +333,7 @@ websites:
       img: scryfall.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://scryfall.com/docs/privacy#scryfall-accounts
 
     - name: Square Enix
@@ -314,6 +342,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: http://www.square-enix.com/na/account/otp/
       exceptions:
           text: "Software implementation requires you to have purchased either Final Fantasy XI or Final Fantasy XIV and registered the game."
@@ -324,6 +353,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP only available on their authentication app"
       doc: https://www.swtor.com/info/security-key
 
     - name: Stardock Corporation
@@ -339,6 +371,7 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://support.steampowered.com/kb_article.php?ref=8625-WRAH-9030
       exceptions:
         text: "Software implementation requires use of the Steam Mobile app. Authentication on non-phone devices is not officially supported. SMS support is limited to receiving account recovery codes for password resets."
@@ -348,13 +381,15 @@ websites:
       img: tibia.png
       tfa: Yes
       software: Yes
-      doc: https://www.tibia.com/support/?subtopic=gethelp&topicid=21
+      otp: Yes
+      doc: https://www.tibia.com/support/?subtopic=gethelp&entryid=51
 
     - name: Toontown Rewritten
       url: https://www.toontownrewritten.com/
       img: toontownrewritten.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.toontownrewritten.com/help/faq/accounts--login#twostep
 
     - name: Trion Worlds
@@ -363,6 +398,9 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP only available on Glyph Auth/Rift Authenticator app"
       doc: https://support.trionworlds.com/hc/en-us/articles/204183357
 
     - name: Ubisoft Connect
@@ -371,14 +409,16 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
-      doc: https://www.ubisoft.com/en-gb/help/account/article/information-about-2-step-verification/000065723
+      otp: Yes
+      doc: https://www.ubisoft.com/en-gb/help/account/article/securing-your-account-with-2-step-verification-mobile-app/000063986
 
     - name: Wargaming
       url: https://wargaming.net/
       tfa: Yes
       software: Yes
       img: wargaming.png
-      doc: https://wargaming.net/support/kb/articles/792
+      otp: Yes
+      doc: https://na.wargaming.net/support/en/products/wot/article/10568/
 
     - name: Wizard101
       url: https://www.wizard101.com
@@ -395,6 +435,10 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
       doc: https://support.microsoft.com/en-us/help/12408/
 
     - name: YoYo Games
