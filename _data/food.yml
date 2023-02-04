@@ -47,7 +47,7 @@ websites:
       img: starbucks.png
       tfa: Yes
       otp: Yes
-      doc: https://customerservice.starbucks.com/app/answers/detail/a_id/6180/related/1/session/L2F2LzEvdGltZS8xNjc1NDI5ODMxL2dlbi8xNjc1NDI5ODMxL3NpZC9mVVFVWkVZY2kxdWFMUWZWN2JHMWtsRUUwUWljNzRVeWJlMWJyYWszZ3duUG1xMmxIemxPNm1fTkZXRCU3RWtnWkowRDN1eHQ2cmJHNkkwcDJKNlpXdUQxaUNCUE5PdHA4UExORERXX2hjWkl1VFNoZ2dVNmxqNWFxUSUyMSUyMQ==
+      doc: https://customerservice.starbucks.com/app/answers/detail/a_id/6180
 
     - name: Taco Bell
       url: https://www.tacobell.com
