@@ -4,6 +4,7 @@ websites:
       img: 007names.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.007names.com/info/two-step.xhtml
 
     - name: 1&amp;1 IONOS
@@ -11,6 +12,7 @@ websites:
       img: 1and1.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.ionos.com/help/index.php?id=3269
 
     - name: 101domain
@@ -19,14 +21,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://www.101domain.com/vip_security_card.htm
-
-    - name: 10Dollar
-      url: https://10dollar.ca/
-      img: 10dollar.png
-      twitter: 10dollar_ca
-      facebook: 10dollar.ca
-      tfa: No
+      otp: Yes
+      doc: https://help.101domain.com/account-management/account-security/setup-two-factor-authentication
 
     - name: 123 Reg
       url: https://www.123-reg.co.uk
@@ -40,6 +36,7 @@ websites:
       img: 20i.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.20i.com/support/my-services/two-factor-authentication-my20i
 
     - name: Above.com
@@ -47,6 +44,7 @@ websites:
       img: above.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.above.com/manual/my-account-manual-two-step-auth.html
 
     - name: ClouDNS
@@ -61,9 +59,13 @@ websites:
     - name: Crazy Domains
       url: https://www.crazydomains.com
       img: crazydomains.png
-      tfa: No
+      tfa: Yes
       twitter: CrazyDomains
       facebook: crazydomains
+      otp: Yes
+      exceptions:
+        text: "OTP only available with SMS"
+      doc: https://www.crazydomains.com.au/help/two-step-verification/
 
     - name: Directnic
       url: https://directnic.com
@@ -106,15 +108,18 @@ websites:
       img: domainfactory.png
       twitter: DomainFactory
       facebook: domainfactory.GmbH
-      tfa: No
+      tfa: Yes
       lang: de
+      otp: Yes
+      doc: https://www.df.eu/blog/2-faktor-authentifizierung-das-sollten-sie-wissen/
 
     - name: Domains4Bitcoins.com
       url: https://www.domains4bitcoins.com
       img: domains4bitcoins.png
       tfa: Yes
       sms: Yes
-      doc: https://my.domains4bitcoins.com/kb/answer/2692
+      otp: Yes
+      doc: https://www.domains4bitcoins.com/knowledgebase/4129/How-to-Enable-the-Two-Factor-Authentication-on-Your-cPanel-Account.html
 
     - name: DomainTools
       url: https://www.domaintools.com/
@@ -130,6 +135,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "SMS available only to customers in Norway, Sweden and Denmark."
       doc: https://domeneshop.no/faq?id=344
@@ -139,6 +145,7 @@ websites:
       img: domenytv.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.domeny.tv/en/two-factor-authentication
 
     - name: Dyn
@@ -147,8 +154,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      exceptions:
-        text: "Currently only supported for the Managed DNS & Email Delivery platforms (via DynID). Eventually DynID (and 2FA) will be rolled out to all platforms (no ETA)."
+      otp: Yes
       doc: https://help.dyn.com/2-factor-authentication/
 
     - name: Dynadot
@@ -157,6 +163,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://dynadot.com/domain/security.html
 
     - name: Dynu
@@ -164,6 +171,7 @@ websites:
       img: dynu.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.dynu.com/en-US/Blog/Article?Article=It-is-time-to-enable-two-factor-authentication
 
     - name: easyDNS
@@ -182,6 +190,7 @@ websites:
       img: enom.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.enom.com/kb/kb/kb_1687-setup-2-factor.htm
 
     - name: EuroDNS
@@ -189,7 +198,8 @@ websites:
       img: eurodns.png
       tfa: Yes
       software: Yes
-      doc: https://help.eurodns.com/customer/en/portal/articles/1633106
+      otp: Yes
+      doc: https://www.eurodns.com/blog/two-step-verification
 
     - name: Fabulous
       url: https://fabulous.com
@@ -197,6 +207,7 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://fabulous.com/knowledge/article/137
 
     - name: Fasthosts
@@ -204,7 +215,9 @@ websites:
       twitter: Fasthosts
       facebook: fasthostsinternet
       img: fasthosts.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.fasthosts.co.uk/app/answers/detail/a_id/3345/~/enabling-2fa-for-your-fasthosts-account-users
 
     - name: FreeDNS
       url: https://freedns.afraid.org/
@@ -231,6 +244,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
       doc: https://www.godaddy.com/help/enable-two-step-verification-7502
 
     - name: Google Domains
@@ -258,6 +272,7 @@ websites:
       img: hexonet.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.hexonet.net/assets/pdf/2FA.pdf
 
     - name: Hover.com
@@ -266,6 +281,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.hover.com/hc/en-us/articles/217282267
 
     - name: Hurricane Electric
@@ -273,15 +289,8 @@ websites:
       img: hurricane.png
       tfa: Yes
       software: Yes
-
-    - name: Incapsula
-      url: https://www.incapsula.com/
-      img: incapsula.png
-      tfa: Yes
-      email: Yes
-      software: Yes
-      sms: Yes
-      doc: https://docs.incapsula.com/Content/management-console-and-settings/account-settings.htm
+      otp: Yes
+      doc: https://forums.he.net/index.php?topic=3517.0
 
     - name: Internet.bs
       url: https://www.internet.bs
@@ -306,7 +315,8 @@ websites:
       img: iwantmyname.png
       tfa: Yes
       software: Yes
-      doc: https://help.iwantmyname.com/customer/portal/articles/1139898
+      otp: Yes
+      doc: https://help.iwantmyname.com/hc/en-gb/articles/360014435197-How-can-I-enable-two-factor-authentication-
 
     - name: Joker.com
       url: https://joker.com
@@ -322,6 +332,7 @@ websites:
       img: loopia.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://blogg.loopia.se/2015/03/16/nu-kan-du-logga-in-med-tvafaktorsautentiering-hos-loopia-genom-bankid/
       exceptions:
           text: "TFA only available for Swedish residents with BankID."
@@ -339,6 +350,7 @@ websites:
       img: metaname.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://metaname.net/public/two_factor_authentication
 
     - name: Moniker
@@ -349,6 +361,7 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
+      otp: Yes
       doc: https://faq.moniker.com/login-into-moniker
 
     - name: MyDomain
@@ -363,6 +376,7 @@ websites:
       img: namecom.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.name.com/services/two-step-verification
 
     - name: Namecheap
@@ -399,6 +413,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://blog.nearlyfreespeech.net/2014/02/28/price-cuts-more-security-and-recovery-options/
 
     - name: Netfirms
@@ -406,35 +421,40 @@ websites:
       twitter: Netfirms
       facebook: netfirmsfans
       img: netfirms.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions: 
+        text: "MFA setup through Microsoft Account"
+      doc: https://www.netfirms.com/help/article/microsoft-365-multi-factor-authentication
 
     - name: Netim
       url: https://www.netim.com/
       twitter: Netim_com
       facebook: netimcom
       img: netim.png
-      tfa: No
-
-    - name: Netregistry
-      url: https://www.netregistry.com.au/
-      twitter: netregistry
-      facebook: netregistry
-      img: netregistry.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.netim.com/en/docs/general-public/manage-my-account/security-settings
 
     - name: Network Solutions
       url: https://www.networksolutions.com/
       twitter: netsolcares
       facebook: Web.com
       img: networksolutions.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP may only work with SMS"
+      doc: https://customerservice.networksolutions.com/prweb/PRAuth/app/WebKM_/JfLhd8LVz0a16-h3GqsHOCqqFky5N_vd*/!autoThread0?pzuiactionzzz=CXtycX0zMDFkYjYzMDFhNDM2NzQ3NTQ4MTk0NzliZmRiNDIxM2JhYThjYTljODgxM2NjNGI0MWMxZGVkZmI4MGY3ZDhkZGZlODk3MGRjNzE4ODgzZDIyY2Q0NzgzNTJiOGNlZmZjZjc4YWRkYjM5NTQ3ZGZiMTMwZWI2OTUxYTU2NTM3YmIyNjRkODE1OWJmMTU4MWEyNjNhN2RjM2RkMGVhN2RlNTdjZjAxZDlmYmFlNGZhNjQxZDE4YWVjMzk0M2I2Yzg%3D*
 
     - name: No-IP
       url: https://www.noip.com/
       img: noip.png
-      tfa: No
+      tfa: Yes
       twitter: NoIPcom
       facebook: noipdns
+      otp: Yes
+      doc: https://www.noip.com/blog/2022/02/22/new-feature-alert-ip-announces-two-factor-authentication/
 
     - name: Nominet
       url: https://www.nominet.uk/
@@ -450,6 +470,7 @@ websites:
       img: ns1.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://ns1.com/articles/enabling-2-factor-authentication
 
     - name: OpenDNS
@@ -469,6 +490,8 @@ websites:
       img: openprovider.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://support.openprovider.eu/hc/en-us/articles/360019461160-How-to-secure-your-Openprovider-Account-#h_01EZ761VFJZEZ95SJN3EYWXAMG
 
     - name: OpenSRS
       url: https://opensrs.com
@@ -485,6 +508,7 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.pairdomains.com/kb/posts/345
 
     - name: PointDNS
@@ -509,13 +533,16 @@ websites:
       twitter: rebeldotcom
       facebook: rebelhostinganddomains
       img: rebel.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.rebel.com/hc/en-us/articles/360039417613-Two-Factor-Authentication
       
     - name: Rebrandly
       url: https://rebrandly.com
       img: rebrandly.png
       tfa: Yes 
       software: Yes
+      otp: Yes
       doc: https://support.rebrandly.com/hc/en-us/articles/360007220373
 
     - name: Register4Less
@@ -540,8 +567,10 @@ websites:
       twitter: STRATO_AG
       facebook: strato
       img: strato.png
-      tfa: No
+      tfa: Yes
       lang: de
+      otp: Yes
+      doc: https://www.strato.de/faq/sicherheit/zwei-faktor-authentifizierung-einstellen/
 
     - name: Synergy Wholesale
       url: https://synergywholesale.com/
@@ -550,6 +579,7 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://synergywholesale.com/faq/article/can-i-enable-two-factor-authentication-on-my-wholesale-system-account/
     
     - name: UK2
@@ -560,6 +590,7 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.uk2.net/knowledgebase/display/UK2/Two+Factor+Authentication+Security+-+2FA
 
     - name: Uniregistry
@@ -576,13 +607,15 @@ websites:
       img: uniteddomains-usa.png
       tfa: Yes
       software: Yes
-      doc: https://help.uniteddomains.com/hc/en-us/articles/115001458813
+      otp: Yes
+      doc: https://www.uniteddomains.com/twofactorauth/
 
     - name: united-domains Reselling
       url: https://www.ud-reselling.com/en/
       img: udreselling.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.ud-reselling.com/en/security/
 
     - name: united-domains.de
@@ -590,6 +623,7 @@ websites:
       img: united-domains.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.united-domains.de/faq-article/wie-aktiviere-ich-die-zweistufige-verifizierung-und-mache-mein-portfolio-login-sicherer
       exceptions:
         text: "A phone number is required to enable two-factor authentication."
@@ -601,6 +635,7 @@ websites:
       software: Yes
       sms: Yes
       email: Yes
+      otp: Yes
       doc: https://ventraip.com.au/faq/article/two-factor-authentication-faq-vipcontrol/
 
     - name: Verio
