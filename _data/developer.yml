@@ -161,6 +161,15 @@ websites:
       exceptions:
           text: "Only available on paid accounts at $7/10 per month (annual/monthly) or more."
 
+    - name: Codeberg
+      url: https://codeberg.org/
+      img: codeberg.png
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://docs.codeberg.org/security/2fa/#step-2%3A-navigate-to-the-security-tab-and-click-on-the-enroll-button 
+
     - name: Codeship
       url: https://codeship.com/
       img: codeship.png
