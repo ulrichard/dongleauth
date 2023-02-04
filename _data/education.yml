@@ -42,6 +42,9 @@ websites:
       phone: yes
       software: yes
       hardware: yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://www.bu.edu/tech/support/duo/
 
     - name: California Institute of Technology (CalTech)
@@ -50,6 +53,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       exceptions:
           text: "SMS-capable phone required for initial setup."
       doc: https://imss.caltech.edu/node/1408
@@ -60,6 +66,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://www.cmu.edu/computing/services/security/identity-access/authentication/how-to/use2fa-weblogin.html
 
     - name: CBT Nuggets
@@ -67,7 +75,9 @@ websites:
       img: cbtnuggets.png
       twitter: CBTNuggets
       facebook: cbtnuggets
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.cbtnuggets.com/it-training/skills/authentication-acess
 
     - name: Certified Wireless Network Professional (CWNP)
       url: https://www.cwnp.com
@@ -85,6 +95,9 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://2fa.app.clemson.edu/
 
     - name: Clever
@@ -110,7 +123,13 @@ websites:
       facebook: collegeofdupage
       email_address: studenthelp@dupage.edu
       img: cod.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      exceptions:
+        text: "2FA app only available with duo."
+      doc: https://www.cod.edu/student_life/resources/information_technology/office-365.aspx
 
     - name: CompTIA
       url: https://certification.comptia.org/
@@ -132,6 +151,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP via BankID for Swedish Citizens only."
       doc: https://tjanster.csn.se/bas/vanligaFragor.do
 
     - name: Duke University
@@ -142,6 +164,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://idms-mfa.oit.duke.edu/mfa/help
 
     - name: Duolingo
@@ -159,7 +183,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://itcs.ecu.edu/services/accounts-passwords/multi-factor-authentication/
+      otp: Yes
+      doc: https://ecu.teamdynamix.com/TDClient/1409/Portal/KB/ArticleDet?ID=67660
 
     - name: Eastern Michigan University
       url: https://www.emich.edu
@@ -167,6 +192,7 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Available for employees"
       doc: https://www.emich.edu/it/security/esp/duo.php
@@ -201,6 +227,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://twofactor.oit.gatech.edu
 
     - name: Global Information Assurance Certification (GIAC)
@@ -226,6 +255,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
       doc: https://huit.harvard.edu/twostep
 
     - name: Illinois Institute Of Technology
@@ -250,6 +282,7 @@ websites:
       img: knowbe4.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.knowbe4.com/hc/en-us/articles/225681448
       
     - name: Library Thing
@@ -267,6 +300,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA app only available with duo."
       doc: https://kb.mit.edu/confluence/display/istcontrib/Duo+Authentication+Landing+Page
 
     - name: Miami University
@@ -302,7 +338,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
-      doc: https://www.identity.psu.edu/services/authentication-services/two-factor/
+      otp: Yes
+      doc: https://accounts.psu.edu/2fa
       
     - name: Pluralsight
       url: https://www.pluralsight.com
@@ -318,15 +355,18 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://www.purdue.edu/securepurdue/iamoServices/BoilerKey.php
+      otp: Yes
+      doc: https://www.purdue.edu/securepurdue/identity-access/boilerkey/index.php
 
     - name: PushCoin
       url: https://pushcoin.com
       img: pushcoin.png
       tfa: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       exceptions:
-          text: "U2F support only for school admin accounts. 2FA for parent accounts is in progress."
+          text: "U2F support only for school admin accounts, 2FA for parent accounts is in progress."
       doc: http://knowhow.pushcoin.com/using-security-key-for-2-step-verification/
 
     - name: Robert Morris University
@@ -349,7 +389,9 @@ websites:
       img: ryerson.png
       hardware: Yes
       software: Yes
-      doc: https://www.ryerson.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/
+      otp: Yes
+      u2f: Yes
+      doc: https://www.torontomu.ca/ccs/services/ITSecurity/protecting-your-identity/two-factor-authentication/setting-up-two-factor-authentication/
 
     - name: SchoolSoft
       url: https://www.schoolsoft.se/
@@ -364,6 +406,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://uit.stanford.edu/service/webauth/twostep
 
     - name: Temple University
@@ -373,7 +417,9 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://computerservices.temple.edu/two-step-verification
+      otp: Yes
+      u2f: Yes
+      doc: https://its.temple.edu/mfa
 
     - name: The Ohio State University
       url: https://www.osu.edu/
@@ -383,6 +429,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       exceptions:
           text: "u2f, totp, and hotp authentication with Duo."
       doc: https://buckeyepass.osu.edu/
@@ -410,6 +458,7 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://support.uidaho.edu/TDClient/KB/ArticleDet?ID=109
 
     - name: University of Michigan
@@ -420,6 +469,7 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://www.safecomputing.umich.edu/two-factor-authentication
 
     - name: University of Notre Dame
@@ -430,7 +480,9 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
-      doc: https://oit.nd.edu/services/accounts/okta-account-services-and-two-step-login/
+      otp: Yes
+      u2f: Yes
+      doc: https://nd.service-now.com/nd_portal?id=product_page&sys_id=238c1fe8dbc4f380f66472e9af96191a&table=cmdb_ci_business_app
 
     - name: University of Washington
       url: https://www.washington.edu/
@@ -439,8 +491,7 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
-      exceptions:
-          text: "Available for employees only"
+      otp: Yes
       doc: https://itconnect.uw.edu/security/uw-netids/2fa/
 
     - name: Virginia Commonwealth University
@@ -451,6 +502,8 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://ts.vcu.edu/askit/essential-computing/information-security/2factor/
 
     - name: Virginia Tech
@@ -461,4 +514,6 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://www.tech.it.vt.edu/2factor/
