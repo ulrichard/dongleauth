@@ -12,7 +12,9 @@ websites:
       twitter: cdbaby
       facebook: cdbaby
       img: cdbaby.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.cdbaby.com/hc/en-us/articles/360042818891-Keeping-your-account-safe
 
     - name: Crunchyroll
       url: https://www.crunchyroll.com/
@@ -60,7 +62,9 @@ websites:
       twitter: hulu_support
       facebook: hulu
       img: hulu.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.hulu.com/s/article/two-step-verify
 
     - name: IBM Watson Media (Ustream)
       url: https://video.ibm.com
@@ -84,13 +88,6 @@ websites:
       img: lastfm.png
       tfa: No
 
-    - name: Mixer
-      url: https://mixer.com/
-      img: mixer.png
-      tfa: Yes
-      software: Yes
-      doc: https://watchbeam.zendesk.com/hc/en-us/articles/115000997646
-
     - name: Netflix
       url: https://www.netflix.com/us/
       twitter: Netflixhelps
@@ -103,6 +100,7 @@ websites:
       img: niconico.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://qa.nicovideo.jp/faq/show/4500
       
     - name: Pandora
@@ -122,10 +120,10 @@ websites:
 
     - name: Plex
       url: https://www.plex.tv
-      twitter: plex
-      facebook: plexapp
       img: plex.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.plex.tv/articles/two-factor-authentication/
 
     - name: Qobuz
       url: https://www.qobuz.com
@@ -137,9 +135,9 @@ websites:
     - name: Roku
       url: https://www.roku.com
       img: roku.png
-      tfa: No
-      twitter: RokuSupport
-      facebook: roku
+      tfa: Yes
+      otp: Yes
+      doc: https://support.roku.com/article/7875215753111
 
     - name: Sling TV
       url: https://www.sling.com/
@@ -148,26 +146,23 @@ websites:
       img: sling.png
       tfa: No
 
-    - name: smashcast
-      url: https://www.smashcast.tv/
-      img: smashcast.png
-      tfa: Yes
-      software: Yes
-      doc: https://help.smashcast.tv/customer/en/portal/articles/2779887
-
     - name: SoundCloud
       url: https://soundcloud.com/
-      twitter: SCsupport
-      facebook: SoundCloud
       img: soundcloud.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.soundcloud.com/hc/en-us/articles/360051799993-My-SoundCloud-for-Artists-account
 
     - name: Spotify
       url: https://www.spotify.com/
       twitter: SpotifyCares
       facebook: spotify
       img: spotify.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA only available for Artist"
+      doc: https://artists.spotify.com/en/help/article/2-step-verification
 
     - name: TIDAL
       url: https://tidal.com/
@@ -190,6 +185,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.twitch.tv/s/article/two-factor-authentication-with-authy
       exceptions:
           text: "To activate two factor authentication, you must provide a mobile phone number. Software authentication requires the Authy app."
