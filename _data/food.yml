@@ -45,9 +45,9 @@ websites:
     - name: Starbucks
       url: https://www.starbucks.com/
       img: starbucks.png
-      tfa: No
-      twitter: Starbucks
-      facebook: Starbucks
+      tfa: Yes
+      otp: Yes
+      doc: https://customerservice.starbucks.com/app/answers/detail/a_id/6180
 
     - name: Taco Bell
       url: https://www.tacobell.com
@@ -59,10 +59,9 @@ websites:
     - name: Wolt
       url: https://wolt.com/
       img: wolt.png
-      tfa: No
-      twitter: woltapp
-      facebook: woltapp
-      email_address: support@wolt.com
+      tfa: Yes
+      otp: Yes
+      doc: https://explore.wolt.com/en/deu/security
 
     - name: Zomato
       url: https://www.zomato.com
