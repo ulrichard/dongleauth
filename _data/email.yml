@@ -4,7 +4,8 @@ websites:
       img: aol.png
       tfa: Yes
       sms: Yes
-      phone: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://help.aol.com/articles/2-step-verification-stronger-than-your-password-alone
 
     - name: FastMail
@@ -24,8 +25,10 @@ websites:
     - name: Freenet
       url: https://www.freenet.de/
       img: freenet.png
-      tfa: No
+      tfa: Yes
       facebook: freenet
+      otp: Yes
+      doc: https://www.freenet-mobilfunk.de/digitalrepublic/tipps/google-authenticator
 
     - name: Gmail
       url: https://mail.google.com
@@ -44,7 +47,9 @@ websites:
       url: https://www.gmx.com/
       twitter: gmxmail
       img: gmx.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.gmx.com/security/2fa/setup-twofactor.html
 
     - name: GMX.net
       url: https://www.gmx.net/
@@ -69,24 +74,24 @@ websites:
     - name: Kerio Connect
       url: https://www.kerio.com/products/kerio-connect
       img: kerio.png
-      twitter: keriotech
-      facebook: keriotech
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.gfi.com/application/files/2616/5769/7239/Kerio_Connect_-_2FA_guide.pdf
 
     - name: Legalmail
       url: https://www.legalmail.it/
       img: legalmail.png
-      tfa: No
-      twitter: InfoCert_it
-      facebook: InfoCertSpa
+      tfa: Yes
+      otp: Yes
       lang: it
+      doc: https://help.infocert.it/Home/Guida/guida-all-autenticazione-forte-sulla-pec-legalmail-con-l-app-myinfocert
 
     - name: Mail.com
       url: https://www.mail.com/
-      twitter: maildotcom
-      facebook: mail.com
       img: maildotcom.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.mail.com/security/2fa/index.html
 
     - name: mail.de
       url: https://mail.de/
@@ -105,6 +110,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.mail.ru/mail-help/2auth
 
     - name: mailbox.org
@@ -139,12 +145,14 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
-      doc: https://community.mimecast.com/docs/DOC-1915
+      otp: Yes
+      doc: https://community.mimecast.com/s/article/Configuring-a-2-Step-Authentication-Profile-1310359428
 
     - name: MXroute
       url: https://mxroute.com/
       img: mxroute.png
-      tfa: Yes
+      twitter: MXroute
+      tfa: No
       software: Yes
 
     - name: Outlook.com
@@ -202,6 +210,7 @@ websites:
       img: runbox.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.runbox.com/account-security/
 
     - name: Seznam.cz
@@ -211,6 +220,7 @@ websites:
       img: seznamcz.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "Software implementation requires use of the Seznam app."
       doc: https://blog.seznam.cz/2018/04/seznam-cz-ma-nove-dvoufazove-overeni-u-vsech-svych-sluzeb-zvysi-zabezpeci-prihlasovani-napriklad-do-emailu/
@@ -222,7 +232,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      doc: https://support.startmail.com/index.php?/Knowledgebase/Article/View/704
+      doc: https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA-
 
     - name: T-Online
       url: https://www.t-online.de/
@@ -238,6 +248,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://www.thexyz.com/account/knowledgebase/15/Enabling-two-factor-authentication.html
 
     - name: TIM Mail
@@ -264,7 +276,11 @@ websites:
       twitter: virginmedia
       facebook: virgin
       img: virginmedia.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://www.virginmedia.com/help/security/how-to-create-a-strong-password
 
     - name: Web.de
       url: https://web.de
@@ -281,6 +297,7 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://id.yahoo.co.jp/security/otp.html
 
     - name: Yahoo Mail
@@ -299,8 +316,9 @@ websites:
       img: yandexmail.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
-        text: "SMS-capable phone required for initial setup."
+        text: "SMS-capable phone required for initial setup. 2FA implementation requires Yandex App "
       doc: https://yandex.com/support/passport/authorization/twofa.xml
 
     - name: Zimbra
@@ -308,6 +326,7 @@ websites:
       img: zimbra.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "Available in Zimbra Collaboration 8.7 and above, Network Edition only"
       doc: https://blog.zimbra.com/2016/02/zimbra-collaboration-8-7-two-factor-authentication-2fa-technical-preview/
