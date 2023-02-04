@@ -2,6 +2,7 @@ websites:
     - name: Adirondack Insurance Exchange
       url: https://www.aie-ny.com/
       img: adirondackinsurnaceexchange.png
+      email_address: service@ngic.com
       tfa: No
 
     - name: ADP
@@ -9,14 +10,17 @@ websites:
       twitter: ADP
       facebook: AutomaticDataProcessing
       img: adp.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.adp.com/netsecure/pages/pub/whats_new9_0/phase2/en_us/whats_new_2.htm
 
     - name: AltoIRA
       url: https://www.altoira.com
       img: altoira.png
       tfa: Yes
       software: Yes
-      doc: https://help.altoira.com/hc/en-us/articles/360007374654
+      otp: Yes
+      doc: https://help.altoira.com/changing-your-password
 
     - name: Amundi (épargne salariale & retraite)
       url: https://www.amundi-ee.com
@@ -26,16 +30,21 @@ websites:
       lang: fr
 
     - name: Baden-Württembergische Bank
-      url: https://www.bw-bank.de/de/
-      tfa: No
+      url: https://www.bw-bank.de/de/home.html
+      tfa: Yes
       img: bw_bank.png
       lang: de
+      otp: Yes
+      exceptions:
+        text: "OTP implementation requires BW BAnk app"
+      doc: https://www.bw-bank.de/de/home/privatkunden/kreditkarte/bw-secure.html
 
     - name: BGL Corporate Solutions
       url: https://www.bglcorp.com/
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       img: bgl.png
       doc: https://sf360.zendesk.com/hc/en-au/articles/360020963051
       exceptions:
@@ -48,6 +57,8 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      doc: https://github.com/2factorauth/twofactorauth/pull/2181#issuecomment-266315173
 
     - name: Carta
       url: https://carta.com/
@@ -55,6 +66,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.carta.com/s/article/2-factor-authentication
 
     - name: Chargebee
@@ -66,10 +78,10 @@ websites:
 
     - name: ClearScore
       url: https://www.clearscore.com
-      twitter: ClearScore
-      facebook: clearscore
       img: clearscore.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.clearscore.com/hc/en-us/articles/360011249579-How-do-I-enable-disable-Two-Factor-Authentication-2FA-
 
     - name: Credit Karma
       url: https://www.creditkarma.com
@@ -77,33 +89,31 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-      doc: https://help.creditkarma.com/hc/en-us/articles/360001472366
+      otp: Yes
+      doc: https://support.creditkarma.com/s/article/Can-I-use-Two-Factor-Authentication-on-Credit-Karma#turnonoroff
 
     - name: DEGIRO
       url: https://www.degiro.nl
       img: degiro.png
       tfa: Yes
       software: Yes
-
-    - name: ditech
-      url: https://www.ditech.com
-      twitter: ditech
-      facebook: ditech
-      img: ditech.png
-      tfa: No
+      otp: Yes
+      doc: https://www.degiro.nl/helpdesk/account-en-persoonlijke-gegevens/toegang-tot-uw-degiro-account/hoe-kan-ik-twee-stapsverificatie
 
     - name: Exact Online
       url: https://exact.com/
       img: exact.png
       tfa: Yes
       software: Yes
-      doc: https://support.exactonline.com/community/s/knowledge-base#All-All-HNO-Concept-general-security-gen-auth-totpc
+      otp: Yes
+      doc: https://support.exactonline.com/community/s/knowledge-base#NL-AGSG-HNO-Video-ag-cg-ags-2fagemakportaalv
 
     - name: FreeAgent
       url: https://www.freeagent.com
       img: freeagent.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.freeagent.com/support/kb/getting-started/two-step-verification
 
     - name: FreeTaxUSA
@@ -113,14 +123,15 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://www.freetaxusa.com/safe.jsp
 
     - name: FreshBooks
       url: https://www.freshbooks.com
       img: freshbooks.png
-      twitter: freshbooks
-      facebook: FreshBooks
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.freshbooks.com/hc/en-us/articles/115015843527-How-Do-I-Log-In-
 
     - name: Funding Circle
       url: https://www.fundingcircle.com/
@@ -134,34 +145,24 @@ websites:
       img: geico.png
       twitter: GEICO_Service
       facebook: geico
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.geico.com/web-and-mobile/2SV/
 
     - name: Gusto
       url: https://www.gusto.com
       img: gusto.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.gusto.com/1066223171
 
     - name: Hargreaves Lansdown
       url: https://www.hl.co.uk/
-      twitter: HLInvest
-      facebook: hargreaveslansdowninvest
       img: hargreaveslansdown.png
-      tfa: No
-
-    - name: HelloWallet
-      url: https://www.hellowallet.com
-      twitter: keybank
-      facebook: keybank
-      img: hellowallet.png
-      tfa: No
-
-    - name: InEx Finance
-      url: https://www.inexfinance.com/
-      facebook: inex.finance
-      img: inex.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.hl.co.uk/security-centre/the-security-of-your-hargreaves-lansdown-account
 
     - name: Intuit TurboTax
       url: https://turbotax.intuit.com/
@@ -181,7 +182,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://support.invoiced.com/knowledge_base/topics/setting-up-two-factor-authentication
+      otp: Yes
+      doc: https://docs.invoiced.com/faqs
 
     - name: Justworks
       url: https://justworks.com/
@@ -189,6 +191,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.justworks.com/hc/en-us/articles/360004477492
 
     - name: Kiva
@@ -196,7 +199,9 @@ websites:
       twitter: Kiva
       facebook: kiva
       img: kiva.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://docs.kivalogic.com/article/174-two-factor-authentication
 
     - name: Kualto
       url: https://www.kualto.com
@@ -223,16 +228,8 @@ websites:
       img: metorik.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.metorik.com/article/22-how-can-i-enable-2fa-on-my-account
-
-    - name: Mint
-      url: https://www.mint.com
-      img: mint.png
-      tfa: Yes
-      sms: Yes
-      email: Yes
-      software: Yes
-      doc: https://help.mint.com/Security/908045661
 
     - name: money by Envestnet | Yodlee
       url: https://money.yodlee.com/
@@ -245,6 +242,7 @@ websites:
       img: moneybird.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.moneybird.nl/blog/twee-staps-verificatie/
 
     - name: Nexonia
@@ -254,18 +252,12 @@ websites:
       img: nexonia.png
       tfa: No
 
-    - name: Noddle
-      url: https://www.noddle.co.uk
-      twitter: useyournoddle
-      facebook: noodleuk
-      img: noddle.png
-      tfa: No
-
     - name: Northwestern Mutual
       url: https://www.northwesternmutual.com/
-      facebook: northwesternmutual
       img: northwesternmutual.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.northwesternmutual.com/security-and-privacy/
 
     - name: Paychex
       url: https://www.paychex.com
@@ -273,6 +265,8 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
+      otp: Yes
+      doc: https://www.paychex.com/corporate/security
 
     - name: Paycor
       url: https://www.paycor.com
@@ -282,13 +276,8 @@ websites:
       email: Yes
       phone: Yes
       software: Yes
+      otp: Yes
       doc: https://www.paycor.com/security/how-to-keep-your-account-safe
-
-    - name: Paytrust
-      url: http://paytrust.quicken.com
-      img: paytrust.png
-      tfa: Yes
-      phone: Yes
 
     - name: Pocketsmith
       url: https://www.pocketsmith.com
@@ -299,19 +288,12 @@ websites:
       otp: Yes
       doc: https://learn.pocketsmith.com/article/167--
 
-    - name: Popmoney
-      url: https://www.popmoney.com
-      twitter: popmoney
-      facebook: popmoney
-      img: popmoney.png
-      tfa: No
-
     - name: President's Choice Financial
       url: https://www.pcfinancial.ca
-      twitter: PCFinancial
-      facebook: PCFinancial
       img: presidentschoice.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.pcfinancial.ca/en/security/
 
     - name: Progressive
       url: https://www.progressive.com
@@ -327,20 +309,16 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://accounts-help.lc.intuit.com/questions/1590157
+      otp: Yes
+      doc: https://quickbooks.intuit.com/learn-support/en-us/help-article/security-risk/verify-account-multi-factor-authentication/L2Xp0GNiT_US_en_US
 
     - name: QuickFile
       url: https://www.quickfile.co.uk
       img: quickfile.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://community.quickfile.co.uk/t/2-factor-authentication/8892
-
-    - name: Quizzle
-      url: https://www.quizzle.com
-      img: quizzle.png
-      tfa: No
-      twitter: Quizzle
 
     - name: Rocket Mortgage
       url: https://www.rocketmortgage.com/
@@ -361,6 +339,7 @@ websites:
       img: simpletax.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.simpletax.ca/questions/two-factor-authentication
 
     - name: Taxact
@@ -369,6 +348,7 @@ websites:
       tfa: Yes
       email: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.taxact.com/support/24138/2016/how-is-a-verification-code-used
 
     - name: TransferWise
@@ -378,6 +358,7 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      otp: Yes
       doc: https://transferwise.com/help/12/managing-your-profile/2932125
       exceptions:
         text: "Software verification requires use of the TransferWise Mobile app. SMS-capable phone is required."
@@ -387,12 +368,10 @@ websites:
       img: treasurydirect.png
       tfa: Yes
       email: Yes
-
-    - name: Valic
-      url: https://www.valic.com/
-      facebook: valic
-      img: valic.png
-      tfa: No
+      otp: Yes
+      exceptions:
+        text: "2FA implementation only available through email."
+      doc: https://www.treasurydirect.gov/indiv/help/treasurydirect-help/user-guide/271-280/#274
 
     - name: Vitality
       url: https://www.vitality.co.uk
@@ -419,7 +398,7 @@ websites:
 
     - name: You Need A Budget (YNAB)
       url: https://www.youneedabudget.com/
-      twitter: ynab
-      facebook: iYNAB
       img: ynab.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.youneedabudget.com/en_us/how-to-protect-your-account-with-two-step-verification-rkKHuLlRc
