@@ -4,6 +4,7 @@ websites:
       img: 34sp.png
       tfa: Yes
       software: yes
+      otp: Yes
       doc: https://www.34sp.com/kb/142/how-to-enable-two-factor-authentication-on-your-account
 
     - name: A2 Hosting
@@ -11,6 +12,7 @@ websites:
       img: a2hosting.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.a2hosting.com/kb/a2-hosting-customer-portal/account-management/enabling-two-factor-authentication-for-your-a2-hosting-account
 
     - name: Acquia 
@@ -19,6 +21,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.acquia.com/acquia-cloud/access/signin/ 
 
     - name: ARP Networks
@@ -32,6 +35,7 @@ websites:
       img: binarylane.png
       tfa: Yes
       software: yes
+      otp: Yes
       doc: https://www.binarylane.com.au/support/solutions/articles/1000199372
 
     - name: Binero
@@ -46,6 +50,7 @@ websites:
       img: blacknight.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.blacknight.com/hc/en-us/articles/360001358517
 
     - name: Bluehost
@@ -54,6 +59,7 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
+      otp: Yes
       doc: https://my.bluehost.com/cgi/help/two-factor-authentication
 
     - name: CDN77
@@ -61,6 +67,7 @@ websites:
       img: cdn77.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://client.cdn77.com/support/knowledgebase/billing/cdn77-two-step-authentication
       
     - name: CDNsun
@@ -68,6 +75,7 @@ websites:
       img: cdnsun.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://cdnsun.com/knowledgebase/billing/two-factor-authentication
 
     - name: ChunkHost
@@ -87,22 +95,23 @@ websites:
       img: cloudways.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.cloudways.com/enabling-two-factor-authentication-for-your-cloudways-account/
 
     - name: Contabo
       url: https://contabo.de/
       img: contabo.png
-      tfa: No
-      twitter: ContaboCom
-      facebook: ContaboDe
-      email_address: support@contabo.de
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://contabo.com/blog/news-update-from-contabo-2fa-and-simplified-order-process-through-the-customer-control-panel/
 
     - name: cyon
       url: https://www.cyon.ch
       img: cyon.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.cyon.ch/support/a/225/wie-aktiviere-ich-die-zwei-schritt-verifizierung
 
     - name: DediServe
@@ -126,7 +135,8 @@ websites:
       img: easy.png
       tfa: Yes
       software: Yes
-      doc: https://easy.gr/el/faq
+      otp: Yes
+      doc: https://easy.gr/en/faq#!general/31
 
     - name: Fastly
       url: https://www.fastly.com
@@ -143,16 +153,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://getflywheel.com/wordpress-support/how-to-enable-two-factor-authentication-on-flywheel
-
-    - name: FS Data
-      url: https://fsdata.se/
-      img: fsdata.png
-      tfa: No
-      twitter: fsdata
-      facebook: fsdata
-      email_address: info@fsdata.se
-      lang: sv
 
     - name: Glesys
       url: https://glesys.com/
@@ -160,6 +162,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      doc: https://glesys.se/digitalbyra
 
     - name: Globat
       url: https://www.globat.com/
@@ -172,7 +176,8 @@ websites:
       img: greenhost.png
       tfa: Yes
       software: Yes
-      doc: https://greenhost.net/2016/03/01/spring-news/
+      otp: Yes
+      doc: https://greenhost.net/blog/2016/03/01/spring-news-2-factor-authentication-service-center-haproxy-plugin-for-let-s-encrypt-and-more/
 
     - name: Hetzner Online
       url: https://www.hetzner.de/
@@ -181,12 +186,14 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      doc: https://docs.hetzner.com/accounts-panel/accounts/two-factor-authentication/
 
     - name: Hostens
       url: https://www.hostens.com/
       img: hostens.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.hostens.com/knowledgebase/how-to-enhance-account-security/
 
     - name: HostHatch
@@ -200,21 +207,23 @@ websites:
       img: hostnet.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.hostnet.nl/veelgestelde-vragen/tweestaps-authenticatie
 
     - name: Hostpoint
       url: https://www.hostpoint.ch/
       img: hostpoint.png
-      tfa: No
-      twitter: hostpoint
-      facebook: hostpointch
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://support.hostpoint.ch/de/administratives/hostpoint-id/zwei-faktor-authentifizierung
 
     - name: HostUS
       url: https://hostus.us
       img: hostus.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://my.hostus.us/knowledgebase/106/How-do-I-secure-my-account-with-Two-Factor-Authentication-or-TOTP.html
       
     - name: ICDSoft
@@ -222,6 +231,7 @@ websites:
       img: icdsoft.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://tickets.suresupport.com/faq/article-1700
 
     - name: ICUK
@@ -229,7 +239,8 @@ websites:
       img: icuk.png
       tfa: Yes
       software: Yes
-      doc: https://www.icuk.net/reseller/security.asp
+      otp: Yes
+      doc: http://blog.icuk.net/2016/03/10/icuk-control-panel-version-15-1/
 
     - name: Infomaniak
       url: https://www.infomaniak.com/
@@ -238,6 +249,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.infomaniak.ch/en/support/faq/1940
 
     - name: INIZ
@@ -245,28 +257,30 @@ websites:
       img: iniz.png
       tfa: Yes
       software: Yes
-      doc: https://my.iniz.com/knowledgebase/24/Securing-Your-Account-2FA.html
+      otp: Yes
+      doc: https://my.iniz.com/knowledgebase/51/Secure-Your-Account-with-Two-Factor-Authentication.html
 
     - name: Inleed
       url: https://www.inleed.se
       img: inleed.png
-      twitter: Inleed
-      facebook: Inleed
-      email_address: support@inleed.se
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: sv
+      doc: https://login.inleed.net/helpcenter/50/tvastegsverifiering-kundzon
 
     - name: InMotion Hosting
       url: https://www.inmotionhosting.com/
-      twitter: inmotionhosting
       img: inmotion.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.inmotionhosting.com/support/edu/cpanel/how-to-configure-and-use-two-factor-authentication/
 
     - name: IO Zoom
       url: https://www.iozoom.com
       img: iozoom.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.iozoom.com/client/announcements.php?id=6
 
     - name: iPage
@@ -280,6 +294,7 @@ websites:
       img: kinsta.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kinsta.com/blog/wordpress-two-factor-authentication/
 
     - name: KnownHost
@@ -287,20 +302,22 @@ websites:
       img: knownhost.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.knownhost.com/wiki/my-knownhost/two-factor
 
     - name: LCN.com
       url: https://www.lcn.com
-      twitter: lcndotcom
-      facebook: lcndotcom
       img: lcn.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.lcn.com/support/articles/how-to-set-up-and-use-two-factor-authentication/
 
     - name: Liquid Web
       url: https://www.liquidweb.com
       img: liquidweb.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.liquidweb.com/kb/how-to-enable-two-factor-authentication-2fa/
 
     - name: Mammoth Networks
@@ -330,12 +347,18 @@ websites:
       img: misshosting.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://github.com/2factorauth/twofactorauth/issues/3634#issuecomment-454688629
 
     - name: Mittwald
       url: https://www.mittwald.de/
       twitter: mittwald
       img: mittwald.png
-      tfa: No
+      tfa: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      otp: Yes
+      doc: https://www.mittwald.de/blog/webentwicklung-design/zwei-faktor-authentifizierung
       lang: de
 
     - name: NearlyFreeSpeech.NET
@@ -363,14 +386,17 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       u2f: Yes
-      doc: https://server.nitrado.net/deu/news2/view/nitrado-bietet-zweifaktorauthentifizierung/?f=index/mode:0/page:2
+      doc: https://server.nitrado.net/en-GB/news/nitrado-two-factor-authentication
 
     - name: Noez
       url: https://noez.de/
       img: noez.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://community.noez.de/t/wie-aktiviere-ich-die-2fa-zwei-faktor-authentisierung-fuer-meinen-account/199
 
     - name: Oderland
       url: https://www.oderland.se/
@@ -380,6 +406,7 @@ websites:
       img: oderland.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Only available for the main client area. Hosting panels not supported."
       doc: https://www.oderland.se/support/en/artikel/how-is-my-personal-information-handled/#how-do-i-encrypt-personal-information
@@ -388,16 +415,9 @@ websites:
       url: https://www.one.com/
       twitter: onecom
       img: onecom.png
-      tfa: No
-
-    - name: Online
-      url: https://www.online.net/
-      img: online.png
       tfa: Yes
-      sms: Yes
-      software: Yes
-      exceptions:
-          text: "SMS available only to customers in France."
+      otp: Yes
+      doc: https://www.one.com/en/about/news/2fa
 
     - name: OVH
       url: https://www.ovh.com/
@@ -416,6 +436,7 @@ websites:
       img: planethoster.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://blog.planethoster.com/securite-espace-client-planethoster/
 
     - name: Rackspace
@@ -423,6 +444,7 @@ websites:
       img: rackspace.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.rackspace.com/how-to/myrackspace-multi-factor-authentication/
 
     - name: RamNode
@@ -430,6 +452,7 @@ websites:
       img: ramnode.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://clientarea.ramnode.com/knowledgebase.php?action=displayarticle&id=70
 
     - name: RunCloud
@@ -437,6 +460,7 @@ websites:
       img: runcloud.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://runcloud.io/docs/account/authentication.html
 
     - name: section.io
@@ -445,6 +469,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://www.section.io/docs/how-to/user-management/enable-two-factor-authentication-on-your-account/
 
     - name: Segment
@@ -453,6 +478,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://segment.com/docs/iam/mfa/
 
     - name: Site5
@@ -466,6 +492,7 @@ websites:
       img: siteground.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.siteground.com/tutorials/two-factor-authentication/
 
     - name: SpeedIT Solutions
@@ -475,6 +502,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      u2f: Yes
+      doc: https://www.speedit.org/wissensdatenbank/kundencenter/zwei-faktor-authentifizierung/
 
     - name: Squarespace
       url: https://squarespace.com/
@@ -482,6 +511,7 @@ websites:
       img: squarespace.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.squarespace.com/hc/en-us/articles/360000044827
 
     - name: Time4VPS
@@ -489,6 +519,7 @@ websites:
       img: time4vps.png
       tfa: Yes
       software: Yes
+      otp: Yes 
       doc: https://billing.time4vps.eu/knowledgebase/article/100/2-factor-authentication/
 
     - name: TransIP
@@ -498,15 +529,8 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.transip.nl/vragen/574-hoe-stel-two-factor-authentication/
-
-    - name: UKFast
-      url: https://www.ukfast.co.uk/
-      img: ukfast.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      hardware: Yes
 
     - name: Ukraine
       url: https://www.ukraine.com.ua/
@@ -516,6 +540,7 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.ukraine.com.ua/faq/rekomendatsii-po-zashchite-ot-vzloma-uchetnoj-zapisi.html
 
     - name: UpCloud
@@ -523,9 +548,10 @@ websites:
       img: upcloud.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "SMS is required for password recovery."
-      doc: https://www.upcloud.com/support/two-factor-authentication/
+      doc: https://upcloud.com/resources/tutorials/two-factor-authentication
 
     - name: VentraIP
       url: https://ventraip.com.au
@@ -534,6 +560,7 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://ventraip.com.au/faq/article/two-factor-authentication-faq-vipcontrol/
 
     - name: Versio
@@ -541,6 +568,7 @@ websites:
       img: versio.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.versio.nl/nieuws/twofactor-authenticatie-nu-beschikbaar-voor-uw-klantenaccount-205
 
     - name: VPS Server
@@ -548,39 +576,35 @@ websites:
       img: vpsserver.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://github.com/2factorauth/twofactorauth/pull/2311#issuecomment-273424695
-
-    - name: WebFaction
-      url: https://www.webfaction.com
-      img: webfaction.png
-      tfa: Yes
-      software: Yes
-      doc: https://docs.webfaction.com/user-guide/control_panel.html#two-step-login
 
     - name: Wedos
       url: https://hosting.wedos.com
       img: wedos.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kb.wedos.com/cs/zakaznik/otp.html
 
     - name: Weebly
       url: https://www.weebly.com
       img: weebly.png
-      tfa: No
-      twitter: weebly
-      facebook: weebly
+      tfa: Yes
+      otp: Yes
+      doc: https://www.websitebuilderinsider.com/how-do-i-make-my-weebly-website-secure/
       
     - name: Wix
       url: https://www.wix.com/
-      twitter: WixHelp
-      facebook: wix
       img: wix.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.wix.com/en/article/using-2-step-verification-for-your-wix-account
 
     - name: WP Engine
       url: https://wpengine.com/
       img: wpengine.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://wpengine.com/support/2-factor-authentication/
