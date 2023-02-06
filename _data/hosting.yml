@@ -101,11 +101,10 @@ websites:
     - name: Contabo
       url: https://contabo.de/
       img: contabo.png
-      tfa: No
-      twitter: ContaboCom
-      facebook: ContaboDe
-      email_address: support@contabo.de
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://contabo.com/blog/news-update-from-contabo-2fa-and-simplified-order-process-through-the-customer-control-panel/
 
     - name: cyon
       url: https://www.cyon.ch
