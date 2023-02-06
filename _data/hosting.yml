@@ -414,7 +414,9 @@ websites:
       url: https://www.one.com/
       twitter: onecom
       img: onecom.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.one.com/en/about/news/2fa
 
     - name: Online
       url: https://www.online.net/
