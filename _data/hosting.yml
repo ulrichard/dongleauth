@@ -528,6 +528,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.transip.nl/vragen/574-hoe-stel-two-factor-authentication/
 
     - name: UKFast
