@@ -547,9 +547,10 @@ websites:
       img: upcloud.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "SMS is required for password recovery."
-      doc: https://www.upcloud.com/support/two-factor-authentication/
+      doc: https://upcloud.com/resources/tutorials/two-factor-authentication
 
     - name: VentraIP
       url: https://ventraip.com.au
