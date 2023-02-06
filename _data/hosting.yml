@@ -35,6 +35,7 @@ websites:
       img: binarylane.png
       tfa: Yes
       software: yes
+      otp: Yes
       doc: https://www.binarylane.com.au/support/solutions/articles/1000199372
 
     - name: Binero
