@@ -213,10 +213,10 @@ websites:
     - name: Hostpoint
       url: https://www.hostpoint.ch/
       img: hostpoint.png
-      tfa: No
-      twitter: hostpoint
-      facebook: hostpointch
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://support.hostpoint.ch/de/administratives/hostpoint-id/zwei-faktor-authentifizierung
 
     - name: HostUS
       url: https://hostus.us
