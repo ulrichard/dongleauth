@@ -239,7 +239,8 @@ websites:
       img: icuk.png
       tfa: Yes
       software: Yes
-      doc: https://www.icuk.net/reseller/security.asp
+      otp: Yes
+      doc: http://blog.icuk.net/2016/03/10/icuk-control-panel-version-15-1/
 
     - name: Infomaniak
       url: https://www.infomaniak.com/
