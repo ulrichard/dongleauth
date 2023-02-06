@@ -135,7 +135,8 @@ websites:
       img: easy.png
       tfa: Yes
       software: Yes
-      doc: https://easy.gr/el/faq
+      otp: Yes
+      doc: https://easy.gr/en/faq#!general/31
 
     - name: Fastly
       url: https://www.fastly.com
