@@ -605,4 +605,5 @@ websites:
       img: wpengine.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://wpengine.com/support/2-factor-authentication/
