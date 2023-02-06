@@ -156,15 +156,6 @@ websites:
       otp: Yes
       doc: https://getflywheel.com/wordpress-support/how-to-enable-two-factor-authentication-on-flywheel
 
-    - name: FS Data
-      url: https://fsdata.se/
-      img: fsdata.png
-      tfa: No
-      twitter: fsdata
-      facebook: fsdata
-      email_address: info@fsdata.se
-      lang: sv
-
     - name: Glesys
       url: https://glesys.com/
       img: glesys.png
