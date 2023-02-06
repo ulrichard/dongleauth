@@ -491,6 +491,7 @@ websites:
       img: siteground.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.siteground.com/tutorials/two-factor-authentication/
 
     - name: SpeedIT Solutions
