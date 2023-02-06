@@ -59,6 +59,7 @@ websites:
       tfa: Yes
       software: Yes
       email: Yes
+      otp: Yes
       doc: https://my.bluehost.com/cgi/help/two-factor-authentication
 
     - name: CDN77
