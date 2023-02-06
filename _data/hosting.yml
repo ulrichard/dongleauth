@@ -386,8 +386,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       u2f: Yes
-      doc: https://server.nitrado.net/deu/news2/view/nitrado-bietet-zweifaktorauthentifizierung/?f=index/mode:0/page:2
+      doc: https://server.nitrado.net/en-GB/news/nitrado-two-factor-authentication
 
     - name: Noez
       url: https://noez.de/
