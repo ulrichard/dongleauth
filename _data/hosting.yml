@@ -405,6 +405,7 @@ websites:
       img: oderland.png
       tfa: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "Only available for the main client area. Hosting panels not supported."
       doc: https://www.oderland.se/support/en/artikel/how-is-my-personal-information-handled/#how-do-i-encrypt-personal-information
