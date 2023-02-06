@@ -294,6 +294,7 @@ websites:
       img: kinsta.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kinsta.com/blog/wordpress-two-factor-authentication/
 
     - name: KnownHost
