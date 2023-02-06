@@ -104,12 +104,6 @@ websites:
       twitter: MedicAlertCA
       tfa: No
 
-    - name: Misfit
-      url: https://misfit.com/
-      twitter: Misfit
-      img: misfit.png
-      tfa: No
-
     - name: myfitnesspal
       url: https://www.myfitnesspal.com
       img: myfitnesspal.png
