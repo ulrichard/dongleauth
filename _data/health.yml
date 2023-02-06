@@ -73,10 +73,10 @@ websites:
 
     - name: Garmin
       url: https://www.garmin.com/
-      twitter: Garmin
-      facebook: Garmin
       img: garmin.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.garmin.com/en-US/?faq=uGHS8ZqOIhA0usBzBMdJu7
 
     - name: Google Fit
       url: https://fit.google.com
