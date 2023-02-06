@@ -186,6 +186,7 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
+      doc: https://docs.hetzner.com/accounts-panel/accounts/two-factor-authentication/
 
     - name: Hostens
       url: https://www.hostens.com/
