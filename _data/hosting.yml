@@ -263,11 +263,10 @@ websites:
     - name: Inleed
       url: https://www.inleed.se
       img: inleed.png
-      twitter: Inleed
-      facebook: Inleed
-      email_address: support@inleed.se
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: sv
+      doc: https://login.inleed.net/helpcenter/50/tvastegsverifiering-kundzon
 
     - name: InMotion Hosting
       url: https://www.inmotionhosting.com/
