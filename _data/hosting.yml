@@ -589,9 +589,9 @@ websites:
     - name: Weebly
       url: https://www.weebly.com
       img: weebly.png
-      tfa: No
-      twitter: weebly
-      facebook: weebly
+      tfa: Yes
+      otp: Yes
+      doc: https://www.websitebuilderinsider.com/how-do-i-make-my-weebly-website-secure/
       
     - name: Wix
       url: https://www.wix.com/
