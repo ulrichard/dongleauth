@@ -172,7 +172,7 @@ websites:
 
     - name: ZocDoc
       url: https://www.zocdoc.com/
-      twitter: Zocdoc
-      facebook: ZocDoc
       img: zocdoc.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.zocdoc.com/about/news/setting-up-multi-factor-authentication-on-zocdoc/
