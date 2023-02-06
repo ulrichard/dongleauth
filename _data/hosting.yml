@@ -317,6 +317,7 @@ websites:
       img: liquidweb.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.liquidweb.com/kb/how-to-enable-two-factor-authentication-2fa/
 
     - name: Mammoth Networks
