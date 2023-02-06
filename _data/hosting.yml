@@ -468,6 +468,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://www.section.io/docs/how-to/user-management/enable-two-factor-authentication-on-your-account/
 
     - name: Segment
