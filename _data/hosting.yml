@@ -539,6 +539,7 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.ukraine.com.ua/faq/rekomendatsii-po-zashchite-ot-vzloma-uchetnoj-zapisi.html
 
     - name: UpCloud
