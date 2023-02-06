@@ -583,6 +583,7 @@ websites:
       img: wedos.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kb.wedos.com/cs/zakaznik/otp.html
 
     - name: Weebly
