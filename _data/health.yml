@@ -53,14 +53,6 @@ websites:
       otp: Yes
       doc: https://help.elationhealth.com/s/article/Multifactor-Authentication-MFA
 
-    - name: Endomondo
-      url: https://www.endomondo.com
-      twitter: Endomondo
-      facebook: endomondo
-      email_address: support@endomondo.com
-      img: endomondo.png
-      tfa: No
-
     - name: FitBit
       url: https://www.fitbit.com/
       twitter: fitbit
