@@ -165,10 +165,10 @@ websites:
 
     - name: Withings
       url: https://www.withings.com/
-      twitter: AskWithings
-      facebook: withings
       img: withings.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.withings.com/hc/en-us/articles/4409339333009-Health-Mate-Android-App-Two-Factor-Authentication-2FA-
 
     - name: ZocDoc
       url: https://www.zocdoc.com/
