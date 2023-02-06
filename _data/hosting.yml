@@ -67,6 +67,7 @@ websites:
       img: cdn77.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://client.cdn77.com/support/knowledgebase/billing/cdn77-two-step-authentication
       
     - name: CDNsun
