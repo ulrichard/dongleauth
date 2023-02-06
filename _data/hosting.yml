@@ -595,10 +595,10 @@ websites:
       
     - name: Wix
       url: https://www.wix.com/
-      twitter: WixHelp
-      facebook: wix
       img: wix.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.wix.com/en/article/using-2-step-verification-for-your-wix-account
 
     - name: WP Engine
       url: https://wpengine.com/
