@@ -153,6 +153,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://getflywheel.com/wordpress-support/how-to-enable-two-factor-authentication-on-flywheel
 
     - name: FS Data
