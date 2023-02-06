@@ -280,6 +280,7 @@ websites:
       img: iozoom.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.iozoom.com/client/announcements.php?id=6
 
     - name: iPage
