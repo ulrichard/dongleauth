@@ -19,7 +19,8 @@ websites:
       img: cigna.png
       tfa: Yes
       sms: Yes
-      email: Yes
+      otp: Yes
+      doc: https://www.youtube.com/watch?v=Dra07q1PpYI
 
     - name: CVS Caremark
       url: https://www.caremark.com
