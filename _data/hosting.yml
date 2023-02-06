@@ -249,6 +249,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.infomaniak.ch/en/support/faq/1940
 
     - name: INIZ
