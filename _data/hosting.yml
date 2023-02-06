@@ -435,6 +435,7 @@ websites:
       img: planethoster.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://blog.planethoster.com/securite-espace-client-planethoster/
 
     - name: Rackspace
