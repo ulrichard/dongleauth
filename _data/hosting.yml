@@ -21,6 +21,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.acquia.com/acquia-cloud/access/signin/ 
 
     - name: ARP Networks
