@@ -55,10 +55,10 @@ websites:
 
     - name: FitBit
       url: https://www.fitbit.com/
-      twitter: fitbit
-      facebook: fitbit
       img: fitbit.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.fitbit.com/articles/en_US/Help_article/2197.htm
 
     - name: FollowMyHealth
       url: https://www.followmyhealth.com/
