@@ -4,6 +4,7 @@ websites:
       img: 34sp.png
       tfa: Yes
       software: yes
+      otp: Yes
       doc: https://www.34sp.com/kb/142/how-to-enable-two-factor-authentication-on-your-account
 
     - name: A2 Hosting
