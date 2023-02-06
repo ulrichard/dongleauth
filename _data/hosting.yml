@@ -257,7 +257,8 @@ websites:
       img: iniz.png
       tfa: Yes
       software: Yes
-      doc: https://my.iniz.com/knowledgebase/24/Securing-Your-Account-2FA.html
+      otp: Yes
+      doc: https://my.iniz.com/knowledgebase/51/Secure-Your-Account-with-Two-Factor-Authentication.html
 
     - name: Inleed
       url: https://www.inleed.se
