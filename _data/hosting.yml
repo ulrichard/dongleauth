@@ -443,6 +443,7 @@ websites:
       img: rackspace.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.rackspace.com/how-to/myrackspace-multi-factor-authentication/
 
     - name: RamNode
