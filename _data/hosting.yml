@@ -418,15 +418,6 @@ websites:
       otp: Yes
       doc: https://www.one.com/en/about/news/2fa
 
-    - name: Online
-      url: https://www.online.net/
-      img: online.png
-      tfa: Yes
-      sms: Yes
-      software: Yes
-      exceptions:
-          text: "SMS available only to customers in France."
-
     - name: OVH
       url: https://www.ovh.com/
       img: ovh.png
