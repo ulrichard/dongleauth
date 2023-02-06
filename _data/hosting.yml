@@ -477,6 +477,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://segment.com/docs/iam/mfa/
 
     - name: Site5
