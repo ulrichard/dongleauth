@@ -231,6 +231,7 @@ websites:
       img: icdsoft.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://tickets.suresupport.com/faq/article-1700
 
     - name: ICUK
