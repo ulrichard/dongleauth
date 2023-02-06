@@ -75,6 +75,7 @@ websites:
       img: cdnsun.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://cdnsun.com/knowledgebase/billing/two-factor-authentication
 
     - name: ChunkHost
