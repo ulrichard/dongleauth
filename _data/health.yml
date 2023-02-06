@@ -2,10 +2,9 @@ websites:
     - name: 23andMe
       url: https://www.23andme.com/
       img: 23andme.png
-      tfa: No
-      twitter: 23andMesupport
-      facebook: 23andMe
-      email_address: customercare@23andme.com
+      tfa: Yes
+      otp: Yes
+      doc: https://customercare.23andme.com/hc/en-us/articles/360034119874-Adding-2-Step-Verification-to-Your-23andMe-Account
 
     - name: Carilion Clinic
       url: https://www.carilionclinic.org
@@ -20,7 +19,8 @@ websites:
       img: cigna.png
       tfa: Yes
       sms: Yes
-      email: Yes
+      otp: Yes
+      doc: https://www.youtube.com/watch?v=Dra07q1PpYI
 
     - name: CVS Caremark
       url: https://www.caremark.com
@@ -48,25 +48,17 @@ websites:
 
     - name: Elation Health
       url: https://www.elationhealth.com/
-      twitter: ElationHealth
-      facebook: ElationHealth
       img: elationhealth.png
-      tfa: No
-
-    - name: Endomondo
-      url: https://www.endomondo.com
-      twitter: Endomondo
-      facebook: endomondo
-      email_address: support@endomondo.com
-      img: endomondo.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.elationhealth.com/s/article/Multifactor-Authentication-MFA
 
     - name: FitBit
       url: https://www.fitbit.com/
-      twitter: fitbit
-      facebook: fitbit
       img: fitbit.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.fitbit.com/articles/en_US/Help_article/2197.htm
 
     - name: FollowMyHealth
       url: https://www.followmyhealth.com/
@@ -81,10 +73,10 @@ websites:
 
     - name: Garmin
       url: https://www.garmin.com/
-      twitter: Garmin
-      facebook: Garmin
       img: garmin.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.garmin.com/en-US/?faq=uGHS8ZqOIhA0usBzBMdJu7
 
     - name: Google Fit
       url: https://fit.google.com
@@ -102,20 +94,14 @@ websites:
     - name: Hint Health
       url: https://www.hint.com
       img: hint.png
-      tfa: No
-      twitter: HintHealth
-      facebook: hinthealth
+      tfa: Yes
+      otp: Yes
+      doc: https://support.hint.com/en/articles/2360627-authentication-code-and-enabling-two-factor-authentication
 
     - name: MedicAlert
       url: https://www.medicalert.ca
       img: medicalert.png
       twitter: MedicAlertCA
-      tfa: No
-
-    - name: Misfit
-      url: https://misfit.com/
-      twitter: Misfit
-      img: misfit.png
       tfa: No
 
     - name: myfitnesspal
@@ -139,6 +125,8 @@ websites:
       img: runsignup.png
       tfa: Yes
       software: Yes
+      otp: yes
+      doc: https://runsignup.blog/2018/09/06/multi-factor-authentication/
 
     - name: Runtastic
       url: https://www.runtastic.com
@@ -171,14 +159,14 @@ websites:
 
     - name: Withings
       url: https://www.withings.com/
-      twitter: AskWithings
-      facebook: withings
       img: withings.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.withings.com/hc/en-us/articles/4409339333009-Health-Mate-Android-App-Two-Factor-Authentication-2FA-
 
     - name: ZocDoc
       url: https://www.zocdoc.com/
-      twitter: Zocdoc
-      facebook: ZocDoc
       img: zocdoc.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.zocdoc.com/about/news/setting-up-multi-factor-authentication-on-zocdoc/
