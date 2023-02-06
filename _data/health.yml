@@ -94,9 +94,9 @@ websites:
     - name: Hint Health
       url: https://www.hint.com
       img: hint.png
-      tfa: No
-      twitter: HintHealth
-      facebook: hinthealth
+      tfa: Yes
+      otp: Yes
+      doc: https://support.hint.com/en/articles/2360627-authentication-code-and-enabling-two-factor-authentication
 
     - name: MedicAlert
       url: https://www.medicalert.ca
