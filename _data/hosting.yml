@@ -12,6 +12,7 @@ websites:
       img: a2hosting.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.a2hosting.com/kb/a2-hosting-customer-portal/account-management/enabling-two-factor-authentication-for-your-a2-hosting-account
 
     - name: Acquia 
