@@ -394,6 +394,8 @@ websites:
       img: noez.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://community.noez.de/t/wie-aktiviere-ich-die-2fa-zwei-faktor-authentisierung-fuer-meinen-account/199
 
     - name: Oderland
       url: https://www.oderland.se/
