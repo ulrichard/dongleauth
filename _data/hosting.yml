@@ -347,6 +347,8 @@ websites:
       img: misshosting.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://github.com/2factorauth/twofactorauth/issues/3634#issuecomment-454688629
 
     - name: Mittwald
       url: https://www.mittwald.de/
