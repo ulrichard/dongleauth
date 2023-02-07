@@ -789,9 +789,8 @@ websites:
     - name: Nubank
       url: https://www.nubank.com.br
       img: nubank.png
-      tfa: No
-      twitter: nubankbrasil
-      facebook: nubankbrasil
+      tfa: Yes
+      doc: https://blog.nubank.com.br/autenticacao-dois-fatores/
       lang: pt
 
     - name: Openbank
