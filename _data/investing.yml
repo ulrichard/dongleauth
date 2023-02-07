@@ -65,9 +65,10 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Only available for some account types"
-      doc: /notes/fidelity/
+      doc: https://www.fidelity.com/security/how-two-factor-authentication-works
 
     - name: Flatex
       url: https://www.flatex.de/
