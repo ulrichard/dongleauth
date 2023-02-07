@@ -1267,6 +1267,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP implementation requires M-ZABA App"
       doc: https://www.zaba.hr/home/token#pan3
 
     - name: Zurich Cantonal Bank (ZKB)
