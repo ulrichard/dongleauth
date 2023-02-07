@@ -1157,7 +1157,9 @@ websites:
       twitter: TSB
       facebook: TSBbankUK
       img: tsb.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.tsb.co.uk/fraud-prevention-centre/strong-customer-authentication/
 
     - name: Umpqua Bank
       url: https://www.umpquabank.com/
