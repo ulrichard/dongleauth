@@ -1,7 +1,6 @@
 websites:
     - name: Acorns
       url: https://www.acorns.com/
-      twitter: acorns
       img: acorns.png
       tfa: Yes
       otp: Yes
@@ -43,7 +42,11 @@ websites:
       url: https://www.commsec.com.au
       twitter: commsec
       img: commsec.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: OTP only available via SMS.
+      doc: https://www.commsec.com.au/safe-digital-tips
 
     - name: E*Trade
       url: https://www.etrade.com/
