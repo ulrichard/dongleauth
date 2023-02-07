@@ -1062,9 +1062,9 @@ websites:
     - name: State Farm
       url: https://www.statefarm.com/
       img: statefarm.png
-      tfa: No
-      twitter: StateFarm
-      facebook: StateFarm
+      tfa: Yes
+      otp: Yes
+      doc: https://www.statefarm.com/customer-care/privacy-security/security
 
     - name: Swedbank
       url: https://www.swedbank.se/
