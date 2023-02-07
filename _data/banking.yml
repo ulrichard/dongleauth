@@ -1214,7 +1214,8 @@ websites:
       sms: Yes
       software: Yes
       phone: Yes
-      doc: https://www.uwcu.org/OnlineBanking/OnlineSecurity/VerifyU.aspx
+      otp: Yes
+      doc: https://www.uwcu.org/online-banking/
 
     - name: VyStar Credit Union
       url: https://vystarcu.org/
