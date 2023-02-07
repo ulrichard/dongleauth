@@ -145,6 +145,8 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
+      doc: https://www.questrade.com/learning/questrade-basics/account-profile-and-security/mobile-authenticators
 
     - name: Raizers
       url: https://www.raizers.com
