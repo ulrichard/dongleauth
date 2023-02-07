@@ -1239,13 +1239,6 @@ websites:
       img: wescom.png
       tfa: No
 
-    - name: Westminster Savings Credit Union (WSCU)
-      url: https://www.wscu.com/
-      twitter: wscu
-      facebook: westminstersavings
-      img: wscu.png
-      tfa: No
-
     - name: Widiba
       url: https://www.widiba.it
       img: widiba.png
