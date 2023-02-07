@@ -1017,6 +1017,9 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      exceptions: 
+        text: "OTP only available via SMS"
       doc: https://www.sofi.com/blog/introducing-two-step-verification-sofi-next-level-account-protection/
 
     - name: Sparda Banken
