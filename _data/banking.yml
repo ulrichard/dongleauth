@@ -1230,6 +1230,7 @@ websites:
       sms: Yes
       phone: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.wellsfargo.com/privacy-security/advanced-access
 
     - name: Wescom Credit Union
