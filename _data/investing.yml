@@ -93,6 +93,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP implementation uses IBKR App"
       doc: https://www.interactivebrokers.com/en/index.php?f=ibgStrength&p=log
 
     - name: John Hancock Pensions
