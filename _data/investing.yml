@@ -110,7 +110,9 @@ websites:
       url: https://www.manulife.ca
       twitter: Manulife
       img: manulife.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.manulifebank.ca/support/two-step-verification.html
 
     - name: Merrill Edge
       url: https://www.merrilledge.com/
