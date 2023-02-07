@@ -83,7 +83,9 @@ websites:
       url: https://www.healthequity.com/
       twitter: HealthEquity
       img: healthequity.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://healthequity.com/hsa
 
     - name: Interactive Brokers
       url: https://www.interactivebrokers.com
