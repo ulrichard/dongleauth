@@ -911,7 +911,9 @@ websites:
       twitter: sdccu
       facebook: SDCCU
       img: sdccu.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.sdccu.com/blog/march-2021/online-banking-demystified-addressing-6-common-fe/
 
     - name: San Francisco Fire Credit Union
       url: https://www.sffirecu.org
