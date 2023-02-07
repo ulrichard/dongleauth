@@ -158,7 +158,9 @@ websites:
       url: https://www.rbcdirectinvesting.com
       twitter: RBC
       img: rbc.png
-      tfa: No
+      tfa: Yes
+      otp: yes
+      doc: https://www.rbcroyalbank.com/ways-to-bank/tutorials/general/2-step-verification.html
 
     - name: Robinhood
       url: https://www.robinhood.com/
