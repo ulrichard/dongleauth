@@ -176,8 +176,10 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Applies to IdentityIQ and IdentityNow."
+      doc: https://documentation.sailpoint.com/saas/user-help/accounts/mfa.html
 
     - name: SecureSafe
       url: https://www.securesafe.com
