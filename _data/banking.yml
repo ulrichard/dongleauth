@@ -982,6 +982,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA authentication via BankID for Swedish Citizens only."
       doc: https://seb.se/privat/digitala-tjanster
 
     - name: Service Credit Union
