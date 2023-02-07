@@ -1099,10 +1099,10 @@ websites:
     - name: TARGOBANK
       url: https://www.targobank.de/
       img: targobank.png
-      tfa: No
-      twitter: TARGOBANK
-      facebook: targobank
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://targobank-magazin.de/konto/3d-secure/
 
     - name: TBC Bank
       url: https://www.tbcbank.ge
