@@ -54,7 +54,10 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://us.etrade.com/landing/secureid_enter
+      otp: Yes
+      exceptions: 
+        text: "OTP implementation requires Etrade App"
+      doc: https://us.etrade.com/security-center/securityid
 
     - name: Fidelity Investments
       url: https://www.fidelity.com
