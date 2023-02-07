@@ -1091,10 +1091,10 @@ websites:
 
     - name: Tangerine
       url: https://www.tangerine.ca/
-      twitter: TangerineBank
-      facebook: TangerineBank
       img: tangerine.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.tangerine.ca/en/security
 
     - name: TARGOBANK
       url: https://www.targobank.de/
