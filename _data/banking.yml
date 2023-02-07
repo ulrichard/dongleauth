@@ -885,10 +885,10 @@ websites:
 
     - name: RBC Royal Bank
       url: https://www.rbcroyalbank.com
-      twitter: RBC_Canada
-      facebook: rbc
       img: rbc.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.rbcroyalbank.com/caribbean/digital-hub/security-two-factor.html
 
     - name: Regions Bank
       url: https://www.regions.com
