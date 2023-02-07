@@ -1007,9 +1007,9 @@ websites:
     - name: Simplii Financial
       url: https://www.simplii.com
       img: simplii.png
-      tfa: No
-      facebook: SimpliiFinancial
-      twitter: SimpliiFin
+      tfa: Yes
+      otp: Yes
+      doc: https://www.simplii.com/en/banking-simplii/two-step-verification.html
 
     - name: SoFi
       url: https://www.sofi.com/
