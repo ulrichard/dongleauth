@@ -63,12 +63,14 @@ websites:
       doc: https://help.id.me/hc/en-us/articles/360017969214
 
     - name: IDentité Numérique (IDN)
-      url: https://www.idn.laposte.fr
-      twitter: lisalaposte
-      facebook: laposte
+      url: https://www.lidentitenumerique.laposte.fr/
       img: identitenumerique.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA implementation requires Laposte App"
       lang: fr
+      doc: https://aide.lidentitenumerique.laposte.fr/kb/guide/fr/comment-utiliser-mon-identite-numerique-YapekkW4gf/Steps/101492
 
     - name: Keeper
       url: https://keepersecurity.com/
