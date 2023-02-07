@@ -154,6 +154,7 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.roboform.com/hc/en-us/articles/115002729512
 
     - name: SAASPASS
