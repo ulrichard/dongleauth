@@ -762,6 +762,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "TFA only available for Swedish residents with BankID."      
       doc: https://www.nordea.se/privat/vardagstjanster/internet-mobil-telefon/bank-id.html
 
     - name: Nordnet Finland
