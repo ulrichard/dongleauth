@@ -892,10 +892,10 @@ websites:
 
     - name: Regions Bank
       url: https://www.regions.com
-      twitter: askRegions
-      facebook: RegionsBank
       img: regionsbank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.regions.com/insights/wealth/family/protecting-assets-and-family/how-does-two-factor-authentication-work
 
     - name: SAFE Credit Union
       url: https://safecu.org
