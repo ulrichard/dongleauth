@@ -122,14 +122,6 @@ websites:
       otp: Yes
       doc: https://github.com/2factorauth/twofactorauth/issues/2275
 
-    - name: MotifInvesting
-      url: https://www.motifinvesting.com/
-      img: motif.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-      doc: https://www.motifinvesting.com/security
-
     - name: Nutmeg
       url: https://www.nutmeg.com/
       img: nutmeg.png
