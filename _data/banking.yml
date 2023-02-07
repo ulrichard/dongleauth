@@ -767,9 +767,11 @@ websites:
     - name: Nordnet Finland
       url: https://www.nordnet.fi/
       img: nordnet.png
-      tfa: No
+      tfa: Yes
       twitter: nordnetFI
       lang: fi
+      otp: Yes
+      doc: https://www.nordnet.fi/faq/2750-tarjoaako-nordnet-2-vaiheista-tunnistautumista
 
     - name: Nordnet Sverige
       url: https://www.nordnet.se/
