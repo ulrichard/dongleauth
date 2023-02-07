@@ -997,13 +997,6 @@ websites:
       img: servus-cu.png
       tfa: No
 
-    - name: Simple
-      url: https://www.simple.com/
-      img: simple.png
-      tfa: Yes
-      sms: Yes
-      doc: https://www.simple.com/help/articles/account-maintenance/security
-
     - name: Simplii Financial
       url: https://www.simplii.com
       img: simplii.png
