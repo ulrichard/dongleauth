@@ -1079,7 +1079,10 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
-      doc: https://hjalp.swedbank.se/logga-in/index.htm
+      otp: Yes
+      exceptions: 
+        text: "OTP via BankID available to Swedish Citizens only"
+      doc: https://www.swedbank.se/privat/digitala-tjanster/mobilt-bankid/fragor-och-svar-om-mobilt-bankid.html
 
     - name: Synchrony Bank
       url: https://www.synchronybank.com
