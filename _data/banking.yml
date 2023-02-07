@@ -995,7 +995,9 @@ websites:
       twitter: ServusCU
       facebook: ServusCU
       img: servus-cu.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.servus.ca/security/protect-yourself/two-step-authentication
 
     - name: Simplii Financial
       url: https://www.simplii.com
