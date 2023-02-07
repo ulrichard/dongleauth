@@ -127,7 +127,8 @@ websites:
       img: nutmeg.png
       tfa: Yes
       software: Yes
-      doc: https://support.nutmeg.com/hc/en-us/articles/115000495111
+      otp: Yes
+      doc: https://support.nutmeg.com/?article=115000495111-How-to-set-up-and-manage-2-step-verification
 
     - name: Personal Capital
       url: https://www.personalcapital.com
@@ -135,7 +136,8 @@ websites:
       tfa: Yes
       email: Yes
       phone: Yes
-      doc: https://www.personalcapital.com/safety-and-security
+      otp: Yes
+      doc: https://support.personalcapital.com/hc/en-us/articles/115012967988-Additional-Second-Layer-of-Multi-Factor-Authentication-MFA-
 
     - name: Questrade
       url: https://www.questrade.com
