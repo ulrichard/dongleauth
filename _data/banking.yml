@@ -1066,13 +1066,6 @@ websites:
       twitter: StateFarm
       facebook: StateFarm
 
-    - name: SunTrust
-      url: https://www.suntrust.com/
-      twitter: SunTrust
-      facebook: suntrust
-      img: suntrust.png
-      tfa: No
-
     - name: Swedbank
       url: https://www.swedbank.se/
       img: swedbank.png
