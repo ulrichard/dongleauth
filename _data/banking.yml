@@ -1030,12 +1030,11 @@ websites:
 
     - name: Sparkasse
       url: https://www.sparkasse.de/
-      twitter: sparkasse
-      facebook: sparkasse
-      email_address: sparkasse@sparkassen-finanzportal.de
       img: sparkasse.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://www.sparkasse.de/service/sicherheit-im-internet/ihre-daten-bei-der-sparkasse.html
 
     - name: Starling Bank
       url: https://www.starlingbank.com/
