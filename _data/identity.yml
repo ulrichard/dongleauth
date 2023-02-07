@@ -164,6 +164,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://saaspass.com/faq/
 
     - name: SailPoint
