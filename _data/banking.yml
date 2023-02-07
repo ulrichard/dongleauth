@@ -854,10 +854,10 @@ websites:
 
     - name: Postbank
       url: https://www.postbank.de/
-      twitter: postbank
-      facebook: postbank
       img: postbank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.postbank.de/privatkunden/services/banking-und-brokerage/zwei-faktor-authentifizierung.html#expand=starke-kundenauthentifizierung
       lang: de
 
     - name: PosteItaliane
