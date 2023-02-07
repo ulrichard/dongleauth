@@ -1021,11 +1021,10 @@ websites:
 
     - name: Sparda Banken
       url: https://www.sparda.de/
-      twitter: SpardaBerlin
-      facebook: spardaberlin
-      email_address: info@sparda-verband.de
       img: spardabank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.sparda.de/online-sicherheit-psd2/
       lang: de
 
     - name: Sparkasse
