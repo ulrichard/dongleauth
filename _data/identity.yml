@@ -199,4 +199,5 @@ websites:
       email: Yes
       software: Yes
       hardware: Yes
-      doc: https://help.truekey.com/hc/en-us/articles/218580447-How-can-I-add-additional-factors-
+      otp: Yes
+      doc: https://www.mcafee.com/support/?articleId=TS102352&page=shell&shell=article-view
