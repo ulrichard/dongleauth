@@ -832,10 +832,10 @@ websites:
 
     - name: PenFed
       url: https://www.penfed.org/
-      twitter: PenFed
-      facebook: PenFed
       img: penfed.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.penfed.org/learn/how-to-create-secure-passwords-you-can-still-remember
 
     - name: PNC Bank
       url: https://www.pnc.com/
