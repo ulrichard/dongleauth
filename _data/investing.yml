@@ -168,6 +168,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.robinhood.com/hc/en-us/articles/360001213783
 
     - name: SigFig
