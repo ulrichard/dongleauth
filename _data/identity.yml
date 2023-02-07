@@ -37,16 +37,6 @@ websites:
         text: "Premium account required for Duo, YubiKey and FIDO U2F."
       doc: https://help.bitwarden.com/article/setup-two-step-login/
 
-    - name: Centrify
-      url: https://www.centrify.com
-      img: centrify.png
-      tfa: Yes
-      sms: Yes
-      email: Yes
-      phone: Yes
-      software: Yes
-      doc: https://www.centrify.com/solutions/why-multi-factor-authentication/
-
     - name: Dashlane
       url: https://www.dashlane.com
       img: dashlane.png
@@ -73,12 +63,14 @@ websites:
       doc: https://help.id.me/hc/en-us/articles/360017969214
 
     - name: IDentité Numérique (IDN)
-      url: https://www.idn.laposte.fr
-      twitter: lisalaposte
-      facebook: laposte
+      url: https://www.lidentitenumerique.laposte.fr/
       img: identitenumerique.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA implementation requires Laposte App"
       lang: fr
+      doc: https://aide.lidentitenumerique.laposte.fr/kb/guide/fr/comment-utiliser-mon-identite-numerique-YapekkW4gf/Steps/101492
 
     - name: Keeper
       url: https://keepersecurity.com/
@@ -139,6 +131,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Hardware tokens only work on desktop."
       doc: https://passhub.net/security.php
@@ -149,7 +142,10 @@ websites:
       tfa: Yes
       email: Yes
       hardware: Yes
-      doc: https://help.passpack.com/knowledgebase/idx.php/44/0/
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://support.passpack.com/hc/en-us/articles/200749134-Two-Factor-Authentication-Set-Up
 
     - name: RoboForm
       url: https://www.roboform.com/
@@ -158,6 +154,7 @@ websites:
       email: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.roboform.com/hc/en-us/articles/115002729512
 
     - name: SAASPASS
@@ -167,6 +164,7 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://saaspass.com/faq/
 
     - name: SailPoint
@@ -178,14 +176,17 @@ websites:
       phone: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Applies to IdentityIQ and IdentityNow."
+      doc: https://documentation.sailpoint.com/saas/user-help/accounts/mfa.html
 
     - name: SecureSafe
       url: https://www.securesafe.com
       img: securesafe.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       exceptions:
           text: "2FA is only available on paid plans."
       doc: https://www.securesafe.com/en/faq/general-questions/how-can-i-activate-2-factor-authentication/
@@ -198,4 +199,5 @@ websites:
       email: Yes
       software: Yes
       hardware: Yes
-      doc: https://help.truekey.com/hc/en-us/articles/218580447-How-can-I-add-additional-factors-
+      otp: Yes
+      doc: https://www.mcafee.com/support/?articleId=TS102352&page=shell&shell=article-view
