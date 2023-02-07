@@ -1,9 +1,10 @@
 websites:
     - name: Acorns
       url: https://www.acorns.com/
-      twitter: acorns
       img: acorns.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.acorns.com/support/how-do-i-turn-on-two-factor-authentication-on-my-account/
 
     - name: American Funds
       url: https://www.americanfunds.com
@@ -41,7 +42,11 @@ websites:
       url: https://www.commsec.com.au
       twitter: commsec
       img: commsec.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: OTP only available via SMS.
+      doc: https://www.commsec.com.au/safe-digital-tips
 
     - name: E*Trade
       url: https://www.etrade.com/
@@ -49,7 +54,10 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
-      doc: https://us.etrade.com/landing/secureid_enter
+      otp: Yes
+      exceptions: 
+        text: "OTP implementation requires Etrade App"
+      doc: https://us.etrade.com/security-center/securityid
 
     - name: Fidelity Investments
       url: https://www.fidelity.com
@@ -57,9 +65,10 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Only available for some account types"
-      doc: /notes/fidelity/
+      doc: https://www.fidelity.com/security/how-two-factor-authentication-works
 
     - name: Flatex
       url: https://www.flatex.de/
@@ -74,7 +83,9 @@ websites:
       url: https://www.healthequity.com/
       twitter: HealthEquity
       img: healthequity.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://healthequity.com/hsa
 
     - name: Interactive Brokers
       url: https://www.interactivebrokers.com
@@ -82,6 +93,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP implementation uses IBKR App"
       doc: https://www.interactivebrokers.com/en/index.php?f=ibgStrength&p=log
 
     - name: John Hancock Pensions
@@ -96,29 +110,25 @@ websites:
       url: https://www.manulife.ca
       twitter: Manulife
       img: manulife.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.manulifebank.ca/support/two-step-verification.html
 
     - name: Merrill Edge
       url: https://www.merrilledge.com/
       img: merrilledge.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://github.com/2factorauth/twofactorauth/issues/2275
-
-    - name: MotifInvesting
-      url: https://www.motifinvesting.com/
-      img: motif.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-      doc: https://www.motifinvesting.com/security
 
     - name: Nutmeg
       url: https://www.nutmeg.com/
       img: nutmeg.png
       tfa: Yes
       software: Yes
-      doc: https://support.nutmeg.com/hc/en-us/articles/115000495111
+      otp: Yes
+      doc: https://support.nutmeg.com/?article=115000495111-How-to-set-up-and-manage-2-step-verification
 
     - name: Personal Capital
       url: https://www.personalcapital.com
@@ -126,7 +136,8 @@ websites:
       tfa: Yes
       email: Yes
       phone: Yes
-      doc: https://www.personalcapital.com/safety-and-security
+      otp: Yes
+      doc: https://support.personalcapital.com/hc/en-us/articles/115012967988-Additional-Second-Layer-of-Multi-Factor-Authentication-MFA-
 
     - name: Questrade
       url: https://www.questrade.com
@@ -134,6 +145,8 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
+      doc: https://www.questrade.com/learning/questrade-basics/account-profile-and-security/mobile-authenticators
 
     - name: Raizers
       url: https://www.raizers.com
@@ -145,7 +158,9 @@ websites:
       url: https://www.rbcdirectinvesting.com
       twitter: RBC
       img: rbc.png
-      tfa: No
+      tfa: Yes
+      otp: yes
+      doc: https://www.rbcroyalbank.com/ways-to-bank/tutorials/general/2-step-verification.html
 
     - name: Robinhood
       url: https://www.robinhood.com/
@@ -153,6 +168,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.robinhood.com/hc/en-us/articles/360001213783
 
     - name: SigFig
@@ -166,12 +182,8 @@ websites:
       img: tdameritrade.png
       tfa: Yes
       sms: Yes
-
-    - name: TD Waterhouse
-      url: https://www.tdwaterhouse.ca
-      twitter: TD_Canada
-      img: tdameritrade.png
-      tfa: No
+      otp: Yes
+      doc: https://www.tdameritrade.com/logon-help.html
 
     - name: TIAA-CREF
       url: https://www.tiaa-cref.org
@@ -179,12 +191,8 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-
-    - name: TradeKing
-      url: https://www.tradeking.com
-      twitter: TradeKing
-      img: tradeking.png
-      tfa: No
+      otp: Yes
+      doc: https://www.tiaa.org/public/support/security-center
 
     - name: Vanguard
       url: https://www.vanguard.com/
@@ -195,6 +203,7 @@ websites:
       hardware: Yes
       u2f: Yes
       multipleu2f: Yes
+      otp: Yes
       doc: https://investor.vanguard.com/security/security-keys
 
     - name: Wealthfront
@@ -212,10 +221,5 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.wealthsimple.com/hc/en-ca/articles/360005175373
-
-    - name: WiseBanyan
-      url: https://www.wisebanyan.com/
-      twitter: WiseBanyan
-      img: wisebanyan.png
-      tfa: No
