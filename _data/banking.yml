@@ -1181,7 +1181,8 @@ websites:
       email: Yes
       sms: Yes
       phone: Yes
-      doc: https://www.unifyfcu.com/multi-factor-authentication-keep-bad-guys-out
+      otp: Yes
+      doc: https://www.unifyfcu.com/MemberPass
 
     - name: Union Bank
       url: https://www.unionbank.com/
