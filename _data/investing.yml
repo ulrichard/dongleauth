@@ -194,12 +194,6 @@ websites:
       otp: Yes
       doc: https://www.tiaa.org/public/support/security-center
 
-    - name: TradeKing
-      url: https://www.tradeking.com
-      twitter: TradeKing
-      img: tradeking.png
-      tfa: No
-
     - name: Vanguard
       url: https://www.vanguard.com/
       img: vanguard.png
