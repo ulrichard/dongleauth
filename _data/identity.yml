@@ -131,6 +131,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       exceptions:
           text: "Hardware tokens only work on desktop."
       doc: https://passhub.net/security.php
