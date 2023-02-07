@@ -829,6 +829,8 @@ websites:
       sms: Yes
       email: Yes
       phone: Yes
+      otp: Yes
+      doc: https://www.patelco.org/digital-banking/enroll/online-banking
 
     - name: PenFed
       url: https://www.penfed.org/
