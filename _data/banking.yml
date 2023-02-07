@@ -1134,7 +1134,9 @@ websites:
       twitter: tescobankhelp
       facebook: tesco.bank
       img: tescobank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.tescobank.com/security/3d-secure/
 
     - name: Tower Federal Credit Union
       url: https://www.towerfcu.org/
