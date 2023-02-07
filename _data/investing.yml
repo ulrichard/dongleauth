@@ -3,7 +3,9 @@ websites:
       url: https://www.acorns.com/
       twitter: acorns
       img: acorns.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.acorns.com/support/how-do-i-turn-on-two-factor-authentication-on-my-account/
 
     - name: American Funds
       url: https://www.americanfunds.com
