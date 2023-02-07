@@ -1087,7 +1087,8 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-      doc: https://www.synchronybank.com/why-synchrony/secure-banking/
+      otp: Yes
+      doc: https://www.synchronybank.com/blog/identity-theft-protect-your-information/
 
     - name: Tangerine
       url: https://www.tangerine.ca/
