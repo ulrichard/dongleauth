@@ -220,6 +220,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.wealthsimple.com/hc/en-ca/articles/360005175373
 
     - name: WiseBanyan
