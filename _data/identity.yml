@@ -142,7 +142,10 @@ websites:
       tfa: Yes
       email: Yes
       hardware: Yes
-      doc: https://help.passpack.com/knowledgebase/idx.php/44/0/
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      doc: https://support.passpack.com/hc/en-us/articles/200749134-Two-Factor-Authentication-Set-Up
 
     - name: RoboForm
       url: https://www.roboform.com/
