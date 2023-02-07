@@ -1110,6 +1110,9 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP implementation requires TBC App"
       doc: https://www.tbcbank.ge/web/en/web/guest/tbc-digipass
 
     - name: TD Bank
