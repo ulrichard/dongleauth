@@ -874,6 +874,9 @@ websites:
       img: rabobank.png
       tfa: Yes
       hardware: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP implementation requires Rabo App"
       doc: https://www.rabobank.nl/particulieren/betalen/rabo-scanner/
 
     - name: Raiffeisen Bank CZ
