@@ -1117,6 +1117,7 @@ websites:
       img: tdbank.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       phone: Yes
       doc: https://www.td.com/privacy-and-security/privacy-and-security/how-we-protect-you/online-security/2fa.jsp
 
