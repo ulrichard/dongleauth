@@ -842,7 +842,8 @@ websites:
       img: pncbank.png
       tfa: Yes
       sms: Yes
-      doc: https://www.pnc.com/en/customer-service/update-center/sign-on-changes.html
+      otp: Yes
+      doc: https://www.pnc.com/en/security-privacy/account-security.html
 
     - name: Podravska banka
       url: https://www.poba.hr/
