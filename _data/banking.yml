@@ -746,6 +746,7 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://nfcucloud.custhelp.com/app/answers/list/c/543
 
     - name: Nordea Sverige
