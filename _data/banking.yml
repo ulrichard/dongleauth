@@ -805,9 +805,9 @@ websites:
     - name: Optum Bank
       url: https://www.optumbank.com
       img: optum.png
-      tfa: No
-      twitter: myOptum
-      facebook: myOptum
+      tfa: Yes
+      otp: Yes
+      doc: https://www.optumbank.com/support/healthsafe-id-sign-in.html
 
     - name: OTP banka
       url: https://www.otpbanka.hr/
