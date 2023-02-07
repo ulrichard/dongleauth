@@ -1221,7 +1221,9 @@ websites:
       twitter: OfficialVyStar
       facebook: VyStarCU
       img: vystar.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://vystarcu.org/personal/bank/online-and-mobile-banking/enrollment
 
     - name: Wells Fargo
       url: https://www.wellsfargo.com/
