@@ -1142,7 +1142,8 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-      doc: https://server.iad.liveperson.net/hc/s-81758502/cmd/kbresource/kb-8660536393490959114/front_page!PAGETYPE?category=5352
+      otp: Yes
+      doc: https://www.towerfcu.org/2023/01/03/2fa-gives-stronger-security-for-your-accounts/
 
     - name: Triodos Bank Deutschland
       url: https://www.triodos.de
