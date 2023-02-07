@@ -972,9 +972,9 @@ websites:
     - name: Scotiabank
       url: https://www.scotiabank.com
       img: scotiabank.png
-      tfa: No
-      twitter: ScotiabankHelps
-      facebook: scotiabank
+      tfa: Yes
+      otp: Yes
+      doc: https://www.scotiabank.com/ca/en/personal/bank-your-way/digital-banking-guide/banking-basics/two-step-verification.html
 
     - name: SEB
       url: https://seb.se/
