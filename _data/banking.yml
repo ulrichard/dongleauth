@@ -1057,6 +1057,7 @@ websites:
       img: ncsecu.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.ncsecu.org/MobileServices/OneTimePasscode.html
 
     - name: State Farm
