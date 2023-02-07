@@ -186,6 +186,7 @@ websites:
       img: securesafe.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       exceptions:
           text: "2FA is only available on paid plans."
       doc: https://www.securesafe.com/en/faq/general-questions/how-can-i-activate-2-factor-authentication/
