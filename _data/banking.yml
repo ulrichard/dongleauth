@@ -904,12 +904,11 @@ websites:
       sms: Yes
       email: Yes
       phone: Yes
+      otp: Yes
       doc: https://www.safecu.org/personal/online-security/enhanced-login-security
 
     - name: San Diego County Credit Union
       url: https://www.sdccu.com
-      twitter: sdccu
-      facebook: SDCCU
       img: sdccu.png
       tfa: Yes
       otp: Yes
