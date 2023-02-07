@@ -1254,13 +1254,6 @@ websites:
       facebook: widiba.it
       lang: it
 
-    - name: Zag Bank
-      url: https://www.zagbank.ca/
-      twitter: zagbank
-      facebook: zagbank
-      img: zagbank.png
-      tfa: No
-
     - name: Zagrebačka banka
       url: https://www.zaba.hr/
       img: zagrebacka.png
