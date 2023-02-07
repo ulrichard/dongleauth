@@ -203,6 +203,7 @@ websites:
       hardware: Yes
       u2f: Yes
       multipleu2f: Yes
+      otp: Yes
       doc: https://investor.vanguard.com/security/security-keys
 
     - name: Wealthfront
