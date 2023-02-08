@@ -213,6 +213,8 @@ websites:
       img: blsk.png
       tfa: Yes
       u2f: Yes
+      otp: Yes
+      doc: https://www.blsk.de/de/home/service/psd2.html
 
     - name: Caisse D'Epargne
       url: https://www.caisse-epargne.fr/
