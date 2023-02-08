@@ -702,6 +702,8 @@ websites:
       sms: Yes
       email: Yes
       phone: Yes
+      otp: Yes
+      doc: https://www.macu.com/services/online-banking/online-security
 
     - name: N26
       url: https://n26.com
