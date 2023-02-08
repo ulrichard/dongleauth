@@ -477,7 +477,8 @@ websites:
       sms: Yes
       phone: Yes
       email: Yes
-      doc: https://www.firstcommunityexpressnet.com/tob/live/usp-core/static/help.html#login_security
+      otp: Yes
+      doc: https://www.firstcommunitybank.com/access/digital-banking-upgrade-faq
 
     - name: First Direct
       url: https://www1.firstdirect.com/
