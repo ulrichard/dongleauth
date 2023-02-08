@@ -494,7 +494,8 @@ websites:
       sms: Yes
       phone: Yes
       email: Yes
-      doc: https://www.firstrepublic.com/resource/banking-online-faqs#su10
+      otp: Yes
+      doc: https://www.firstrepublic.com/resource/entering-a-6-digit-code-at-every-sign-in
 
     - name: First Tech Federal Credit Union
       url: https://www.firsttechfed.com/
