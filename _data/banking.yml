@@ -268,10 +268,10 @@ websites:
 
     - name: CIBC
       url: https://www.cibc.ca
-      twitter: cibc
-      facebook: CIBC
       img: cibc.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.cibc.com/en/privacy-security/two-step-verification.html
 
     - name: Citibank
       url: https://online.citi.com/
