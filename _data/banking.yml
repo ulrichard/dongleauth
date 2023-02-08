@@ -229,6 +229,7 @@ websites:
       sms: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: https://www.capitalone.com/identity-protection/swiftid/
       exceptions:
        text: "Software implementation requires use of Capital One app."
