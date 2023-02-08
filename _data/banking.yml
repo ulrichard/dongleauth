@@ -69,7 +69,8 @@ websites:
       sms: Yes
       phone: Yes
       email: Yes
-      doc: https://www.americaschristiancu.com/ministry/services/online-banking-bill-pay.html
+      otp: Yes
+      doc: https://americaschristiancu.com/online-banking/
 
     - name: Andrews Federal Credit Union
       url: https://www.andrewsfcu.org/
