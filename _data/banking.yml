@@ -216,11 +216,11 @@ websites:
 
     - name: Caisse D'Epargne
       url: https://www.caisse-epargne.fr/
-      twitter: CaissEpargneSAV
-      facebook: Caisse.Epargne
       img: caisse_epargne.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: fr
+      doc: https://www.caisse-epargne.fr/comptes-cartes/dsp2/
 
     - name: Capital One
       url: https://www.capitalone.com/
