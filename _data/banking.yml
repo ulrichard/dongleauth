@@ -179,10 +179,10 @@ websites:
 
     - name: BMO Harris Bank
       url: https://www.bmoharris.com/
-      twitter: BMOHarrisBank
-      facebook: BMOHarrisBank
       img: bmo.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bmoharris.com/main/personal/ways-to-bank/security-center/how-to-protect-yourself/
 
     - name: Boeing Employee Credit Union
       url: https://www.becu.org/
