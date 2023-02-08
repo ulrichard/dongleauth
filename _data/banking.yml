@@ -106,6 +106,7 @@ websites:
       img: bankcentralasia.png
       tfa: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.bca.co.id/en/Individu/Produk/E-Banking/Klik-BCA
 
     - name: Bank of America
