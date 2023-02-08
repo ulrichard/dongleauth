@@ -453,7 +453,8 @@ websites:
       sms: Yes
       email: Yes
       phone: Yes
-      doc: "https://www.fairwinds.org/inside/privacy/security_we.asp#multifactor-auth"
+      otp: Yes
+      doc: https://www.fairwinds.org/inside-fairwinds/privacy-and-security/security/security-we.html
 
     - name: Fifth Third Bank
       url: https://www.53.com/
