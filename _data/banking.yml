@@ -464,11 +464,11 @@ websites:
 
     - name: Fio banka
       url: https://www.fio.cz
-      twitter: Fio_banka
-      facebook: Fiobanka
       img: fio-cz.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: cz
+      doc: https://www.fio.cz/bank-services/internetbanking/security
 
     - name: First Community Credit Union
       url: https://www.firstcommunity.com/
