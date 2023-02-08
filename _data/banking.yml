@@ -12,6 +12,7 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://www.addiko.hr/static/uploads/mtoken-uputa-za-koristenje.pdf
 
     - name: AirBank
