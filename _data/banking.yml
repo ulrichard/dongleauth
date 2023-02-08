@@ -257,7 +257,8 @@ websites:
       sms: Yes
       phone: Yes
       email: Yes
-      doc: /notes/chase/
+      otp: Yes
+      doc: https://www.chase.com/digital/resources/privacy-security/security/how-we-protect-you
 
     - name: Chime
       url: https://www.chimebank.com
