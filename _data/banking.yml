@@ -396,9 +396,9 @@ websites:
     - name: Discover (Banking)
       url: https://www.discover.com/online-banking/
       img: discover.png
-      tfa: No
-      twitter: Discover
-      facebook: discover
+      tfa: Yes
+      otp: Yes
+      doc: https://www.discover.com/credit-cards/member-benefits/security-center/protect-account/account-verification.html
 
     - name: Discover (Credit Cards)
       url: https://www.discover.com/
