@@ -738,7 +738,8 @@ websites:
       img: natwest.png
       tfa: Yes
       hardware: Yes
-      doc: http://www.natwest.com/personal/online-banking/g1/banking-safely-online/card-reader.ashx
+      otp: Yes
+      doc: https://supportcentre.natwest.com/Searchable/1543929622/What-is-Multi-Factor-Authentication.htm
 
     - name: Navy Federal Credit Union
       url: https://www.navyfederal.org/
