@@ -407,6 +407,7 @@ websites:
       email: Yes
       phone: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.discover.com/credit-cards/member-benefits/security-center/protect-account/account-verification.html
 
     - name: DNB
