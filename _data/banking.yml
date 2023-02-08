@@ -625,10 +625,10 @@ websites:
 
     - name: LendingClub
       url: https://www.lendingclub.com/
-      twitter: LendingClub
-      facebook: LendingClubTeam
       img: lendingclub.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.lendingclub.com/legal/privacy-policy
 
     - name: LGE Community Credit Union
       url: https://www.lgeccu.org/
