@@ -246,6 +246,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://www.csas.cz/cs/mobilni-aplikace/george-klic
       exceptions:
        text: "Software implementation requires use of George Klic app."
