@@ -316,11 +316,12 @@ websites:
 
     - name: Commerzbank
       url: https://www.commerzbank.de/
-      twitter: commerzbank
-      facebook: commerzbank
       img: commerzbank.png
-      email_address: directbanking@commerzbank.com
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "Must use photoTAN or mobileTAN app for MFA"
+      doc: https://service.commerzbank.de/wie-bezahle-ich-mit-meiner-kreditkarte-sicher-im-internet/
       lang: de
 
     - name: Commonwealth Bank of Australia
