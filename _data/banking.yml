@@ -337,7 +337,8 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
-      doc: https://www.cacuonlinebanking.com/tob/live/usp-core/static/help.html#login_security
+      otp: Yes
+      doc: https://www.communityamerica.com/info/fraud-prevention
 
     - name: Credit Union Australia
       url: https://www.cua.com.au/
