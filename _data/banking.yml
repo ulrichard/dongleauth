@@ -607,7 +607,8 @@ websites:
       img: intesasanpaolo.png
       tfa: Yes
       hardware: Yes
-      doc: https://www.intesasanpaolo.com/it/common/footer/sicurezza.html
+      otp: Yes
+      doc: https://www.intesasanpaolo.com/content/internetbanking/it/faq/common/faqHome/scenari-di-autenticazione.privati.html
 
     - name: KeyBank
       url: https://www.key.com
