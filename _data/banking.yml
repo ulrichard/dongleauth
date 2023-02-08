@@ -568,10 +568,10 @@ websites:
 
     - name: ICICI
       url: https://www.icicibank.com
-      twitter: ICICIBank
-      facebook: icicibank
       img: icici.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.icicibank.com/online-safe-banking/bank-commitment
 
     - name: ING (Luxembourg)
       url: https://www.ing.lu
