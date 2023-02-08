@@ -190,14 +190,6 @@ websites:
       tfa: Yes
       sms: Yes
 
-    - name: BofI Federal Bank
-      url: https://www.bofifederalbank.com/
-      img: bofifederalbank.png
-      tfa: Yes
-      sms: Yes
-      phone: Yes
-      doc: https://www.mybankofinternet.com/tob/live/usp-core/static/help.html#login_security
-
     - name: Boursorama
       url: https://www.boursorama.com/
       twitter: Boursorama
