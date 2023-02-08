@@ -161,6 +161,8 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
+      doc: https://www.bethpagefcu.com/advice-planning/fraud-protection/p2p-security-tips.aspx
 
     - name: Black Hills Federal Credit Union
       url: https://www.bhfcu.com
