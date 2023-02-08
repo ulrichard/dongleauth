@@ -731,7 +731,8 @@ websites:
       img: nationwide.png
       tfa: Yes
       hardware: Yes
-      doc: https://www.nationwide.co.uk/support/security-centre/internet-banking-security/card-reader-and-security-questions
+      otp: Yes
+      doc: https://www.nationwide.co.uk/help/online-banking-help/log-in-to-the-internet-bank/
 
     - name: Natwest UK
       url: https://www.natwest.com/personal.ashx
