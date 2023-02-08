@@ -658,6 +658,9 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA via BankID for Swedish Citizens only."
       doc: https://www.lansforsakringar.se/privat/att-vara-kund/digitala-tjanster-telefonbank/internetbanken/
 
     - name: MandT Bank
