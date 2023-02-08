@@ -363,11 +363,11 @@ websites:
 
     - name: Desjardins
       url: https://www.desjardins.com/
-      twitter: mvtdesjardins
-      facebook: desjardins
       img: desjardins.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: fr
+      doc: https://www.desjardins.com/ca/security/2-step-verification/index.jsp
 
     - name: Deutsche Kreditbank (DKB)
       url: https://www.dkb.de/
