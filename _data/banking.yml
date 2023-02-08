@@ -913,8 +913,9 @@ websites:
     - name: Raiffeisen Bank CZ
       url: https://www.rb.cz/
       img: raiffeisenbank_cz.png
-      doc: https://www.rb.cz/firemni-finance/podnikatele-a-male-firmy/prime-bankovnictvi/sluzby-pro-firemni-ucty/bezpecnost-internetoveho-bankovnictvi/
+      doc: https://www.rb.cz/bezpecne-bankovnictvi/bezpecnost-mobilniho-bankovnictvi
       tfa: Yes
+      otp: yes
       hardware: Yes
 
     - name: RBC Royal Bank
