@@ -585,6 +585,8 @@ websites:
       img: ing.png
       tfa: Yes
       sms: Yes
+      otp: Yes
+      doc: https://www.ing.com.au/security.html
 
     - name: ING-DiBa AG (Deutschland)
       url: https://www.ing.de
