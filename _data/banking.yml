@@ -141,13 +141,6 @@ websites:
       phone: Yes
       email: Yes
 
-    - name: BB&amp;T
-      url: https://www.bbt.com/
-      twitter: BBT
-      facebook: BBTBank
-      img: bbt.png
-      tfa: No
-
     - name: Bethpage Federal Credit Union
       url: https://www.bethpagefcu.com/
       img: bfcu.png
