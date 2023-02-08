@@ -838,6 +838,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP implementation via OTP Banka token"
       doc: https://www.otpbanka.hr/hr/upute/otp-token-upute-za-koristenje
 
     - name: Partners Federal Credit Union
