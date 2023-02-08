@@ -647,10 +647,10 @@ websites:
 
     - name: Lloyds Bank
       url: https://www.lloydsbank.com/
-      twitter: AskLloydsBank
-      facebook: lloydsbank
       img: lloydsbank.png
-      tfa: No
+      tfa: Yes
+      otp: yes
+      doc: https://www.lloydsbank.com/help-guidance/protecting-yourself-from-fraud/bank-safely-protect-your-passwords.html
 
     - name: Länsförsäkringar
       url: https://www.lansforsakringar.se/
