@@ -148,13 +148,6 @@ websites:
       img: bbt.png
       tfa: No
 
-    - name: BBVA Compass
-      url: https://www.bbvacompass.com/
-      img: bbvacompass.png
-      tfa: No
-      facebook: bbvacompass
-      twitter: BBVACompass
-
     - name: Bethpage Federal Credit Union
       url: https://www.bethpagefcu.com/
       img: bfcu.png
