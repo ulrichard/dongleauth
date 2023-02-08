@@ -123,6 +123,7 @@ websites:
       img: bochk.png
       tfa: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.bochk.com/en/security/2factorauthentication.html
 
     - name: Barclays UK
