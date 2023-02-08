@@ -663,9 +663,9 @@ websites:
     - name: MandT Bank
       url: https://www.mtb.com/
       img: mtbank.png
-      tfa: No
-      twitter: MandT_Help
-      facebook: MandTBank
+      tfa: Yes
+      otp: Yes
+      doc: https://www3.mtb.com/help-center/banking-security/online-mobile-banking-security
 
     - name: Marcus by Goldman Sachs
       url: https://www.marcus.com/
