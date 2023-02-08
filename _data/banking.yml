@@ -983,7 +983,8 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
-      doc: https://santander.pl/firmy/bankowosc-elektroniczna/bzwbk24-mini-firma/metody-autoryzacji/metody-autoryzacji.html
+      otp: Yes
+      doc: https://www.santander.pl/klient-indywidualny/bankowosc-internetowa/santander-mobile/mobilna-autoryzacja
       exceptions:
        text: "Software authentication only available via Santander mobile."
 
