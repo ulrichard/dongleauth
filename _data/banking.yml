@@ -359,6 +359,7 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
       doc: https://www.desertfinancial.com/faq/online-solutions-faqs/security
 
     - name: Desjardins
