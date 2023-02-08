@@ -506,11 +506,10 @@ websites:
 
     - name: FirstBank
       url: https://www.efirstbank.com/
-      twitter: efirstbank
-      facebook: efirstbank
-      email_address: banking@efirstbank.com
       img: firstbank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.efirstbank.com/internet-banking/login-options.htm#OneTimePasscode
 
     - name: GLS Gemeinschaftsbank
       url: https://www.gls.de/
