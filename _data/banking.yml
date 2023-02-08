@@ -415,6 +415,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP via BankID app needed."
       doc: https://www.dnb.no/privat/kundeservice/innlogging-nettbank.html
 
     - name: Dutch-Bangla Bank Limited (DBBL)
