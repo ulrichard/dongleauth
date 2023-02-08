@@ -457,10 +457,10 @@ websites:
 
     - name: Fifth Third Bank
       url: https://www.53.com/
-      twitter: FifthThird
-      facebook: FifthThirdBank
       img: fifththird.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.53.com/content/fifth-third/en/financial-insights/personal/fraud-protection/5-ways-protect-your-financial-data.html
 
     - name: Fio banka
       url: https://www.fio.cz
