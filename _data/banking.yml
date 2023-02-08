@@ -116,6 +116,7 @@ websites:
       email: Yes
       hardware: Yes
       u2f: yes 
+      otp: Yes
       doc: https://www.bankofamerica.com/security-center/faq/additional-security-features/
         
     - name: Bank of China (Hong Kong)
