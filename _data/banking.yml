@@ -383,7 +383,8 @@ websites:
       phone: Yes
       sms: Yes
       email: Yes
-      doc: https://www.dcu.org/online-banking/online-banking-enhancements.html
+      otp: yes
+      doc: https://www.dcu.org/dcu-support-center/digital-banking.html#dcuAccordion-ce71b756cd-item-4d4d2e82bd
 
     - name: Discount Bank
       url: https://www.discountbank.co.il
