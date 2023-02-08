@@ -554,10 +554,10 @@ websites:
 
     - name: Huntington National Bank
       url: https://www.huntington.com
-      twitter: Huntington_Bank
-      facebook: HuntingtonBank
       img: huntingtonnationalbank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.huntington.com/Privacy-Security/password-security/secure-accounts
 
     - name: ICICI
       url: https://www.icicibank.com
