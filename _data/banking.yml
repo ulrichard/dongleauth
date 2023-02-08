@@ -879,6 +879,9 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
+      exceptions:
+        text: "OTP via mToken by Podravska Bank"
       doc: https://www.poba.hr/get_file.php?d=pobaklik__upute_gradani.pdf
 
     - name: Postbank
