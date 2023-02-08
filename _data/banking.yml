@@ -426,10 +426,11 @@ websites:
 
     - name: Easybank
       url: https://www.easybank.at
-      facebook: easybank
       img: easybank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://www.easybank.at/easybank/faq#Zeichnungsverfahren
 
     - name: Erste Bank Hrvatska
       url: https://www.erstebank.hr/
