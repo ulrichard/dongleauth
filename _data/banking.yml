@@ -559,13 +559,6 @@ websites:
       img: huntingtonnationalbank.png
       tfa: No
 
-    - name: IberiaBank
-      url: https://www.iberiabank.com
-      twitter: IBERIABANK
-      facebook: IberiaBank
-      img: iberiabank.png
-      tfa: No
-
     - name: ICICI
       url: https://www.icicibank.com
       img: icici.png
