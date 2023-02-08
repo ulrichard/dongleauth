@@ -329,6 +329,7 @@ websites:
       tfa: Yes
       sms: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.commbank.com.au/support.digital-banking.explain-netcode-token.html
 
     - name: Community America Credit Union
