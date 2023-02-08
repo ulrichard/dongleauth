@@ -684,9 +684,9 @@ websites:
     - name: Meridian Credit Union
       url: https://www.meridiancu.ca
       img: meridian.png
-      twitter: MeridianCU
-      facebook: MeridianCreditUnion
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.meridiancu.ca/contact-us/frequently-asked-questions
 
     - name: Monzo
       url: https://www.monzo.com
