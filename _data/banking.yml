@@ -706,9 +706,9 @@ websites:
     - name: N26
       url: https://n26.com
       img: n26.png
-      twitter: n26
-      facebook: N26
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.n26.com/en-eu/security/passwords-and-codes/how-to-log-in-with-two-factor-authentication
 
     - name: NASA Federal Credit Union
       url: https://www.nasafcu.com/
