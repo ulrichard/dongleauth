@@ -310,6 +310,7 @@ websites:
       img: cbq.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://cbonline.cbq.qa/RIB/Common/FAQContent
       exceptions:
        text: "An SMS capable phone with a Qatar phone number is required."
