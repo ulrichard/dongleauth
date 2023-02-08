@@ -372,9 +372,10 @@ websites:
     - name: Deutsche Kreditbank (DKB)
       url: https://www.dkb.de/
       img: dkb.png
-      tfa: No
-      facebook: Deutsche.Kreditbank
+      tfa: Yes
+      otp: Yes
       lang: de
+      doc: https://www.dkb.de/info/neue-anmeldung/
 
     - name: Digital Federal Credit Union
       url: https://www.dcu.org
