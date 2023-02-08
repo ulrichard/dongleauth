@@ -131,7 +131,8 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
-      doc: https://www.barclays.co.uk/Helpsupport/UpgradetoPINsentry/P1242559314766
+      otp: Yes
+      doc: https://www.barclays.co.uk/fraud-and-scams/protecting-you-against-fraud/
 
     - name: Barclays US
       url: https://www.banking.barclaysus.com/
