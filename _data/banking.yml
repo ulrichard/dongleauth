@@ -578,7 +578,8 @@ websites:
       img: ing.png
       tfa: Yes
       hardware: Yes
-      doc: https://www.ing.lu/web/ING/EN/Personal/Customerservices/FAQ/MYING_FAQ_EN
+      otp: Yes
+      doc: https://www.ing.lu/webing/content/siteing/en/Individuals/Onlineproduct/Contact/frequently-asked-questions/faq-online-banking-.html#accordion-16b6eafd77-item-36c4e5a172
 
     - name: ING Australia
       url: https://www.ing.com.au
