@@ -140,6 +140,8 @@ websites:
       sms: Yes
       phone: Yes
       email: Yes
+      otp: Yes
+      doc: https://www.barclaycardus.com/servicing/security-center?howWeProtectYou=#loginProcess
 
     - name: Bethpage Federal Credit Union
       url: https://www.bethpagefcu.com/
