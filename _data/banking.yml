@@ -29,6 +29,7 @@ websites:
       img: alliantcreditunion.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.alliantcreditunion.org/help/how-does-alliant-two-factor-authentication-work
 
     - name: Ally Bank
