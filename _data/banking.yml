@@ -690,10 +690,10 @@ websites:
 
     - name: Monzo
       url: https://www.monzo.com
-      twitter: monzo
-      facebook: monzobank
       img: monzobank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://monzo.com/help/monzo-fraud-category/two-factor-authentication
 
     - name: Mountain America Credit Union
       url: https://www.macu.com
