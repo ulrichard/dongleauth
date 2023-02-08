@@ -349,9 +349,9 @@ websites:
     - name: DBS Bank Singapore
       url: https://www.dbs.com.sg/
       img: dbs.png
-      tfa: No
-      twitter: dbsbank
-      facebook: dbs.sg
+      tfa: Yes
+      otp: Yes
+      doc: https://www.dbs.com.sg/ibanking/help/2fa-login.html
 
     - name: Desert Financial Credit Union
       url: https://www.desertfinancial.com
