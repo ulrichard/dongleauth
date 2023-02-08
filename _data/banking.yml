@@ -673,6 +673,8 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: yes
+      doc: https://www.marcus.com/us/en/banking-with-us/security-center
 
     - name: MBNA Canada
       url: https://www.mbna.ca
