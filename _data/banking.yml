@@ -189,6 +189,8 @@ websites:
       img: becu.png
       tfa: Yes
       sms: Yes
+      otp: Yes
+      doc: https://www.becu.org/everyday-banking/bank-anywhere/mobile-access
 
     - name: Boursorama
       url: https://www.boursorama.com/
