@@ -299,11 +299,13 @@ websites:
 
     - name: comdirect
       url: https://www.comdirect.de/
-      twitter: comdirect
-      facebook: comdirect
       img: comdirect.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: de
+      exceptions: 
+       text: "OTP available via photoTAN, mobileTAN or sessionTAN"
+      doc: https://community.comdirect.de/t5/anregungen/2fa-zwei-faktor-authentifizierung-totp/td-p/239675
 
     - name: Commercial Bank of Qatar
       url: http://www.cbq.qa/
