@@ -173,9 +173,10 @@ websites:
 
     - name: BMO Bank of Montreal
       url: https://www.bmo.com/
-      twitter: BMO
       img: bmo.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bmo.com/self-directed/popups/online-security#--tabs-1675858175727-
 
     - name: BMO Harris Bank
       url: https://www.bmoharris.com/
