@@ -617,11 +617,11 @@ websites:
 
     - name: La Banque Postale
       url: https://www.labanquepostale.fr/
-      twitter: LaBanquePostale
-      facebook: labanquepostale
       img: labanquepostale.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: fr
+      doc: https://www.labanquepostale.fr/particulier/comptes-et-cartes/espaces-clients/securite/authentification-forte.html
 
     - name: LendingClub
       url: https://www.lendingclub.com/
