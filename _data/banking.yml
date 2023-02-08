@@ -281,6 +281,7 @@ websites:
       tfa: Yes
       sms: Yes
       phone: Yes
+      otp: Yes
       doc: https://online.citi.com/JRS/pands/detail.do?ID=SecurityCenter&section=security_tools
 
     - name: Citibank Australia
