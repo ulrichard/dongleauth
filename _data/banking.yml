@@ -292,10 +292,10 @@ websites:
 
     - name: Citizens Bank
       url: https://www.citizensbank.com
-      twitter: CitizensBank
-      facebook: citizensbank
       img: citizensbank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.citizensbank.com/learning/how-to-secure-your-phone.aspx
 
     - name: comdirect
       url: https://www.comdirect.de/
