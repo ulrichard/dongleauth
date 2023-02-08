@@ -262,9 +262,9 @@ websites:
     - name: Chime
       url: https://www.chimebank.com
       img: chime.png
-      tfa: No
-      twitter: Chime
-      facebook: chimebank
+      tfa: Yes
+      otp: Yes
+      doc: https://www.chime.com/security-and-control/
 
     - name: CIBC
       url: https://www.cibc.ca
