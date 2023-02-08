@@ -522,10 +522,10 @@ websites:
 
     - name: Halifax
       url: https://www.halifax.co.uk
-      twitter: AskHalifaxBank
-      facebook: halifax
       img: halifax.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.halifax.co.uk/aboutonline/payments-and-transfers/security-checks/faqs.html
 
     - name: Handelsbanken
       url: https://www.handelsbanken.se/
