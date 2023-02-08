@@ -538,9 +538,9 @@ websites:
     - name: Holvi
       url: https://www.holvi.com/
       img: holvi.png
-      twitter: Holvi
-      facebook: HolviCom
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://blog.holvi.com/how-to-keep-your-holvi-account-safe
 
     - name: HSBC
       url: https://www.hsbc.com/
