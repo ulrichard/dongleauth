@@ -419,10 +419,11 @@ websites:
 
     - name: Dutch-Bangla Bank Limited (DBBL)
       url: https://www.dutchbanglabank.com/
-      email_address: hrd_head@dbbl.com.bd
       img: dbbl.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
       lang: bn
+      doc: https://www.dutchbanglabank.com/internet-banking/twofa-ib.html
 
     - name: Easybank
       url: https://www.easybank.at
