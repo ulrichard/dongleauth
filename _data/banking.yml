@@ -613,7 +613,10 @@ websites:
       url: https://www.key.com
       twitter: KeyBank_Help
       img: keybank.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      doc: https://www.key.com/businesses-institutions/solutions/payments/key-navigator-sign-on.html
 
     - name: La Banque Postale
       url: https://www.labanquepostale.fr/
