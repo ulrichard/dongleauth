@@ -37,6 +37,7 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
       doc: https://www.ally.com/messages/sms/
 
     - name: Altra Federal Credit Union
