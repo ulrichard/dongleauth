@@ -286,9 +286,9 @@ websites:
     - name: Citibank Australia
       url: https://www.citibank.com.au/
       img: citibank.png
-      tfa: No
-      twitter: CitiAustralia
-      facebook: citiaustralia
+      tfa: Yes
+      otp: Yes
+      doc: https://tw.sit.developer.citi.com/node/78
 
     - name: Citizens Bank
       url: https://www.citizensbank.com
