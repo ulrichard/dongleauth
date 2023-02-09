@@ -364,9 +364,9 @@ websites:
     - name: JustGiving
       url: https://www.justgiving.com/
       img: justgiving.png
-      tfa: No
-      twitter: JGhelp
-      facebook: justgiving
+      tfa: Yes
+      otp: Yes
+      doc: https://justgiving-charity-support.zendesk.com/hc/en-us/articles/360019687158
 
     - name: karriere.at
       url: https://www.karriere.at
