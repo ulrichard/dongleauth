@@ -661,7 +661,9 @@ websites:
       url: https://www.wikia.com/
       twitter: wikia
       img: wikia.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://community.fandom.com/wiki/User_blog:DToast/Coming_Soon:_Two-Factor_Authentication_for_Fandom_Accounts#How_You_Will_Be_Able_To_Add_2FA_To_Your_Account
 
     - name: Wikipedia
       url: https://www.wikipedia.org/
