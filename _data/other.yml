@@ -23,6 +23,7 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.airtable.com/hc/en-us/articles/219409917
 
     - name: Ancestry
