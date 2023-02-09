@@ -561,6 +561,7 @@ websites:
       img: sanebox.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.sanebox.com/help/127
 
     - name: SignNow
