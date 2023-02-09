@@ -54,10 +54,10 @@ websites:
 
     - name: SimpliSafe
       url: https://simplisafe.com/
-      twitter: SimpliSafe
-      facebook: SimpliSafe
       img: simplisafe.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.simplisafe.com/articles/app-support/securing-your-simplisafe-account/6359944e267591200c56fd61?lang=en_US
 
     - name: Solar.web
       url: https://www.solarweb.com
