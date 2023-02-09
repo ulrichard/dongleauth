@@ -300,6 +300,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.helpscout.com/article/907--
 
     - name: IEEE
