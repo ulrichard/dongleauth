@@ -381,6 +381,7 @@ websites:
       img: kayako.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.kayako.com/article/1198-securing-your-user-account-with-two-factor-authentication-2fa
 
     - name: Kickstarter
