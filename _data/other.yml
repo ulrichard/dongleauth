@@ -238,6 +238,7 @@ websites:
       img: findmyshift.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.findmyshift.com/help/what-is-two-factor-authentication
 
     - name: Firefox
