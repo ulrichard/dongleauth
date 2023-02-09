@@ -230,7 +230,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://help.figma.com/article/208--
+      otp: Yes
+      doc: https://help.figma.com/hc/en-us/articles/360039817634-Enable-two-factor-authentication-2FA-
 
     - name: Findmyshift
       url: https://www.findmyshift.com/
