@@ -614,9 +614,9 @@ websites:
     - name: Upwork
       url: https://www.upwork.com
       img: upwork.png
-      tfa: No
-      twitter: UpworkHelp
-      facebook: upwork
+      tfa: Yes
+      otp: Yes
+      doc: https://support.upwork.com/hc/en-us/articles/360009491414-Two-Step-Security-Verification
 
     - name: Usabilla
       url: https://usabilla.com
