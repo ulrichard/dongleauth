@@ -543,6 +543,7 @@ websites:
       tfa: Yes
       doc: https://feedback.repairshopr.com/knowledgebase/articles/928266
       sms: Yes
+      otp: Yes
       software: Yes
       exceptions:
           text: "SMS only available as a backup to Google Authenticator."
