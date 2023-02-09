@@ -57,6 +57,8 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
+      doc: https://www.lifeblood.com.au/contact/self-service-system-support
 
     - name: Autodesk
       url: https://www.autodesk.com
