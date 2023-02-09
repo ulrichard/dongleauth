@@ -552,6 +552,7 @@ websites:
       url: https://www.ripe.net/
       img: ripe.png
       tfa: Yes
+      otp: Yes
       software: Yes
       doc: https://www.ripe.net/participate/member-support/ripe-ncc-access/two-step-verification
 
