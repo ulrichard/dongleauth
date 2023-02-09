@@ -479,6 +479,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://support.patreon.com/hc/en-us/articles/206538086
 
     - name: PhraseApp
