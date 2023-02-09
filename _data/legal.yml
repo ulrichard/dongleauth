@@ -4,6 +4,7 @@ websites:
       img: clio.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.clio.com/hc/en-us/articles/203184210
 
     - name: Docusign
@@ -14,6 +15,10 @@ websites:
       email: Yes
       phone: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
       doc: https://support.docusign.com/en/guides/ndse-user-guide-two-step-verification
 
     - name: HelloSign
@@ -22,6 +27,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "SMS Two-factor authentication is only available to paid Business plan senders and above."
       doc: https://faq.hellosign.com/hc/en-us/articles/360025164091
