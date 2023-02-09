@@ -272,9 +272,9 @@ websites:
     - name: Freelancer
       url: https://www.freelancer.com/
       img: freelancer.png
-      tfa: No
-      twitter: freelancer
-      facebook: fansoffreelancer
+      tfa: Yes
+      otp: Yes
+      doc: https://www.freelancer.com/support/general/2-step-verification
 
     - name: GoFundMe
       url: https://www.gofundme.com/
