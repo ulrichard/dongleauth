@@ -577,6 +577,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://wiki.smartsimple.com/wiki/Two-Factor_Authentication
 
     - name: Spare5
