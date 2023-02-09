@@ -653,6 +653,8 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://doc.weclapp.com/knowledgebase/zwei-wege-authentifizierung-2fa/
 
     - name: Wikia
