@@ -190,6 +190,7 @@ websites:
       img: directadmin.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://directadmin.com/features.php?id=1754
 
     - name: DoorDash
