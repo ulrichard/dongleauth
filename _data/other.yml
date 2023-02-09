@@ -431,9 +431,9 @@ websites:
     - name: NationBuilder
       url: https://nationbuilder.com
       img: nationbuilder.png
-      tfa: No
-      twitter: NationBuilder
-      facebook: nationbuilder
+      tfa: Yes
+      otp: Yes
+      doc: https://nationbuilder.com/strong_customer_authentication
 
     - name: No Starch Press
       url: https://nostarch.com/
