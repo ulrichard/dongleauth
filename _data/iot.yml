@@ -41,14 +41,16 @@ websites:
       img: ringcom.png
       tfa: Yes
       sms: Yes
-      doc: https://support.ring.com/hc/en-us/articles/360024818291
+      otp: Yes
+      doc: https://support.ring.com/hc/en-us/articles/360024511592-What-is-Two-Step-Verification-
 
     - name: Samsung SmartThings
       url: https://www.smartthings.com/
       img: smartthings.png
       tfa: Yes
       sms: Yes
-      doc: https://help.content.samsung.com/csweb/faq/searchFaq.do?category1_id=sacb-01-003&serviceCd=saccount
+      otp: Yes
+      doc: https://account.samsung.com/membership/guide/setup-2step-verification
 
     - name: SimpliSafe
       url: https://simplisafe.com/
