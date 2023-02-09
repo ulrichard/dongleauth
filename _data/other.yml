@@ -112,6 +112,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://chartbeat.zendesk.com/hc/en-us/articles/209531888
       exceptions:
           text: "SMS required for 2FA."
