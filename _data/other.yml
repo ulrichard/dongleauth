@@ -418,6 +418,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      doc: https://help.mixpanel.com/hc/en-us/articles/115004485966-Two-Factor-Authentication-2FA-
 
     - name: Monster
       url: https://www.monster.com
