@@ -77,7 +77,8 @@ websites:
       img: automater.png
       tfa: Yes
       software: Yes
-      doc: https://www.youtube.com/watch?v=5OLcvjVhhuI
+      otp: Yes
+      doc: https://help.automater.com/help/two-factor-authentication-2fa
 
     - name: AwardWallet
       url: https://awardwallet.com
