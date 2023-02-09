@@ -197,7 +197,9 @@ websites:
       url: https://www.doordash.com
       img: doordash.png
       twitter: DoorDash
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.doordash.com/consumers/s/article/How-do-I-verify-my-account?language=de&ctry=DE&divcode=BE
 
     - name: Dreamstime
       url: https://www.dreamstime.com/
