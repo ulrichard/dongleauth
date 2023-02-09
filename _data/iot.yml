@@ -1,10 +1,10 @@
 websites:
     - name: ecobee
       url: https://ecobee.com
-      twitter: ecobee
-      facebook: ecobee
       img: ecobee.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.ecobee.com/s/articles/Two-Factor-Authentication-2FA
 
     - name: Nest
       url: https://nest.com
