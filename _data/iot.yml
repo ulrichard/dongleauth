@@ -11,6 +11,7 @@ websites:
       img: nest.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://nest.com/support/article/How-to-use-2-step-verification-to-add-stronger-security-to-your-Nest-Account
 
     - name: Netatmo
