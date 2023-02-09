@@ -15,6 +15,10 @@ websites:
       email: Yes
       phone: Yes
       software: Yes
+      otp: Yes
+      u2f: Yes
+      multipleu2f: Yes
+      passwordless: Yes
       doc: https://support.docusign.com/en/guides/ndse-user-guide-two-step-verification
 
     - name: HelloSign
