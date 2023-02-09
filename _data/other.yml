@@ -642,6 +642,7 @@ websites:
       hardware: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://www.watchmanmonitoring.com/two-factor-authentication
       exceptions:
           text: "Two factor authentication unavailable for 'End User' access, which is read-only."
