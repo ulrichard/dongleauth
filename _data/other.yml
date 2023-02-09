@@ -177,12 +177,6 @@ websites:
       facebook: CrowdSupply
       email_address: support@crowdsupply.com
 
-    - name: CrowdFlower
-      url: https://www.crowdflower.com/
-      img: crowdflower.png
-      tfa: No
-      twitter: CrowdFlower
-
     - name: Delighted
       url: https://delightedapp.com/
       img: delighted.png
