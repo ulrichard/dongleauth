@@ -1,16 +1,17 @@
 websites:
     - name: ecobee
       url: https://ecobee.com
-      twitter: ecobee
-      facebook: ecobee
       img: ecobee.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.ecobee.com/s/articles/Two-Factor-Authentication-2FA
 
     - name: Nest
       url: https://nest.com
       img: nest.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://nest.com/support/article/How-to-use-2-step-verification-to-add-stronger-security-to-your-Nest-Account
 
     - name: Netatmo
@@ -40,21 +41,23 @@ websites:
       img: ringcom.png
       tfa: Yes
       sms: Yes
-      doc: https://support.ring.com/hc/en-us/articles/360024818291
+      otp: Yes
+      doc: https://support.ring.com/hc/en-us/articles/360024511592-What-is-Two-Step-Verification-
 
     - name: Samsung SmartThings
       url: https://www.smartthings.com/
       img: smartthings.png
       tfa: Yes
       sms: Yes
-      doc: https://help.content.samsung.com/csweb/faq/searchFaq.do?category1_id=sacb-01-003&serviceCd=saccount
+      otp: Yes
+      doc: https://account.samsung.com/membership/guide/setup-2step-verification
 
     - name: SimpliSafe
       url: https://simplisafe.com/
-      twitter: SimpliSafe
-      facebook: SimpliSafe
       img: simplisafe.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.simplisafe.com/articles/app-support/securing-your-simplisafe-account/6359944e267591200c56fd61
 
     - name: Solar.web
       url: https://www.solarweb.com
