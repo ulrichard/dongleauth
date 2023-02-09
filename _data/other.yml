@@ -13,8 +13,9 @@ websites:
     - name: Airbnb
       url: https://www.airbnb.com/
       img: airbnb.png
-      tfa: No
-      twitter: Airbnb
+      tfa: Yes
+      otp: Yes
+      doc: https://www.airbnb.com/help/article/2842
 
     - name: Airtable
       url: https://airtable.com
