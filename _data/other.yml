@@ -42,6 +42,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      doc: https://help.angellist.com/hc/en-us/articles/10267504825485-How-can-I-enable-2-step-authentication-
 
     - name: Australia Post
       url: https://auspost.com.au/
