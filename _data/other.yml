@@ -623,6 +623,7 @@ websites:
       img: usabilla.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.usabilla.com/hc/en-us/articles/115003081611
 
     - name: WageWorks
