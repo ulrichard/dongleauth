@@ -182,6 +182,8 @@ websites:
       img: delighted.png
       tfa: Yes
       sms: Yes
+      otp: Yes
+      doc: https://delighted.com/security
 
     - name: DirectAdmin
       url: https://www.directadmin.com
