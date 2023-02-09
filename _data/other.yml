@@ -159,6 +159,7 @@ websites:
       img: cosmolex.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.cosmolex.com/knowledge-base/how-to-enable-two-factor-authentication/
 
     - name: Couchsurfing
