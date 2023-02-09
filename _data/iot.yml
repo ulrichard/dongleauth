@@ -57,7 +57,7 @@ websites:
       img: simplisafe.png
       tfa: Yes
       otp: Yes
-      doc: https://support.simplisafe.com/articles/app-support/securing-your-simplisafe-account/6359944e267591200c56fd61?lang=en_US
+      doc: https://support.simplisafe.com/articles/app-support/securing-your-simplisafe-account/6359944e267591200c56fd61
 
     - name: Solar.web
       url: https://www.solarweb.com
