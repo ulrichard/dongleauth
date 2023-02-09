@@ -31,6 +31,7 @@ websites:
       img: ancestry.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://support.ancestry.com/s/article/MFA
       exceptions:
           text: "2FA is currently only available for customers with a U.S. based phone number."
