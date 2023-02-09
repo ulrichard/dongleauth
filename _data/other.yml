@@ -106,13 +106,6 @@ websites:
       otp: Yes
       doc: https://www.booking.com/trust_and_safety/travellers.de.html
 
-    - name: CA Technologies
-      url: https://www.ca.com/
-      img: ca-technologies.png
-      tfa: No
-      twitter: CAinc
-      facebook: CATechnologies
-
     - name: Chartbeat
       url: https://chartbeat.com/
       img: chartbeat.png
