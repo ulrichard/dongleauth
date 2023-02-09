@@ -257,6 +257,7 @@ websites:
       tfa: Yes
       sms: Yes
       email: Yes
+      otp: Yes
       doc: https://sellers.fiverr.com/en/article/two-factor-authentication
 
     - name: Formstack
