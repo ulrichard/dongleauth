@@ -130,8 +130,9 @@ websites:
     - name: Clickworker
       url: https://www.clickworker.com/
       img: clickworker.png
-      tfa: No
-      twitter: clickworker_com
+      tfa: Yes
+      otp: Yes
+      doc: https://support-workplace.clickworker.com/support/home
 
     - name: CloudConvert
       url: https://cloudconvert.com
