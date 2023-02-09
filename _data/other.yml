@@ -212,6 +212,7 @@ websites:
       img: envato.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.market.envato.com/hc/en-us/articles/115005592963
 
     - name: Everlaw
