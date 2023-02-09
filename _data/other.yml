@@ -10,12 +10,6 @@ websites:
       otp: Yes
       doc: https://helpx.adobe.com/manage-account/using/secure-your-adobe-account.html
 
-    - name: Aerohive Networks
-      url: https://www.aerohive.com/
-      img: aerohive.png
-      tfa: No
-      twitter: Aerohive
-
     - name: Airbnb
       url: https://www.airbnb.com/
       img: airbnb.png
