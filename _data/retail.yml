@@ -280,6 +280,8 @@ websites:
       software: Yes
       email: Yes
       sms: Yes
+      otp: Yes
+      doc: https://kb.newegg.com/knowledge-base/2-step-verification/
 
     - name: Nordstrom
       url: https://shop.nordstrom.com
