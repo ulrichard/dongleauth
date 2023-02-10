@@ -225,12 +225,6 @@ websites:
       img: jbhifi.png
       tfa: No
 
-    - name: Jet
-      url: https://jet.com
-      twitter: JetHeads
-      img: jet.png
-      tfa: No
-
     - name: Kobo
       url: https://www.kobo.com
       twitter: KoboHelp
