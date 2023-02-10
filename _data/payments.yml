@@ -148,8 +148,9 @@ websites:
       url: https://www.plastiq.com/
       img: plastiq.png
       tfa: Yes
+      otp: Yes
       sms: Yes
-      doc: https://help.plastiq.com/hc/en-us/articles/360006794893
+      doc: https://www.plastiq.com/blog/protect-your-plastiq-account-with-2-step-authentication/
 
     - name: Privacy
       url: https://privacy.com/
