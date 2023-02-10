@@ -5,9 +5,10 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       exceptions:
           text: "SMS or phone call required to enable 2FA. Enabling on Amazon.com activates 2FA on other regional Amazon sites, such as UK and DE."
-      doc: https://www.amazon.com/gp/help/customer/display.html?nodeId=201962420
+      doc: https://pay.amazon.com/help/201212250
 
     - name: Braintree
       img: braintree.png
