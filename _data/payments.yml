@@ -111,7 +111,9 @@ websites:
       url: https://www.payoneer.com/
       twitter: Payoneer
       img: payoneer.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://payoneer.custhelp.com/app/answers/detail/a_id/31268/~/two-step-verification-faq
 
     - name: PayPal
       url: https://www.paypal.com/
