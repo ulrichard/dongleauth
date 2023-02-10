@@ -92,12 +92,6 @@ websites:
       facebook: facecomet
       lang: it
 
-    - name: Comixology
-      url: https://www.comixology.com/
-      img: comixology.png
-      tfa: No
-      twitter: comiXology
-
     - name: Costco
       url: https://www.costco.com
       img: costco.png
