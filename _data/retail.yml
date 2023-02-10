@@ -43,6 +43,7 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      u2f: Yes
       otp: Yes
       exceptions:
           text: "SMS or Apple device 2FA only. No third party authenticator support"
