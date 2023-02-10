@@ -200,8 +200,9 @@ websites:
     - name: Square Cash
       url: https://cash.me
       img: square-cash.png
-      tfa: No
-      twitter: SquareCash
+      tfa: Yes
+      otp: Yes
+      doc: https://cash.app/help/de/en-gb/3127-keeping-your-cash-app-secure
 
     - name: Stripe
       img: stripe.png
