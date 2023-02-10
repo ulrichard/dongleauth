@@ -430,10 +430,9 @@ websites:
     - name: Zalando
       url: https://www.zalando.com/
       img: zalando.png
-      tfa: No
-      twitter: ZalandoTech
-      facebook: Zalando.co.uk
-      email_address: service@zalando.co.uk
+      tfa: Yes
+      otp: Yes
+      doc: https://corporate.zalando.com/de/convenience/zwei-stufen-zur-sicheren-bezahlung
 
     - name: Zappos
       url: https://www.zappos.com/
