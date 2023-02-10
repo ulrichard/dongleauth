@@ -10,10 +10,10 @@ websites:
 
     - name: Anydesk
       url: https://anydesk.com/
-      twitter: anydesk
-      facebook: AnyDesk
       img: anydesk.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://anydesk.com/en/features/2-factor-authentication
 
     - name: ConnectWise Control (ScreenConnect)
       url: https://www.connectwise.com/software/control
