@@ -5,9 +5,10 @@ websites:
       tfa: Yes
       software: Yes
       sms: Yes
+      otp: Yes
       exceptions:
           text: "SMS or phone call required to enable 2FA. Enabling on Amazon.com activates 2FA on other regional Amazon sites, such as UK and DE."
-      doc: https://www.amazon.com/gp/help/customer/display.html?nodeId=201962420
+      doc: https://pay.amazon.com/help/201212250
 
     - name: Braintree
       img: braintree.png
@@ -54,7 +55,8 @@ websites:
       twitter: GoCardless
       tfa: Yes
       sms: Yes
-      doc: https://support.gocardless.com/hc/en-gb/articles/360001164385
+      otp: Yes
+      doc: https://hub.gocardless.com/s/article/Enable-2-factor-authentication
 
     - name: Google Wallet
       url: https://www.google.se/wallet/
@@ -80,6 +82,8 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.klarna.com/us/business/merchant-support/msc/merchant-portal/two-factor-authentication-2fa/
       exceptions:
          text: "Software 2FA is only available for Swedish citizens with BankID."
 
@@ -107,7 +111,9 @@ websites:
       url: https://www.payoneer.com/
       twitter: Payoneer
       img: payoneer.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://payoneer.custhelp.com/app/answers/detail/a_id/31268/~/two-step-verification-faq
 
     - name: PayPal
       url: https://www.paypal.com/
@@ -127,41 +133,39 @@ websites:
       img: paysafecard.png
       tfa: Yes
       software: Yes
-      doc: https://www.paysafecard.com/en-au/lp-products/2-step-login/
+      otp: Yes
+      doc: https://www.paysafecard.com/fileadmin/Website/Dokumente/B2B/paysafecard-2-step-login.pdf
 
     - name: Paytm
       url: https://paytm.com/
       img: paytm.png
       tfa: Yes
       sms: Yes
-      doc: https://blog.paytm.com/secure-2-step-authentication-login-on-paytms-website-6dd5a20ae1b2
-
-    - name: Payza
-      url: https://www.payza.eu/
-      img: payza.png
-      tfa: Yes
-      software: Yes
-      doc: https://docs.payza.eu/docs/personal-manual-advanced-security#section-how-do-i-set-up-2-factor-authentication
+      otp: Yes
+      doc: https://www.paytmmoney.com/blog/otp-verification-for-paytm-money-login/
 
     - name: Plastiq
       url: https://www.plastiq.com/
       img: plastiq.png
       tfa: Yes
+      otp: Yes
       sms: Yes
-      doc: https://help.plastiq.com/hc/en-us/articles/360006794893
+      doc: https://www.plastiq.com/blog/protect-your-plastiq-account-with-2-step-authentication/
 
     - name: Privacy
       url: https://privacy.com/
       img: privacy.png
       tfa: Yes
       software: Yes
-      doc: https://privacy.com/faq
+      otp: Yes
+      doc: https://support.privacy.com/hc/en-us/articles/360012047174-Do-you-support-Two-Factor-Authentication-2FA-
 
     - name: Ravelin
       url: https://www.ravelin.com/
       img: ravelin.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://ravelin.zendesk.com/hc/en-us/articles/115001071665
 
     - name: Recurly
@@ -170,14 +174,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.recurly.com/docs/two-factor-authentication
-
-    - name: SixthContinent
-      url: https://sixthcontinent.com/
-      img: sixthcontinent.png
-      tfa: No
-      twitter: sxc_italia
-      facebook: sixthcontinent.it
 
     - name: Skrill
       url: https://skrill.com/
@@ -185,7 +183,8 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
-      doc: https://www.skrill.com/en/support#/path/ACCOUNT/Two-Factor-Authentication/905761532/Two-Factor-Authentication-2FA.htm
+      otp: Yes
+      doc: https://www.skrill.com/en-us/support/question/34/what-is-strong-customer-authentication/
 
     - name: Square
       url: https://squareup.com
@@ -201,8 +200,9 @@ websites:
     - name: Square Cash
       url: https://cash.me
       img: square-cash.png
-      tfa: No
-      twitter: SquareCash
+      tfa: Yes
+      otp: Yes
+      doc: https://cash.app/help/de/en-gb/3127-keeping-your-cash-app-secure
 
     - name: Stripe
       img: stripe.png
@@ -216,18 +216,12 @@ websites:
       multipleu2f: Yes
       doc: https://support.stripe.com/questions/enable-two-step-authentication
 
-    - name: Vantiv
-      url: https://www.vantiv.com/
-      twitter: Vantiv
-      facebook: Vantiv
-      img: vantiv.png
-      tfa: No
-
     - name: Venmo
       url: https://venmo.com
       img: venmo.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://help.venmo.com/hc/en-us/articles/217532397
 
     - name: Visa Checkout
@@ -243,4 +237,5 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
-      doc: https://money.yandex.ru/doc.xml?id=524852
+      otp: Yes
+      doc: https://yandex.com/support/id/authorization/twofa-on.html
