@@ -67,11 +67,9 @@ websites:
     - name: Parsec
       url: https://www.parsecgaming.com
       img: parsec.png
-      tfa: No
-      status: https://twitter.com/ParsecTeam/status/957465838076026880
-      twitter: ParsecTeam
-      facebook: parsecgaming
-      email_address: founders@parsecgaming.com
+      tfa: Yes
+      otp: Yes
+      doc: https://support.parsec.app/hc/en-us/articles/4424732242445-Enable-Two-Factor-Authentication
 
     - name: RealVNC
       url: https://www.realvnc.com
