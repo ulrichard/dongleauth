@@ -144,13 +144,6 @@ websites:
       otp: Yes
       doc: https://www.paytmmoney.com/blog/otp-verification-for-paytm-money-login/
 
-    - name: Payza
-      url: https://www.payza.eu/
-      img: payza.png
-      tfa: Yes
-      software: Yes
-      doc: https://docs.payza.eu/docs/personal-manual-advanced-security#section-how-do-i-set-up-2-factor-authentication
-
     - name: Plastiq
       url: https://www.plastiq.com/
       img: plastiq.png
