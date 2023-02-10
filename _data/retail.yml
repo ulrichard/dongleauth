@@ -401,7 +401,9 @@ websites:
       url: https://www.walgreens.com
       twitter: Walgreens
       img: walgreens.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://mypassport.walgreens.com/assets/documents/Two-Step%20Verification%20Overview.pdf
 
     - name: Walmart
       url: https://www.walmart.com/
