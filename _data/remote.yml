@@ -53,6 +53,7 @@ websites:
       phone: Yes
       email: Yes
       software: Yes
+      otp: Yes
       doc: http://www.cc-onlinehelp.com/en/#index/administrati/users/authenticati/authenticati.html
 
     - name: O&amp;O Syspectr
