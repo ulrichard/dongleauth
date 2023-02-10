@@ -5,14 +5,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://learn.adafruit.com/how-to-set-up-2-factor-authentication-on-adafruit
-
-    - name: AdoramaPix
-      url: https://www.adoramapix.com
-      img: adoramapix.png
-      tfa: No
-      twitter: AdoramaPix
-      facebook: AdoramaPix
 
     - name: AliExpress
       url: https://www.aliexpress.com/
@@ -26,7 +20,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://allegro.pl/pomoc/faq/dwustopniowe-logowanie-faq-oGgdkGDqXCq
+      otp: Yes
+      doc: https://allegro.pl/pomoc/dla-kupujacych/logowanie-i-haslo/czym-jest-dwustopniowe-logowanie-i-dlaczego-warto-z-niego-korzystac-dykqg9nMKSZ
 
     - name: Amazon
       url: https://www.amazon.com
@@ -48,6 +43,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      u2f: Yes
+      otp: Yes
       exceptions:
           text: "SMS or Apple device 2FA only. No third party authenticator support"
       doc: https://support.apple.com/en-us/HT204915
@@ -95,12 +92,6 @@ websites:
       facebook: facecomet
       lang: it
 
-    - name: Comixology
-      url: https://www.comixology.com/
-      img: comixology.png
-      tfa: No
-      twitter: comiXology
-
     - name: Costco
       url: https://www.costco.com
       img: costco.png
@@ -112,12 +103,6 @@ websites:
       img: dell.png
       tfa: No
       twitter: DellCares
-
-    - name: Digital World International
-      url: https://www.dwidigitalcameras.com.au/
-      img: dwi.png
-      tfa: No
-      facebook: DWIAUS
 
     - name: Digitec
       url: https://www.digitec.ch
@@ -152,7 +137,9 @@ websites:
       facebook: eBayKleinanzeigen
       email_address: service@ebay-kleinanzeigen.de
       img: ebay-kleinanzeigen.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://themen.ebay-kleinanzeigen.de/hilfe/nutzerkonto/2FA/
       lang: de
 
     - name: ePRICE
@@ -179,12 +166,6 @@ websites:
       twitter: Everlane
       img: everlane.png
       tfa: No
-
-    - name: FastTech
-      url: https://www.fasttech.com
-      img: fasttech.png
-      tfa: No
-      facebook: fasttech.net
 
     - name: Flipkart
       url: https://www.flipkart.com
@@ -244,12 +225,6 @@ websites:
       img: jbhifi.png
       tfa: No
 
-    - name: Jet
-      url: https://jet.com
-      twitter: JetHeads
-      img: jet.png
-      tfa: No
-
     - name: Kobo
       url: https://www.kobo.com
       twitter: KoboHelp
@@ -305,6 +280,8 @@ websites:
       software: Yes
       email: Yes
       sms: Yes
+      otp: Yes
+      doc: https://kb.newegg.com/knowledge-base/2-step-verification/
 
     - name: Nordstrom
       url: https://shop.nordstrom.com
@@ -352,7 +329,8 @@ websites:
       img: samsung.png
       tfa: Yes
       sms: Yes
-      doc: https://help.content.samsung.com/csweb/faq/searchFaq.do?category1_id=sacb-01-003&serviceCd=saccount
+      otp: Yes
+      doc: https://account.samsung.com/membership/guide/setup-2step-verification
 
     - name: Shopify
       url: https://shopify.com/
@@ -398,7 +376,9 @@ websites:
       url: https://www.target.com/
       twitter: Target
       img: target.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://security.target.com/security
 
     - name: Tokopedia
       url: https://www.tokopedia.com/
@@ -407,6 +387,7 @@ websites:
       software: Yes
       phone: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.tokopedia.com/panduan-keamanan/fitur-keamanan-tambahan/
 
     - name: Trade Me
@@ -420,13 +401,18 @@ websites:
       url: https://www.walgreens.com
       twitter: Walgreens
       img: walgreens.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://mypassport.walgreens.com/assets/documents/Two-Step%20Verification%20Overview.pdf
 
     - name: Walmart
       url: https://www.walmart.com/
       twitter: walmarthelp
       img: walmart.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      doc: https://one.walmart.com/content/usone/en_us/company/programs/home2SV.html
 
     - name: Warby Parker
       url: https://www.warbyparker.com
@@ -444,10 +430,9 @@ websites:
     - name: Zalando
       url: https://www.zalando.com/
       img: zalando.png
-      tfa: No
-      twitter: ZalandoTech
-      facebook: Zalando.co.uk
-      email_address: service@zalando.co.uk
+      tfa: Yes
+      otp: Yes
+      doc: https://corporate.zalando.com/de/convenience/zwei-stufen-zur-sicheren-bezahlung
 
     - name: Zappos
       url: https://www.zappos.com/
@@ -465,6 +450,6 @@ websites:
     - name: Zooplus
       url: https://www.zooplus.com/
       img: zooplus.png
-      tfa: No
-      twitter: zooplusDE
-      facebook: zooplusde
+      tfa: Yes
+      otp: Yes
+      doc: https://www.zooplus.de/info/about/psd2
