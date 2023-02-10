@@ -141,7 +141,8 @@ websites:
       img: paytm.png
       tfa: Yes
       sms: Yes
-      doc: https://blog.paytm.com/secure-2-step-authentication-login-on-paytms-website-6dd5a20ae1b2
+      otp: Yes
+      doc: https://www.paytmmoney.com/blog/otp-verification-for-paytm-money-login/
 
     - name: Payza
       url: https://www.payza.eu/
