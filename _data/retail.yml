@@ -450,6 +450,6 @@ websites:
     - name: Zooplus
       url: https://www.zooplus.com/
       img: zooplus.png
-      tfa: No
-      twitter: zooplusDE
-      facebook: zooplusde
+      tfa: Yes
+      otp: Yes
+      doc: https://www.zooplus.de/info/about/psd2
