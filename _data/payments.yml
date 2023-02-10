@@ -237,4 +237,5 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
-      doc: https://money.yandex.ru/doc.xml?id=524852
+      otp: Yes
+      doc: https://yandex.com/support/id/authorization/twofa-on.html
