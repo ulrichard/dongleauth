@@ -157,7 +157,8 @@ websites:
       img: privacy.png
       tfa: Yes
       software: Yes
-      doc: https://privacy.com/faq
+      otp: Yes
+      doc: https://support.privacy.com/hc/en-us/articles/360012047174-Do-you-support-Two-Factor-Authentication-2FA-
 
     - name: Ravelin
       url: https://www.ravelin.com/
