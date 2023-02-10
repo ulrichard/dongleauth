@@ -387,6 +387,7 @@ websites:
       software: Yes
       phone: Yes
       sms: Yes
+      otp: Yes
       doc: https://www.tokopedia.com/panduan-keamanan/fitur-keamanan-tambahan/
 
     - name: Trade Me
