@@ -56,7 +56,7 @@ websites:
       tfa: Yes
       sms: Yes
       otp: Yes
-      doc: https://hub.gocardless.com/s/article/Enable-2-factor-authentication?language=en_GB
+      doc: https://hub.gocardless.com/s/article/Enable-2-factor-authentication
 
     - name: Google Wallet
       url: https://www.google.se/wallet/
