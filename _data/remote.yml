@@ -60,8 +60,9 @@ websites:
       url: https://www.syspectr.com
       img: oosyspectr.png
       tfa: Yes
+      otp: Yes
       software: Yes
-      doc: https://www.syspectr.com/en/faq/how-do-i-activate-deactivate-two-factor-authentication-for-my-account
+      doc: https://www.syspectr.com/en/faq/how-do-i-activatedeactivate-two-factor-authentication-for-my-account
 
     - name: Parsec
       url: https://www.parsecgaming.com
