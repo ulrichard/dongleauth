@@ -76,7 +76,8 @@ websites:
       img: realvnc.png
       tfa: Yes
       software: Yes
-      doc: https://www.realvnc.com/en/connect/docs/multi-factor-auth.html#protecting-your-realvnc-account
+      otp: Yes
+      doc: https://help.realvnc.com/hc/en-us/articles/360003110878
 
     - name: Remote Desktop Manager
       url: https://www.remotedesktopmanager.com
