@@ -82,6 +82,8 @@ websites:
       tfa: Yes
       email: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.klarna.com/us/business/merchant-support/msc/merchant-portal/two-factor-authentication-2fa/
       exceptions:
          text: "Software 2FA is only available for Swedish citizens with BankID."
 
