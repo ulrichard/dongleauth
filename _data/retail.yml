@@ -376,7 +376,9 @@ websites:
       url: https://www.target.com/
       twitter: Target
       img: target.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://security.target.com/security
 
     - name: Tokopedia
       url: https://www.tokopedia.com/
