@@ -133,7 +133,8 @@ websites:
       img: paysafecard.png
       tfa: Yes
       software: Yes
-      doc: https://www.paysafecard.com/en-au/lp-products/2-step-login/
+      otp: Yes
+      doc: https://www.paysafecard.com/fileadmin/Website/Dokumente/B2B/paysafecard-2-step-login.pdf
 
     - name: Paytm
       url: https://paytm.com/
