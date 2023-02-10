@@ -137,7 +137,9 @@ websites:
       facebook: eBayKleinanzeigen
       email_address: service@ebay-kleinanzeigen.de
       img: ebay-kleinanzeigen.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://themen.ebay-kleinanzeigen.de/hilfe/nutzerkonto/2FA/
       lang: de
 
     - name: ePRICE
