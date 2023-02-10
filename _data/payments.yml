@@ -216,13 +216,6 @@ websites:
       multipleu2f: Yes
       doc: https://support.stripe.com/questions/enable-two-step-authentication
 
-    - name: Vantiv
-      url: https://www.vantiv.com/
-      twitter: Vantiv
-      facebook: Vantiv
-      img: vantiv.png
-      tfa: No
-
     - name: Venmo
       url: https://venmo.com
       img: venmo.png
