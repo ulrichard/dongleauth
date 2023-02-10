@@ -165,6 +165,7 @@ websites:
       img: ravelin.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://ravelin.zendesk.com/hc/en-us/articles/115001071665
 
     - name: Recurly
