@@ -177,13 +177,6 @@ websites:
       otp: Yes
       doc: https://docs.recurly.com/docs/two-factor-authentication
 
-    - name: SixthContinent
-      url: https://sixthcontinent.com/
-      img: sixthcontinent.png
-      tfa: No
-      twitter: sxc_italia
-      facebook: sixthcontinent.it
-
     - name: Skrill
       url: https://skrill.com/
       img: skrill.png
