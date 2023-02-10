@@ -221,6 +221,7 @@ websites:
       img: venmo.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       doc: https://help.venmo.com/hc/en-us/articles/217532397
 
     - name: Visa Checkout
