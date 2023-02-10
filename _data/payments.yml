@@ -183,7 +183,8 @@ websites:
       tfa: Yes
       hardware: Yes
       software: Yes
-      doc: https://www.skrill.com/en/support#/path/ACCOUNT/Two-Factor-Authentication/905761532/Two-Factor-Authentication-2FA.htm
+      otp: Yes
+      doc: https://www.skrill.com/en-us/support/question/34/what-is-strong-customer-authentication/
 
     - name: Square
       url: https://squareup.com
