@@ -33,7 +33,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://secure.logmein.com/welcome/webhelp/EN/Pro/LogMeIn/c_common_Security_TwoStep.html
+      otp: Yes
+      doc: https://support.logmeininc.com/pro/help/how-to-setup-two-factor-authentication-for-your-own-account
 
     - name: Linksys Smart Wi-Fi
       url: https://www.linksyssmartwifi.com
