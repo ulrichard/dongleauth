@@ -55,7 +55,8 @@ websites:
       twitter: GoCardless
       tfa: Yes
       sms: Yes
-      doc: https://support.gocardless.com/hc/en-gb/articles/360001164385
+      otp: Yes
+      doc: https://hub.gocardless.com/s/article/Enable-2-factor-authentication?language=en_GB
 
     - name: Google Wallet
       url: https://www.google.se/wallet/
