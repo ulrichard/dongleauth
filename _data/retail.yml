@@ -43,6 +43,7 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
+      otp: Yes
       exceptions:
           text: "SMS or Apple device 2FA only. No third party authenticator support"
       doc: https://support.apple.com/en-us/HT204915
