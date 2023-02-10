@@ -409,7 +409,10 @@ websites:
       url: https://www.walmart.com/
       twitter: walmarthelp
       img: walmart.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      doc: https://one.walmart.com/content/usone/en_us/company/programs/home2SV.html
 
     - name: Warby Parker
       url: https://www.warbyparker.com
