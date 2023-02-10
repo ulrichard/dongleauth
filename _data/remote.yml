@@ -38,10 +38,10 @@ websites:
 
     - name: Linksys Smart Wi-Fi
       url: https://www.linksyssmartwifi.com
-      twitter: LinksysCares
-      facebook: linksys
       img: linksyssmartwifi.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.linksys.com/support-article?articleNum=317753
 
     - name: LogMeIn
       url: https://secure.logmein.com/
