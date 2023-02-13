@@ -77,10 +77,9 @@ websites:
     - name: Detectify
       url: https://detectify.com/
       img: detectify.png
-      twitter: detectify
-      facebook: detectify
-      email_address: hello@detectify.com
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.detectify.com/support/solutions/articles/48001061904-how-to-enable-two-factor-authentication-2fa-on-your-account
 
     - name: DigiCert
       url: https://www.digicert.com/
