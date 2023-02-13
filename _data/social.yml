@@ -327,6 +327,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://faq.xing.com/en/settings-security/two-factor-login-two-factor-authentication
 
     - name: Zocle
