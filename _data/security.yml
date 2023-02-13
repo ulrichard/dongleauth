@@ -244,6 +244,7 @@ websites:
       img: threatx.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://support.threatx.com/hc/en-us/articles/360022157591
 
     - name: Tinfoil Security
