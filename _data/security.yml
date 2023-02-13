@@ -130,9 +130,9 @@ websites:
     - name: ESET
       img: eset.png
       url: https://www.eset.com
-      tfa: No
-      facebook: eset
-      twitter: ESET
+      tfa: Yes
+      otp: Yes
+      doc: https://www.eset.com/us/two-factor-authentication/
 
     - name: GeoTrust
       url: https://www.geotrust.com/
