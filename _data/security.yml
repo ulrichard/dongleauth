@@ -124,6 +124,7 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.entrust.com/multi-factor-authentication-tools/
 
     - name: ESET
