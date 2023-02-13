@@ -223,8 +223,9 @@ websites:
     - name: Quora
       url: https://www.quora.com
       img: quora.png
-      tfa: No
-      twitter: Quora
+      tfa: Yes
+      otp: Yes
+      doc: https://www.quora.com/Does-Quora-offer-two-factor-authentication
 
     - name: Reddit
       url: https://www.reddit.com/
