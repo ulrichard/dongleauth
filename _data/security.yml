@@ -233,12 +233,6 @@ websites:
       tfa: No
       twitter: ThreatMetrix
 
-    - name: ThreatSim
-      url: https://login.threatsim.com
-      img: threatsim.png
-      tfa: Yes
-      sms: Yes
-
     - name: ThreatX
       url: https://www.threatx.com/
       img: threatx.png
