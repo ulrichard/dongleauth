@@ -224,6 +224,7 @@ websites:
       img: threatconnect.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kb.threatconnect.com/customer/en/portal/articles/2214975
 
     - name: ThreatMetrix
