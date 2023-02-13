@@ -191,6 +191,7 @@ websites:
       img: rbltracker.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://rbltracker.com/docs/setting-up-two-factor-authentication/
 
     - name: Sophos Central
