@@ -179,11 +179,10 @@ websites:
 
     - name: Newgrounds
       url: https://www.newgrounds.com/
-      twitter: Newgrounds
-      email_address: support@newgrounds.com
-      facebook: newgrounds
       img: newgrounds.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.newgrounds.com/bbs/topic/1473798
 
     - name: Nextdoor
       url: https://nextdoor.com
