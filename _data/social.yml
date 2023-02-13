@@ -41,6 +41,7 @@ websites:
       url: https://bitly.com/
       img: bitly.png
       tfa: Yes
+      otp: Yes
       sms: Yes
       doc: https://support.bitly.com/hc/en-us/articles/230650187
 
