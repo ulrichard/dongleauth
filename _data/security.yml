@@ -106,6 +106,7 @@ websites:
       hardware: Yes
       u2f: Yes
       multipleu2f: Yes
+      otp: Yes
       doc: https://dmarcian.com/secure-dmarcian-2fa/
     
     - name: Dome9 Security
