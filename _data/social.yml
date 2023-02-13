@@ -138,6 +138,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://www.linkedin.com/help/linkedin/answer/531
 
     - name: LiveJournal
