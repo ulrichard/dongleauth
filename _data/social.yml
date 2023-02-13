@@ -197,7 +197,9 @@ websites:
       twitter: okcupid
       facebook: okcupid
       img: okcupid.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.okcupid.com/hc/en-us/articles/5221247074701-SMS-verification
 
     - name: Pinterest
       url: https://pinterest.com
