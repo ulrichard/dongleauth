@@ -207,6 +207,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.pinterest.com/en/articles/two-factor-authentication
       exceptions:
         text: "Software authentication requires the Authy app."
