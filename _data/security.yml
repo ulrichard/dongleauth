@@ -4,27 +4,29 @@ websites:
       img: adguard.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kb.adguard.com/en/general/2fa
 
     - name: AVG
       url: https://www.avg.com
       img: avg.png
-      tfa: No
-      twitter: AVGFree
-      facebook: AVG
+      tfa: Yes
+      otp: Yes
+      doc: https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Account-2-step-verification
 
     - name: Bitdefender
       url: https://www.bitdefender.com
       img: bitdefender.png
-      tfa: No
-      twitter: Bitdefender
-      facebook: bitdefender
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bitdefender.com/consumer/support/answer/1581/
 
     - name: Blur
       url: https://www.abine.com/
       img: blur.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://dnt.abine.com/#help/faq/faq-enabletwoFactor
 
     - name: Boxcryptor
@@ -42,7 +44,8 @@ websites:
       img: bugcrowd.png
       tfa: Yes
       software: Yes
-      doc: https://docs.bugcrowd.com/v1.0/docs/two-factor-authentication-1
+      otp: Yes
+      doc: https://docs.bugcrowd.com/researchers/managing-account/security/using-two-factor-authentication/
 
     - name: CAcert
       url: http://www.cacert.org/
@@ -68,15 +71,15 @@ websites:
       img: cobalt.png
       tfa: Yes
       software: Yes
-      doc: https://cobalt.io/blog/new-feature-two-factor-auth/
+      otp: Yes
+      doc: https://developer.cobalt.io/platform-deep-dive/cobalt-account/account-settings/
 
     - name: Detectify
       url: https://detectify.com/
       img: detectify.png
-      twitter: detectify
-      facebook: detectify
-      email_address: hello@detectify.com
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://support.detectify.com/support/solutions/articles/48001061904-how-to-enable-two-factor-authentication-2fa-on-your-account
 
     - name: DigiCert
       url: https://www.digicert.com/
@@ -92,6 +95,7 @@ websites:
       img: dmarcanalyzer.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://www.dmarcanalyzer.com/set-two-factor-authentication-additional-security/
 
     - name: dmarcian
@@ -102,6 +106,7 @@ websites:
       hardware: Yes
       u2f: Yes
       multipleu2f: Yes
+      otp: Yes
       doc: https://dmarcian.com/secure-dmarcian-2fa/
     
     - name: Dome9 Security
@@ -119,20 +124,23 @@ websites:
       tfa: Yes
       software: Yes
       hardware: Yes
+      otp: Yes
       doc: https://www.entrust.com/multi-factor-authentication-tools/
 
     - name: ESET
       img: eset.png
       url: https://www.eset.com
-      tfa: No
-      facebook: eset
-      twitter: ESET
+      tfa: Yes
+      otp: Yes
+      doc: https://www.eset.com/us/two-factor-authentication/
 
     - name: GeoTrust
       url: https://www.geotrust.com/
       img: geotrust.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      doc: https://docs.digicert.com/en/certcentral/manage-account/certcentral-two-factor-authentication/configure-two-factor-authentication-requirements-for-your-account.html
 
     - name: GoGetSSL
       url: https://gogetssl.com/
@@ -146,6 +154,7 @@ websites:
       img: hackerone.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://docs.hackerone.com/hackers/two-factor-authentication.html
       exceptions:
           text: "SMS-capable phone required for initial setup."
@@ -153,9 +162,9 @@ websites:
     - name: McAfee
       url: https://www.mcafee.com/
       img: mcafee.png
-      tfa: No
-      twitter: McAfee
-      facebook: McAfee
+      tfa: Yes
+      otp: yes
+      doc: https://www.mcafee.com/support/?articleId=TS103287&page=shell&shell=article-view
 
     - name: Norton
       url: https://us.norton.com
@@ -165,6 +174,8 @@ websites:
       hardware: Yes
       sms: Yes
       phone: Yes
+      otp: Yes
+      u2f: Yes
       doc: https://support.norton.com/sp/en/us/home/current/solutions/v100023155_NortonM_Retail_1_en_us
 
     - name: Prey
@@ -172,22 +183,15 @@ websites:
       img: prey.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://help.preyproject.com/article/248--
-
-    - name: Pwnie Express Pwn Pulse
-      url: https://www.pwnieexpress.com/products/pulse-device-detection
-      img: pwnieexpress.png
-      tfa: Yes
-      software: Yes
-      exceptions:
-          text: "TFA can be enabled on Pwn Pulse Accounts upon customer request."
-      doc: http://support.pwnieexpress.com/customer/en/portal/articles/2858909
 
     - name: RBLTracker
       url: https://rbltracker.com/
       img: rbltracker.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://rbltracker.com/docs/setting-up-two-factor-authentication/
 
     - name: Sophos Central
@@ -211,15 +215,16 @@ websites:
     - name: Surfshark
       url: https://surfshark.com/
       img: surfshark.png
-      tfa: No
-      twitter: SurfsharkSecure
-      facebook: SurfsharkPrivacy
+      tfa: Yes
+      otp: Yes
+      doc: https://support.surfshark.com/hc/en-us/articles/360011448319-How-to-enable-2FA-on-your-Surfshark-account-
 
     - name: ThreatConnect
       url: https://threatconnect.com/
       img: threatconnect.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://kb.threatconnect.com/customer/en/portal/articles/2214975
 
     - name: ThreatMetrix
@@ -228,43 +233,33 @@ websites:
       tfa: No
       twitter: ThreatMetrix
 
-    - name: ThreatSim
-      url: https://login.threatsim.com
-      img: threatsim.png
-      tfa: Yes
-      sms: Yes
-
     - name: ThreatX
       url: https://www.threatx.com/
       img: threatx.png
       tfa: Yes
       software: Yes
-      doc: https://support.threatx.com/hc/en-us/articles/360022157591
-
-    - name: Tinfoil Security
-      url: https://www.tinfoilsecurity.com
-      img: tinfoil.png
-      tfa: Yes
-      software: Yes
-      hardware: Yes
       otp: Yes
-      doc: https://support.tinfoilsecurity.com/article/43-do-you-support-two-factor-authentication-how-do-i-set-it-up
+      doc: https://support.threatx.com/hc/en-us/articles/360022157591
 
     - name: TorGuard
       url: https://torguard.net
       img: torguard.png
       tfa: Yes
       software: Yes
+      otp: yes
+      doc: https://forums.torguard.net/index.php?/topic/2585-two-factor-authentication/
 
     - name: VirusTotal
       url: https://www.virustotal.com
       img: virustotal.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://blog.virustotal.com/2019/03/time-for-vt-enterprise-to-step-up.html
 
     - name: Webroot
       url: https://www.webroot.com
       img: webroot.png
-      twitter: Webroot
-      facebook: Webroot
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://answers.webroot.com/Webroot/ukp.aspx?pid=17&app=vw&vw=1&solutionid=3476&t=Setting-Up-TwoFactor-Authentication
