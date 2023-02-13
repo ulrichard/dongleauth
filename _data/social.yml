@@ -188,7 +188,9 @@ websites:
       url: https://nextdoor.com
       twitter: Nextdoor
       img: nextdoor.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.nextdoor.com/s/article/About-2-Step-Verification?language=en_US
 
     - name: OkCupid
       url: https://www.okcupid.com/
