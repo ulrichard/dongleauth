@@ -248,13 +248,14 @@ websites:
       software: Yes
       otp: yes
       doc: https://forums.torguard.net/index.php?/topic/2585-two-factor-authentication/
-      
+
     - name: VirusTotal
       url: https://www.virustotal.com
       img: virustotal.png
       tfa: Yes
       software: Yes
-
+      otp: Yes
+      doc: https://blog.virustotal.com/2019/03/time-for-vt-enterprise-to-step-up.html
 
     - name: Webroot
       url: https://www.webroot.com
