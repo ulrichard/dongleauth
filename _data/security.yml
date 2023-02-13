@@ -162,9 +162,9 @@ websites:
     - name: McAfee
       url: https://www.mcafee.com/
       img: mcafee.png
-      tfa: No
-      twitter: McAfee
-      facebook: McAfee
+      tfa: Yes
+      otp: yes
+      doc: https://www.mcafee.com/support/?articleId=TS103287&page=shell&shell=article-view
 
     - name: Norton
       url: https://us.norton.com
