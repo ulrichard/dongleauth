@@ -249,8 +249,9 @@ websites:
     - name: Stack Exchange
       url: https://stackexchange.com/
       img: stack_exchange.png
-      tfa: No
-      email_address: team@stackexchange.com
+      tfa: Yes
+      otp: Yes
+      doc: https://meta.stackexchange.com/questions/230490/two-factor-authentication-for-stack-exchange
 
     - name: Tumblr
       url: https://www.tumblr.com/
