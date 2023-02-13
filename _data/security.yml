@@ -186,15 +186,6 @@ websites:
       otp: Yes
       doc: https://help.preyproject.com/article/248--
 
-    - name: Pwnie Express Pwn Pulse
-      url: https://www.pwnieexpress.com/products/pulse-device-detection
-      img: pwnieexpress.png
-      tfa: Yes
-      software: Yes
-      exceptions:
-          text: "TFA can be enabled on Pwn Pulse Accounts upon customer request."
-      doc: http://support.pwnieexpress.com/customer/en/portal/articles/2858909
-
     - name: RBLTracker
       url: https://rbltracker.com/
       img: rbltracker.png
