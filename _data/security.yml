@@ -10,9 +10,9 @@ websites:
     - name: AVG
       url: https://www.avg.com
       img: avg.png
-      tfa: No
-      twitter: AVGFree
-      facebook: AVG
+      tfa: Yes
+      otp: Yes
+      doc: https://support.avg.com/SupportArticleView?l=en&urlname=AVG-Account-2-step-verification
 
     - name: Bitdefender
       url: https://www.bitdefender.com
