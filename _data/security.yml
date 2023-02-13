@@ -71,7 +71,8 @@ websites:
       img: cobalt.png
       tfa: Yes
       software: Yes
-      doc: https://cobalt.io/blog/new-feature-two-factor-auth/
+      otp: Yes
+      doc: https://developer.cobalt.io/platform-deep-dive/cobalt-account/account-settings/
 
     - name: Detectify
       url: https://detectify.com/
