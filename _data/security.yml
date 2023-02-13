@@ -17,9 +17,9 @@ websites:
     - name: Bitdefender
       url: https://www.bitdefender.com
       img: bitdefender.png
-      tfa: No
-      twitter: Bitdefender
-      facebook: bitdefender
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bitdefender.com/consumer/support/answer/1581/
 
     - name: Blur
       url: https://www.abine.com/
