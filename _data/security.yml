@@ -262,6 +262,6 @@ websites:
     - name: Webroot
       url: https://www.webroot.com
       img: webroot.png
-      twitter: Webroot
-      facebook: Webroot
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://answers.webroot.com/Webroot/ukp.aspx?pid=17&app=vw&vw=1&solutionid=3476&t=Setting-Up-TwoFactor-Authentication
