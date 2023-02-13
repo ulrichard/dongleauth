@@ -129,6 +129,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.instagram.com/566810106808145
 
     - name: LinkedIn
