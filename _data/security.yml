@@ -139,6 +139,8 @@ websites:
       img: geotrust.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      doc: https://docs.digicert.com/en/certcentral/manage-account/certcentral-two-factor-authentication/configure-two-factor-authentication-requirements-for-your-account.html
 
     - name: GoGetSSL
       url: https://gogetssl.com/
