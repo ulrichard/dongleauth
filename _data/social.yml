@@ -91,7 +91,9 @@ websites:
       url: https://foursquare.com
       twitter: Foursquare
       img: foursquare.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://foursquare.atlassian.net/servicedesk/customer/portal/20/article/3355476115
 
     - name: Goodreads
       url: https://www.goodreads.com
