@@ -121,7 +121,9 @@ websites:
     url: https://www.seafile.com/
     twitter: seafile
     img: seafile.png
-    tfa: No
+    tfa: Yes
+    otp: Yes
+    doc: https://manual.seafile.com/deploy_pro/two_factor_authentication/
 
   - name: WordPress (Software)
     url: https://wordpress.org
