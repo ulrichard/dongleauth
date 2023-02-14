@@ -23,6 +23,7 @@ websites:
     img: gluu.png
     tfa: Yes
     hardware: Yes
+    otp: Yes
     u2f: Yes
     doc: https://www.gluu.org/identify-people-with-fido-u2f-tokens-using-the-gluu-server/
 
