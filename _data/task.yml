@@ -31,9 +31,9 @@ websites:
     - name: Breeze
       url: https://www.breeze.pm
       img: breeze.png
-      tfa: No
-      twitter: BreezeTeam
-      facebook: breeze.pm
+      tfa: Yes
+      otp: Yes
+      doc: https://www.breeze.pm/blog/breeze-two-factor-authentication
 
     - name: ClickUp
       url: https://clickup.com
