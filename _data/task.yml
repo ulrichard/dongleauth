@@ -40,7 +40,8 @@ websites:
       img: clickup.png
       tfa: Yes
       sms: Yes
-      doc: https://docs.clickup.com/general/two-factor-authentication
+      otp: Yes
+      doc: https://clickup.com/features/2fa
 
     - name: fruux
       url: https://fruux.com
