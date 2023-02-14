@@ -190,7 +190,7 @@ websites:
       img: nextdoor.png
       tfa: Yes
       otp: Yes
-      doc: https://help.nextdoor.com/s/article/About-2-Step-Verification?language=en_US
+      doc: https://help.nextdoor.com/s/article/About-2-Step-Verification
 
     - name: OkCupid
       url: https://www.okcupid.com/
