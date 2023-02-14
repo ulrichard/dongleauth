@@ -87,11 +87,10 @@ websites:
 
     - name: Todoist
       url: https://todoist.com
-      twitter: todoist
-      facebook: Todoist
-      email_address: support@todoist.com
       img: todoist.png
-      tfa: No
+      tfa: Yes
+      otp: Yes   
+      doc: https://todoist.com/help/articles/how-to-enable-two-factor-authentication
 
     - name: Toggl
       url: https://toggl.com
