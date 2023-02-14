@@ -8,10 +8,10 @@ websites:
     - name: Any.do
       url: https://web.any.do/
       img: anydo.png
-      tfa: No
-      twitter: Anydo
-      facebook: Any.do
-      email_address: feedback@any.do
+      tfa: Yes
+      exceptions: 
+        text: "2FA available via google,facebook or apple login"
+      doc: https://support.any.do/profile-login/#Profile_management
 
     - name: Asana
       url: https://www.asana.com
