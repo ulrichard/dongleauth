@@ -66,6 +66,7 @@ websites:
       url: https://plan.io
       img: planio.png
       tfa: Yes
+      otp: Yes
       software: Yes
       doc: https://support.plan.io/news/133
 
