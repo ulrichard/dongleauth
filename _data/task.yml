@@ -9,6 +9,7 @@ websites:
       url: https://web.any.do/
       img: anydo.png
       tfa: Yes
+      otp: Yes
       exceptions: 
         text: "2FA available via google,facebook or apple login"
       doc: https://support.any.do/profile-login/#Profile_management
