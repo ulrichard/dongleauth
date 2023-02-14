@@ -23,8 +23,10 @@ websites:
     - name: Azendoo
       url: https://app.azendoo.com
       img: azendoo.png
-      tfa: No
-      twitter: azendoo
+      tfa: Yes
+      exceptions:
+        text: "OTP via google account"
+      doc: https://help.azendoo.com/en/articles/76121-using-google-with-azendoo
 
     - name: Breeze
       url: https://www.breeze.pm
