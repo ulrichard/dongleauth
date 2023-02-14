@@ -5,6 +5,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       exceptions:
         text: "A verified phone number is required for the use of two-factor authentication software."
       doc: https://support.500px.com/hc/en-us/articles/205115877
@@ -33,12 +34,14 @@ websites:
       img: biggerpockets.png
       tfa: Yes
       sms: Yes
-      doc: https://www.biggerpockets.com/forums/25/topics/232201
+      otp: Yes
+      doc: https://www.biggerpockets.com/forums/25/topics/232201-new-biggerpockets-security-improvements
      
     - name: Bitly
       url: https://bitly.com/
       img: bitly.png
       tfa: Yes
+      otp: Yes
       sms: Yes
       doc: https://support.bitly.com/hc/en-us/articles/230650187
 
@@ -88,7 +91,9 @@ websites:
       url: https://foursquare.com
       twitter: Foursquare
       img: foursquare.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://foursquare.atlassian.net/servicedesk/customer/portal/20/article/3355476115
 
     - name: Goodreads
       url: https://www.goodreads.com
@@ -124,6 +129,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.instagram.com/566810106808145
 
     - name: LinkedIn
@@ -132,6 +138,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://www.linkedin.com/help/linkedin/answer/531
 
     - name: LiveJournal
@@ -145,6 +152,7 @@ websites:
       img: lobsters.png
       tfa: Yes
       software: Yes
+      otp: Yes
       doc: https://lobste.rs/s/1cyltz/two_factor_authentication_now_available
 
     - name: Medium
@@ -166,27 +174,32 @@ websites:
       img: minds.png
       tfa: Yes
       sms: Yes
+      otp: Yes
+      doc: https://developers.minds.com/docs/handbook/security-practices/
 
     - name: Newgrounds
       url: https://www.newgrounds.com/
-      twitter: Newgrounds
-      email_address: support@newgrounds.com
-      facebook: newgrounds
       img: newgrounds.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.newgrounds.com/bbs/topic/1473798
 
     - name: Nextdoor
       url: https://nextdoor.com
       twitter: Nextdoor
       img: nextdoor.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.nextdoor.com/s/article/About-2-Step-Verification
 
     - name: OkCupid
       url: https://www.okcupid.com/
       twitter: okcupid
       facebook: okcupid
       img: okcupid.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.okcupid.com/hc/en-us/articles/5221247074701-SMS-verification
 
     - name: Pinterest
       url: https://pinterest.com
@@ -194,6 +207,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://help.pinterest.com/en/articles/two-factor-authentication
       exceptions:
         text: "Software authentication requires the Authy app."
@@ -203,12 +217,15 @@ websites:
       img: plurk.png
       tfa: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.plurk.com/p/mrcii5
 
     - name: Quora
       url: https://www.quora.com
       img: quora.png
-      tfa: No
-      twitter: Quora
+      tfa: Yes
+      otp: Yes
+      doc: https://www.quora.com/Does-Quora-offer-two-factor-authentication
 
     - name: Reddit
       url: https://www.reddit.com/
@@ -232,8 +249,9 @@ websites:
     - name: Stack Exchange
       url: https://stackexchange.com/
       img: stack_exchange.png
-      tfa: No
-      email_address: team@stackexchange.com
+      tfa: Yes
+      otp: Yes
+      doc: https://meta.stackexchange.com/questions/230490/two-factor-authentication-for-stack-exchange
 
     - name: Tumblr
       url: https://www.tumblr.com/
@@ -277,7 +295,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
-      doc: https://vk.com/page-59800369_47885415
+      otp: Yes 
+      doc: https://vk.com/faq18202?lang=en
 
     - name: Weibo
       url: https://www.weibo.com/
@@ -308,11 +327,5 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       doc: https://faq.xing.com/en/settings-security/two-factor-login-two-factor-authentication
-
-    - name: Zocle
-      url: https://zocle.com/
-      img: zocle.png
-      tfa: Yes
-      sms: Yes
-      doc: https://zocle.com/knowledgebase/enabling-two-step-verification/
