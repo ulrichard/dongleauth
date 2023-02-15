@@ -32,7 +32,9 @@ websites:
       twitter: Amtrak
       facebook: Amtrak
       img: amtrak.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.amtraktrains.com/threads/amtrak-website-now-requires-multi-factor-authentication-for-some-members-why-me.79627/page-2
 
     - name: BRA (Braathens Regional Airlines)
       url: https://flygbra.se/
