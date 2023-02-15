@@ -256,7 +256,9 @@ websites:
       twitter: TfL
       facebook: transportforlondon
       img: tfl.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://tfl.gov.uk/corporate/privacy-and-cookies/protecting-your-account
 
     - name: Uber
       url: https://www.uber.com/
