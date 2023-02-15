@@ -247,7 +247,9 @@ websites:
       twitter: thetrainline
       facebook: trainline.eu
       img: trainline.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.thetrainline.com/terms/security
 
     - name: Transport for London
       url: https://tfl.gov.uk/
