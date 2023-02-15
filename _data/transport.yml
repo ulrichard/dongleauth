@@ -272,7 +272,9 @@ websites:
       twitter: united
       facebook: United
       img: united.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.united.com/ual/en/us/fly/mileageplus/mileageplus-account-security.html
 
     - name: WestJet
       url: https://www.westjet.com/
