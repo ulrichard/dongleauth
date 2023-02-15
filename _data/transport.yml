@@ -71,7 +71,9 @@ websites:
       twitter: DB_Bahn
       facebook: DBPersonenverkehr
       img: db.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bahn.de/faq/wie-aktiviere-ich-die-2-faktor-authentifizierung
 
     - name: easyJet
       url: https://www.easyjet.com
