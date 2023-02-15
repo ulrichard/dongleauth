@@ -107,10 +107,10 @@ websites:
 
     - name: Greyhound
       url: https://www.greyhound.com
-      twitter: GHoundBusHelp
-      facebook: GreyhoundBus
       img: greyhound.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://docs.greyhound-software.com/greyhound-control-center
 
     - name: Hawaiian Airlines
       url: https://www.hawaiianairlines.com
