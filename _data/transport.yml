@@ -1,10 +1,10 @@
 websites:
     - name: Air Canada
       url: https://www.aircanada.com/
-      twitter: AirCanada
-      facebook: aircanada
       img: aircanada.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.aircanada.com/de/en/aco/home/customer-profile/frequently-asked-questions.html#/
 
     - name: Air France
       url: https://www.airfrance.com
@@ -32,7 +32,9 @@ websites:
       twitter: Amtrak
       facebook: Amtrak
       img: amtrak.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.amtraktrains.com/threads/amtrak-website-now-requires-multi-factor-authentication-for-some-members-why-me.79627/page-2
 
     - name: BRA (Braathens Regional Airlines)
       url: https://flygbra.se/
@@ -60,14 +62,18 @@ websites:
       twitter: Delta
       facebook: delta
       img: delta.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.delta.exchange/blog/support/faqs-on-2fa
 
     - name: Deutsche Bahn (DB)
       url: https://www.bahn.com
       twitter: DB_Bahn
       facebook: DBPersonenverkehr
       img: db.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bahn.de/faq/wie-aktiviere-ich-die-2-faktor-authentifizierung
 
     - name: easyJet
       url: https://www.easyjet.com
@@ -89,6 +95,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.finnair.com/de-en/frequently-asked-questions/bookings-and-payments/what-does-the-two-step-authentication-mean--2224704
 
     - name: Frontier
       url: https://www.flyfrontier.com
@@ -99,10 +107,10 @@ websites:
 
     - name: Greyhound
       url: https://www.greyhound.com
-      twitter: GHoundBusHelp
-      facebook: GreyhoundBus
       img: greyhound.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://docs.greyhound-software.com/greyhound-control-center
 
     - name: Hawaiian Airlines
       url: https://www.hawaiianairlines.com
@@ -130,7 +138,9 @@ websites:
       twitter: AskLyft
       facebook: lyft
       img: lyft.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.lyft.com/hc/e/all/articles/115012926107
 
     - name: mytaxi
       url: https://us.mytaxi.com
@@ -146,19 +156,14 @@ websites:
       img: norwegian.png
       tfa: No
 
-    - name: NSB
-      url: https://www.nsb.no
-      twitter: nsb_no
-      facebook: nsb.no
-      img: nsb.png
-      tfa: No
-
     - name: Oui.sncf
       url: https://www.oui.sncf
       twitter: ouisncf
       facebook: oui.sncf
       img: ouisncf.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.sncf-connect.com/en-en/help/your-customer-account
 
     - name: OV-chipkaart
       url: https://www.ov-chipkaart.nl/
@@ -242,14 +247,18 @@ websites:
       twitter: thetrainline
       facebook: trainline.eu
       img: trainline.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.thetrainline.com/terms/security
 
     - name: Transport for London
       url: https://tfl.gov.uk/
       twitter: TfL
       facebook: transportforlondon
       img: tfl.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://tfl.gov.uk/corporate/privacy-and-cookies/protecting-your-account
 
     - name: Uber
       url: https://www.uber.com/
@@ -263,7 +272,9 @@ websites:
       twitter: united
       facebook: United
       img: united.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.united.com/ual/en/us/fly/mileageplus/mileageplus-account-security.html
 
     - name: WestJet
       url: https://www.westjet.com/
