@@ -156,13 +156,6 @@ websites:
       img: norwegian.png
       tfa: No
 
-    - name: NSB
-      url: https://www.nsb.no
-      twitter: nsb_no
-      facebook: nsb.no
-      img: nsb.png
-      tfa: No
-
     - name: Oui.sncf
       url: https://www.oui.sncf
       twitter: ouisncf
