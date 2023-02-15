@@ -161,7 +161,9 @@ websites:
       twitter: ouisncf
       facebook: oui.sncf
       img: ouisncf.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.sncf-connect.com/en-en/help/your-customer-account
 
     - name: OV-chipkaart
       url: https://www.ov-chipkaart.nl/
