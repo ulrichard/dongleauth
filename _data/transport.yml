@@ -1,10 +1,10 @@
 websites:
     - name: Air Canada
       url: https://www.aircanada.com/
-      twitter: AirCanada
-      facebook: aircanada
       img: aircanada.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.aircanada.com/de/en/aco/home/customer-profile/frequently-asked-questions.html#/
 
     - name: Air France
       url: https://www.airfrance.com
