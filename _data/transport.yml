@@ -138,7 +138,9 @@ websites:
       twitter: AskLyft
       facebook: lyft
       img: lyft.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.lyft.com/hc/e/all/articles/115012926107
 
     - name: mytaxi
       url: https://us.mytaxi.com
