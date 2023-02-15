@@ -62,7 +62,9 @@ websites:
       twitter: Delta
       facebook: delta
       img: delta.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.delta.exchange/blog/support/faqs-on-2fa
 
     - name: Deutsche Bahn (DB)
       url: https://www.bahn.com
