@@ -95,6 +95,8 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
+      doc: https://www.finnair.com/de-en/frequently-asked-questions/bookings-and-payments/what-does-the-two-step-authentication-mean--2224704
 
     - name: Frontier
       url: https://www.flyfrontier.com
