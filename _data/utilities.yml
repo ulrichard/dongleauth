@@ -30,7 +30,9 @@ websites:
       twitter: ATTCares
       facebook: ATT
       img: att.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://forums.att.com/conversations/att-internet-account/how-to-enable-multi-factor-authentication-on-attcom/6189ad1d915350036699afe4
 
     - name: Blau.de
       url: https://www.blau.de/
