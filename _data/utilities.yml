@@ -97,7 +97,11 @@ websites:
       twitter: ComEd
       facebook: ComEd
       img: comed.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA only available via SMS or Email"
+      doc: https://www.comed.com/MyAccount/CustomerSupport/pages/faqs.aspx
 
     - name: Con Edison
       url: https://www.coned.com/
