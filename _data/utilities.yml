@@ -219,6 +219,7 @@ websites:
       phone: Yes
       hardware: Yes
       software: Yes
+      otp: Yes
       doc: https://www.google.com/intl/en-US/landing/2step/features.html
 
     - name: Google Fiber
