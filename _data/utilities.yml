@@ -44,9 +44,9 @@ websites:
     - name: BT
       url: https://www.bt.com/
       img: bt.png
-      tfa: No
-      twitter: bt_uk
-      facebook: BTUK
+      tfa: Yes
+      otp: Yes
+      doc: https://www.bt.com/help/security/two-step-authentication
 
     - name: Bulb
       url: https://www.bulb.co.uk
