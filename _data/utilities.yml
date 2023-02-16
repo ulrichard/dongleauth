@@ -118,7 +118,11 @@ websites:
       twitter: CoxHelp
       facebook: coxcommunications
       img: cox.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions:
+        text: "2FA only available via SMS"
+      doc: https://www.cox.com/residential/support/manage-two-step-verification.html
 
     - name: Deutsche Telekom
       url: https://www.telekom.de/
