@@ -311,7 +311,11 @@ websites:
       twitter: SDGE
       facebook: SanDiegoGasandElectric
       img: sdge.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      exceptions: 
+        text: "2FA Only available via SMS"
+      doc: https://www.sdge.com/my-account/2-step-verification
 
     - name: sipgate
       url: https://www.sipgate.de/
