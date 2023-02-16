@@ -126,11 +126,10 @@ websites:
 
     - name: Deutsche Telekom
       url: https://www.telekom.de/
-      twitter: deutschetelekom
-      facebook: deutschetelekom
-      email_address: impressum@telekom.de
       img: deutschetelekom.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.telekom.de/hilfe/vertrag-rechnung/login-daten-passwoerter/zusaetzlicher-schutz?samChecked=true
       lang: de
 
     - name: DIRECTV
