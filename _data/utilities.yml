@@ -460,14 +460,20 @@ websites:
       twitter: VodafoneIreland
       facebook: vodafoneireland
       img: vodafone.png
-      tfa: No
+      tfa: Yes
+      sms: Yes
+      otp: Yes
+      doc: https://www.vodafone.com/business/media/document/1508905758363/vodafone-business-surveillance-two-factor-authentication-knowledge-base-article-2021.pdf
 
     - name: Vodafone (IT)
       url: http://www.vodafone.it/
       twitter: VodafoneIT
       facebook: vodafoneit
       img: vodafone.png
-      tfa: No
+      tfa: Yes
+      sms: Yes
+      otp: Yes
+      doc: https://www.vodafone.com/business/media/document/1508905758363/vodafone-business-surveillance-two-factor-authentication-knowledge-base-article-2021.pdf
 
     - name: Vodafone (UK)
       url: https://www.vodafone.co.uk/
@@ -476,6 +482,8 @@ websites:
       img: vodafone.png
       tfa: Yes
       sms: Yes
+      otp: Yes
+      doc: https://www.vodafone.com/business/media/document/1508905758363/vodafone-business-surveillance-two-factor-authentication-knowledge-base-article-2021.pdf
 
     - name: VoIP.ms
       url: https://voip.ms/
