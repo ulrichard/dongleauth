@@ -322,7 +322,9 @@ websites:
       twitter: sipgateDE
       facebook: sipgate
       img: sipgate.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://help.sipgate.de/hc/de/articles/4421549797649-Zwei-Faktor-Authentifizierung-so-sch%C3%BCtzen-Sie-Ihren-Account-doppelt
       lang: de
 
     - name: Sonic
