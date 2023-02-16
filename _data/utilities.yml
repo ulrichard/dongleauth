@@ -282,13 +282,6 @@ websites:
       img: pge.png
       tfa: No
 
-   - name: RCN
-      url: https://www.rcn.com/
-      twitter: RCNconnects
-      facebook: RCN
-      img: rcn.png
-      tfa: No
-
     - name: Republic Wireless
       url: https://republicwireless.com/
       img: rw.png
