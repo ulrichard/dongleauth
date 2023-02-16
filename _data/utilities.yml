@@ -333,6 +333,7 @@ websites:
       tfa: Yes
       sms: Yes
       software: Yes
+      otp: Yes
       phone: Yes
       doc: https://help.sonic.com/hc/en-us/articles/236079387
 
