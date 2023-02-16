@@ -244,7 +244,7 @@ websites:
       doc: https://github.com/2factorauth/twofactorauth/pull/2304#issue-200730083
 
     - name: Moj Tele2
-      url: https://moj.tele2.hr/
+      url: https://www.tele2.com/
       twitter: Tele2Croatia
       facebook: tele2.hr
       img: mojtele2.png
@@ -263,7 +263,9 @@ websites:
       twitter: Optus
       facebook: optus
       img: optus.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.optus.com.au/for-you/support/answer?id=20183
 
     - name: Orange
       url: https://www.orange.fr/portail
