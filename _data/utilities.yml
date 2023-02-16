@@ -416,6 +416,7 @@ websites:
       img: ting.png
       tfa: Yes
       sms: Yes
+      otp: Yes
       software: Yes
       doc: https://help.ting.com/hc/en-us/articles/209351258
 
