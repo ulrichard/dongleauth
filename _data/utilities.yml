@@ -53,7 +53,9 @@ websites:
       twitter: bulbenergy
       facebook: bulb
       img: bulbenergy.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://community.bulb.co.uk/t/account-action-required-two-step-authentication-resolved/98021
 
     - name: CallCentric
       url: https://www.callcentric.com/
