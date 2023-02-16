@@ -352,13 +352,6 @@ websites:
       img: sce.png
       tfa: No
 
-    - name: Sprint
-      url: https://www.sprint.com/
-      twitter: sprint
-      facebook: sprint
-      img: sprint.png
-      tfa: No
-
     - name: Swisscom
       url: https://www.swisscom.ch/
       twitter: Swisscom_de
