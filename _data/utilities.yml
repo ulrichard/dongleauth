@@ -384,7 +384,9 @@ websites:
       twitter: Telstra
       facebook: Telstra24x7
       img: telstra.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.telstra.com.au/cyber-security-and-safety/2-step-verification
 
     - name: Telzio
       url: https://www.telzio.com/
