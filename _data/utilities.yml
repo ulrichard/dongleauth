@@ -302,7 +302,9 @@ websites:
       twitter: RogersHelps
       facebook: Rogers
       img: rogers.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.rogers.com/support/billing-accounts/multi-factor-authentication-faq
 
     - name: 'San Diego Gas & Electric'
       url: https://www.sdge.com/
