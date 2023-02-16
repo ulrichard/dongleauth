@@ -442,21 +442,25 @@ websites:
       twitter: VirginMediaIE
       facebook: VirginMediaIreland
       img: virginmedia.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.virginmedia.com/help/security/how-to-keep-your-online-account-secure
 
     - name: Virgin Media (UK)
       url: https://www.virginmedia.com/
       twitter: virginmedia
       facebook: virginmedia
       img: virginmedia.png
-      tfa: No
+      tfa: 
 
     - name: Virgin Mobile
       url: https://www.virgin.com/gateways/mobile
       twitter: Virgin
       facebook: virgin
       img: virginmobile.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.virginmedia.com/help/security/how-to-keep-your-online-account-secure
 
     - name: Vodafone (IE)
       url: https://www.vodafone.ie/
