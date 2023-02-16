@@ -164,7 +164,9 @@ websites:
       twitter: DukeEnergy
       facebook: duke.energy
       img: duke.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.duke-energy.com/investor-relations/individual-investors/shareholder-faq
 
     - name: EE
       url: https://ee.co.uk/
