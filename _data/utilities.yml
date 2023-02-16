@@ -69,7 +69,9 @@ websites:
       twitter: CenturyLink
       facebook: CenturyLink
       img: centurylink.png
-      tfa: No
+      tfa: Yes
+      otp: Yes
+      doc: https://www.youtube.com/watch?v=DThHyUG8vTQ
 
     - name: Charter Spectrum
       url: https://www.spectrum.com/
