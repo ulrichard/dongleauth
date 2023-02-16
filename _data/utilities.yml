@@ -110,7 +110,8 @@ websites:
       sms: Yes
       phone: Yes
       software: Yes
-      doc: https://www.coned.com/en/accounts-billing/new-my-account-faqs
+      otp: Yes
+      doc: https://www.coned.com/-/media/files/coned/documents/small-medium-large-businesses/building-project-center/contractor-resources/user-registration-guide.pdf?la=en
 
     - name: Cox
       url: https://www.cox.com/
