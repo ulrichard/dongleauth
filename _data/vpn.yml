@@ -119,7 +119,6 @@ websites:
     - name: Windscribe
       url: https://windscribe.com
       img: windscribe.png
-      tfa: No
-      twitter: windscribecom
-      facebook: windscribe
-      email_address: support@windscribe.com
+      tfa: Yes
+      otp: Yes
+      doc: https://rus.windscribe.com/knowledge-base/articles/how-do-i-enable-2-factor-authentication-on-my-account
