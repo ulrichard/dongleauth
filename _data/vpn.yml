@@ -26,6 +26,8 @@ websites:
       img: expressvpn.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      doc: https://twitter.com/expressvpn/status/1240566648672669697?lang=en
 
     - name: hide.me VPN
       url: https://hide.me/
