@@ -87,10 +87,11 @@ websites:
     - name: PureVPN
       url: https://www.purevpn.com
       img: purevpn.png
-      tfa: No
-      twitter: PureVPNcom
-      facebook: PureVPNcom
-      email_address: support@purevpn.com
+      tfa: Yes
+      otp: Yes
+      exceptions: 
+        text: "2FA only available to Enterprise Customers"
+      doc: https://www.purevpn.de/geschaeft-vpn
 
     - name: SaferVPN
       url: https://www.safervpn.com
