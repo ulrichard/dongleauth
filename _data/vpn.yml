@@ -112,10 +112,9 @@ websites:
     - name: VPN Unlimited
       url: https://vpnunlimitedapp.com/
       img: vpnunlimited.png
-      tfa: No
-      twitter: vpnunlimited
-      facebook: vpnunlimitedapp
-      email_address: support@keepsolid.com
+      tfa: Yes
+      otp: Yes
+      doc: https://www.vpnunlimited.com/help/manuals/two-factor-authentication
 
     - name: Windscribe
       url: https://windscribe.com
