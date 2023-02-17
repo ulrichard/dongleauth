@@ -73,7 +73,8 @@ websites:
       img: privateinternetaccess.png
       tfa: Yes
       software: Yes
-      doc: https://www.privateinternetaccess.com/helpdesk/kb/articles/how-do-i-use-the-2fa-system
+      otp: Yes
+      doc: https://helpdesk.privateinternetaccess.com/kb/articles/how-do-i-enable-and-use-two-factor-authentication
 
     - name: ProtonVPN
       url: https://protonvpn.com/
