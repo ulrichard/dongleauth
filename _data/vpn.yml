@@ -32,10 +32,9 @@ websites:
     - name: hide.me VPN
       url: https://hide.me/
       img: hidemevpn.png
-      tfa: No
-      twitter: thevpncompany
-      facebook: www.hide.me
-      email_address: support@hide.me
+      tfa: Yes
+      otp: Yes
+      doc: https://hide.me/en/blog/hide-me-vpn-now-supports-2fa/
 
     - name: IPVanish
       url: https://www.ipvanish.com
