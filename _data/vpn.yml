@@ -26,14 +26,15 @@ websites:
       img: expressvpn.png
       tfa: Yes
       email: Yes
+      otp: Yes
+      doc: https://twitter.com/expressvpn/status/1240566648672669697?lang=en
 
     - name: hide.me VPN
       url: https://hide.me/
       img: hidemevpn.png
-      tfa: No
-      twitter: thevpncompany
-      facebook: www.hide.me
-      email_address: support@hide.me
+      tfa: Yes
+      otp: Yes
+      doc: https://hide.me/en/blog/hide-me-vpn-now-supports-2fa/
 
     - name: IPVanish
       url: https://www.ipvanish.com
@@ -46,9 +47,9 @@ websites:
     - name: IVPN
       url: https://www.ivpn.net/
       img: ivpn.png
-      tfa: No
-      twitter: ivpnnet
-      email_address: support@ivpn.net
+      tfa: Yes
+      otp: Yes
+      doc: https://www.ivpn.net/knowledgebase/general/do-you-offer-two-factor-authentication/
 
     - name: NordVPN
       url: https://nordvpn.com
@@ -72,7 +73,8 @@ websites:
       img: privateinternetaccess.png
       tfa: Yes
       software: Yes
-      doc: https://www.privateinternetaccess.com/helpdesk/kb/articles/how-do-i-use-the-2fa-system
+      otp: Yes
+      doc: https://helpdesk.privateinternetaccess.com/kb/articles/how-do-i-enable-and-use-two-factor-authentication
 
     - name: ProtonVPN
       url: https://protonvpn.com/
@@ -85,10 +87,11 @@ websites:
     - name: PureVPN
       url: https://www.purevpn.com
       img: purevpn.png
-      tfa: No
-      twitter: PureVPNcom
-      facebook: PureVPNcom
-      email_address: support@purevpn.com
+      tfa: Yes
+      otp: Yes
+      exceptions: 
+        text: "2FA only available to Enterprise Customers"
+      doc: https://www.purevpn.de/geschaeft-vpn
 
     - name: SaferVPN
       url: https://www.safervpn.com
@@ -101,23 +104,21 @@ websites:
     - name: TunnelBear
       url: https://tunnelbear.com/
       img: tunnelbear.png
-      tfa: No
-      twitter: theTunnelBear
-      facebook: tunnelbear
-      email_address: support@tunnelbear.com
+      tfa: Yes
+      otp: Yes
+      u2f: Yes
+      doc: https://www.tunnelbear.com/blog/securing-the-bears-tunnelbears-basic-operational-security/
 
     - name: VPN Unlimited
       url: https://vpnunlimitedapp.com/
       img: vpnunlimited.png
-      tfa: No
-      twitter: vpnunlimited
-      facebook: vpnunlimitedapp
-      email_address: support@keepsolid.com
+      tfa: Yes
+      otp: Yes
+      doc: https://www.vpnunlimited.com/help/manuals/two-factor-authentication
 
     - name: Windscribe
       url: https://windscribe.com
       img: windscribe.png
-      tfa: No
-      twitter: windscribecom
-      facebook: windscribe
-      email_address: support@windscribe.com
+      tfa: Yes
+      otp: Yes
+      doc: https://rus.windscribe.com/knowledge-base/articles/how-do-i-enable-2-factor-authentication-on-my-account
